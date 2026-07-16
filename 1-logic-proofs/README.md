@@ -8,7 +8,7 @@
 
 ## What This Layer Defines
 
-Logic Proofs establish the mathematical bedrock of the computational commons. These are truths that hold regardless of implementation language, architecture, or convention.
+Logic Proofs establish the mathematical bedrock of the common foundation. These are truths that hold regardless of implementation language, architecture, or convention.
 
 The proofs in this layer define:
 
@@ -64,7 +64,7 @@ Each proof system has different strengths:
 ## Source Proofs
 
 These proofs are adapted from:
-- `/home/main/omi/omi-axioms/coq/` — The OMI proof authority rail
-- `/home/main/omi/omi-axioms/coq/_archive/current/IdentityChain.v` — The identity chain
+- The OMI proof source rail
+- The archived OMI identity-chain proof set
 
 The source proofs are machine-checked and fully verified. The proofs in this layer are faithful adaptations for the axiomatic-sovereignty constitution.

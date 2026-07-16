@@ -1,6 +1,8 @@
 # The Constitutional Manifesto
 
-**Axiom 4 — The Shield Fold**
+**Narrative face:** What
+
+**Axiom 4 - The Shield Fold**
 
 *Given a point p and a line l, there is a unique fold through p that is perpendicular to l.*
 
@@ -8,96 +10,91 @@
 
 ## 1. What This Protects
 
-The computational commons is protected by a constitutional shield. This shield does not tell you what to do. It tells you what cannot be done to the commons.
+Axiomatic Sovereignty protects a common foundation for shared computational knowledge.
+
+Knowledge empowers people, but knowledge itself is not power. Knowledge becomes leverage when it is withheld, enclosed, obscured, or made dependent on systems people cannot inspect or adapt. This project exists so people who only own their decisions can still make better decisions without having to begin from nothing.
+
+The foundation is common because it can be shared. It is not an organization, institution, absorbing body, permission gate, or identity into which participants are absorbed. No person becomes subordinate to a project merely by studying, using, reproducing, implementing, translating, or propagating it.
+
+## 2. What Cannot Be Claimed
+
+The foundation cannot be claimed as private dominion over another person's mind, identity, knowledge, computation, or participation.
 
 The shield protects against:
 
-### Centralization
+- Enclosure: shared knowledge being converted into dependence.
+- Central control: one body appointing itself final over the foundation.
+- Withholding: useful knowledge being held back as leverage over others.
+- False attribution: authorship or provenance being erased or distorted.
+- Absorption: participation being treated as submission to an identity or body.
 
-No single entity can control the commons. The constitution distributes authority through:
-- Fork-as-sovereignty (anyone can fork)
-- Non-authority doctrine (no one entity has final say)
-- Five-layer validation (no single layer controls acceptance)
+## 3. What Remains Open
 
-### Commodification
+Every person and community may study, preserve, translate, implement, fork, and adapt this foundation.
 
-The commons cannot be enclosed or made proprietary. The constitution ensures:
-- Zero dependencies (nothing can be withheld)
-- Language-agnosticism (no vendor lock-in)
-- Fork rights (the commons can always be replicated)
+Forks may define their own rules, obligations, customs, implementation boundaries, and standards of participation. More rules may help one group coordinate. Fewer rules may help another group adopt. The root foundation does not impose one universal form.
 
-### Stagnation
+## 4. Authorship
 
-The commons must remain open to new contributions. The constitution ensures:
-- Admission is always open
-- Forks are always permitted
-- The social contract evolves with the community
+Authorship should be credited. Provenance should be preserved. Attribution should be truthful.
 
-### Fragmentation
+Authorship is not ownership over the foundation. Hosting, copying, naming, or possessing a copy does not create control over what was received.
 
-Forks are sovereign, but the commons remains connected. The constitution ensures:
-- The branch registry maintains connections
-- The origin is always traceable
-- The ecosystem is a network, not a collection of isolated nodes
+## 5. Propagation
 
-## 2. The Perpendicular Boundary
+The foundation continues through propagation.
 
-The shield fold creates a perpendicular boundary — a right angle between the commons and exploitation. This boundary is:
+Propagation occurs when knowledge enables another person or community to receive, understand, reproduce, verify, adapt, and independently sustain the foundation.
 
-- **Sharp:** The line between commons and exploitation is clear
-- **Perpendicular:** The boundary is at right angles to the direction of exploitation
-- **Permanent:** The boundary cannot be moved by any single entity
+The project succeeds when it can travel beyond its origin without becoming property of its originator.
 
-## 3. The Non-Governance Governance
+## 6. Backpropagation
 
-The constitution does not govern. It constrains.
+Backpropagation is the return of consequence, correction, experience, witness, and understanding from those affected by propagation.
 
-- **Governance** says: "You must implement feature X."
-- **Constitutional constraint** says: "If you implement feature X, it must satisfy invariants Y and Z."
-
-This distinction is the core of axiomatic sovereignty:
-- Freedom to implement anything
-- Constraint on what implementations are accepted
-- Freedom to fork anything
-- Constraint on what forks are recognized
-
-## 4. The Social Contract
-
-The social contract is the unwritten agreement among contributors:
+Backpropagation asks:
 
 ```text
-I will contribute to the commons
-I will respect the constitution
-I will accept the contributions of others
-I will fork when I must, and merge when I can
-I will maintain my contributions or transfer them to someone who will
+What did this continuation produce?
+Who was helped?
+Who was harmed?
+What became clearer?
+What must be corrected?
+What should be preserved?
 ```
 
-The social contract is not enforced by law or technology. It is enforced by:
-- Reputation
-- Trust
-- The willingness of contributors to continue contributing
+Propagation carries capacity forward. Backpropagation carries consequence backward. Together they permit correction without centralized control.
 
-## 5. The Constitutional Invariants
+## 7. Non-Interference
+
+An unchanged copy preserves the foundation without adding a claim.
+
+A faithful copier is a carrier, not a ruler over the carried knowledge. A person may preserve the foundation exactly as received, pass it forward without becoming its owner, and decline to modify it without surrendering their own sovereignty.
+
+## 8. Fork Responsibility
+
+A modification creates a new responsibility boundary.
+
+The modifier does not gain control over the original foundation. The modifier gains responsibility for the delta they introduce.
 
 ```text
-no single entity controls the commons
-the commons cannot be enclosed
-the commons remains open to contribution
-forks are sovereign
-the social contract is maintained by trust
+original foundation -> remains attributable to its propagation history
+unchanged copy      -> preserves that history without adding a claim
+modified fork       -> creates a new delta and responsibility surface
+backpropagation     -> evaluates the effects of that delta
 ```
 
-## 6. The Shield Fold Operation
+## 9. The Shield Invariant
 
-The shield fold (Axiom 4) creates a perpendicular boundary between:
-- The commons and exploitation
-- Freedom and control
-- Individual sovereignty and collective benefit
-- Implementation and validation
-
-This boundary is the constitution. It is the shield.
+```text
+the foundation remains shareable
+knowledge should not be withheld as leverage
+authorship preserves provenance
+possession does not create control
+forks may define their own rules
+modified forks carry responsibility for their deltas
+```
 
 ---
 
-*This document is the shield fold (Axiom 4) of the Axiomatic Sovereignty computational constitution. It creates the perpendicular boundary between commons and exploitation.*
+*This document is the shield fold of Axiomatic Sovereignty. It names what the common foundation protects.*

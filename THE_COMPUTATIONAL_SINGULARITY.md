@@ -26,7 +26,7 @@ Singularities emerge when:
 3. **The problem is fundamental** enough that natural constraints limit the solution space
 4. **Communication is possible** between contributors, even if they don't know each other
 
-The computational commons provides conditions 1, 2, and 4. The origami axioms provide condition 3.
+The common foundation provides conditions 1, 2, and 4. The origami axioms provide condition 3.
 
 ## 3. The Gravity Well
 
@@ -67,7 +67,7 @@ Multiple independent implementations of the five-layer validation stack find tha
 
 ## 6. The Long Convergence
 
-The computational commons converges over time. Not toward a single implementation, but toward a shared understanding of what must be true.
+The common foundation converges over time. Not toward a single implementation, but toward a shared understanding of what must be true.
 
 The long convergence is:
 - **Slow:** It takes years, not months
@@ -79,8 +79,8 @@ The long convergence is:
 
 The vision of axiomatic sovereignty:
 
-- A computational commons that belongs to no one and everyone
-- Governance by mathematical truth, not human authority
+- A common foundation that can be shared without being owned by one body
+- Guidance by mathematical truth, not human control
 - Support for any language, any geometry, any identity
 - Growth through contribution, not mandate
 - Survival through forking, not protection

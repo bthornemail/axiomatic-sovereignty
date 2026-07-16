@@ -8,12 +8,14 @@
 
 ## 1. What Gets In
 
-The admission protocol determines what enters the computational commons. It is the constitutional filter.
+The admission protocol determines what enters the common foundation. It is the constitutional filter for claims, artifacts, translations, and corrections.
 
-A contribution enters the commons through five gates:
+The gates judge contributions, not people. A rejected contribution does not reduce the sovereignty of the contributor, and an accepted contribution does not give the contributor control over the foundation.
+
+A contribution enters the reference foundation through five gates:
 
 ```text
-Submit → Logic Gate → Type Gate → Procedure Gate → Canonical Gate → Social Gate → Receipt
+Submit -> Logic Gate -> Type Gate -> Procedure Gate -> Canonical Gate -> Social Gate -> Receipt
 ```
 
 ## 2. The Five Gates
@@ -55,21 +57,21 @@ A contribution that fails the procedure gate is:
 
 Does the claim conform to the constitution? Does it violate any invariant?
 
-This gate is the domain of the seven root documents themselves: the origami axioms, the five-layer stack, the non-authority doctrine.
+This gate is the domain of the seven root documents themselves: the origami axioms, the five-layer stack, and the no-final-claim doctrine.
 
 A contribution that fails the canonical gate:
 - Violates a constitutional invariant
 - Infringes on the sovereignty of another contributor
-- Centralizes control or authority
+- Centralizes control
 
 ### Gate 5: Social
 
-Does the claim serve the commons? Is it consistent with the social contract?
+Does the claim serve the common foundation? Is it consistent with the social contract?
 
 This gate is the domain of human judgment: community review, fork decisions, reputation assessment.
 
 A contribution that fails the social gate:
-- Does not serve the commons
+- Does not serve the common foundation
 - Is inconsistent with community values
 - Is rejected by the community
 
@@ -81,7 +83,7 @@ Every accepted contribution receives a receipt. The receipt is:
 - Timestamped
 - Linked to the specific version of the constitution it was validated against
 
-The receipt is not a certificate of correctness. It is a certificate of acceptance.
+The receipt is not a certificate of permanent correctness, institutional approval, or ownership. It is a record that a contribution passed the public gates at a specific point in the propagation history.
 
 ## 4. The Validation Pipeline
 
@@ -108,6 +110,7 @@ no single gate is sufficient
 rejection includes the failing gate
 resubmission is always permitted
 the criteria are always public
+accepted contributions do not create ownership over the foundation
 ```
 
 ---

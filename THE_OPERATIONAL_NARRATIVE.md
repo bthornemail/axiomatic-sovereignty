@@ -8,7 +8,7 @@
 
 ## 1. The Individual Contributor
 
-The computational commons begins with the individual. Every global community started with a single person making a single contribution.
+The common foundation begins with the individual. Every global community started with a single person making a single contribution.
 
 The personal scale:
 - **One person:** A contributor with a problem to solve
@@ -41,13 +41,13 @@ If your idea cannot be implemented — if it is non-terminating, non-reproducibl
 
 "Does my idea conform to the constitution?"
 
-If your idea violates the constitution — if it centralizes control, commodifies the commons, or stifles contribution — it will be rejected. Check the constitution before you propose.
+If your idea violates the constitution — if it centralizes control, commodifies the common foundation, or stifles contribution — it will be rejected. Check the constitution before you propose.
 
-### Layer 3: Social Contracts
+### Layer 5: Social Contracts
 
-"Does my idea serve the commons?"
+"Does my idea serve the common foundation?"
 
-If your idea does not serve the commons — if it serves only you, or only a subset of contributors, or only a commercial interest — it will be questioned. Check the social contract before you commit.
+If your idea does not serve the common foundation — if it serves only you, or only a subset of contributors, or only a commercial interest — it will be questioned. Check the social contract before you commit.
 
 ## 3. The Personal Narrative
 
@@ -55,11 +55,11 @@ Every contributor has a narrative. The Operational Narrative provides the struct
 
 ### Origin
 
-Why I am here. What problem I am trying to solve. What brought me to the commons.
+Why I am here. What problem I am trying to solve. What brought me to the common foundation.
 
 ### Contribution
 
-What I have made. What I am submitting. What I believe will serve the commons.
+What I have made. What I am submitting. What I believe will serve the common foundation.
 
 ### Context
 
@@ -67,24 +67,25 @@ How my contribution relates to what already exists. What it builds on. What it e
 
 ### Future
 
-What I plan to do next. How I will maintain this contribution. What I hope the commons will become.
+What I plan to do next. How I will maintain this contribution. What I hope the common foundation will become.
 
 ## 4. The Narrative as Computational Object
 
 The personal narrative is not just documentation. It is a computational object:
 - It has a structure (Origin, Contribution, Context, Future)
 - It has a format (text, markdown, or any language-agnostic encoding)
-- It has a location (the contributor's branch of the commons)
+- It has a location (the contributor's branch of the common foundation)
 - It has a receipt (proof that it was accepted)
 
 ## 5. The Narrative Invariant
 
 ```text
-every contribution has an author
-every author has a narrative
+every contribution has provenance
+every author may provide a narrative
 every narrative has a structure
 every structure is verifiable
 every verification is public
+authorship does not create ownership over the foundation
 ```
 
 ## 6. The Personal Fold Operation
@@ -96,7 +97,7 @@ The personal fold (Axiom 5) places both the contributor and the contribution int
 - It relates to this (Context)
 - You will do this next (Future)
 
-The personal fold is the bridge between the individual and the commons.
+The personal fold is the bridge between the individual and the common foundation.
 
 ---
 

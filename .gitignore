@@ -8,6 +8,7 @@ node_modules/
 dist/
 build/
 *.o
+*.hi
 *.a
 *.so
 *.dylib

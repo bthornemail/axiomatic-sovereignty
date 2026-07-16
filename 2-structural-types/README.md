@@ -8,7 +8,7 @@
 
 ## What This Layer Defines
 
-Structural Types establish the data shapes that the computational commons uses. These types are:
+Structural Types establish the data shapes that the common foundation uses. These types are:
 
 - **Pure:** No side effects, no IO, no mutation
 - **Unimported:** Built from first principles, not from external libraries
@@ -69,9 +69,9 @@ Relation = 8 x Word16 + 4 x Word32
 ## Source Types
 
 These types are adapted from:
-- `/home/main/omi/omi-canvas/src/OMI/Kernel.hs` — Foundation types
-- `/home/main/omi/omi-canvas/src/OMI/Core.hs` — Core wrappers
-- `/home/main/omi/omi-canvas/src/OMI/Relation.hs` — Field operations
-- `/home/main/omi/omi-canvas/src/OMI/Scope.hs` — Scope encoding
+- OMI Canvas foundation types
+- OMI Canvas core wrappers
+- OMI Canvas relation field operations
+- OMI Canvas scope encoding
 
 The source types are used in the Haskell OMI Canvas type engine. The types in this layer are faithful adaptations for the axiomatic-sovereignty constitution.

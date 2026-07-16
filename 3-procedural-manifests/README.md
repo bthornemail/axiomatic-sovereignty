@@ -8,7 +8,7 @@
 
 ## What This Layer Defines
 
-Procedural Manifests specify the algorithms and protocols that the computational commons uses. They define:
+Procedural Manifests specify the algorithms and protocols that the common foundation uses. They define:
 
 - **What must happen** (the state transition)
 - **What must be true before** (the precondition)
@@ -19,7 +19,7 @@ Procedural Manifests specify the algorithms and protocols that the computational
 
 | Directory | Purpose | Status |
 |-----------|---------|--------|
-| `Initialize_Agent/` | How an agent joins the commons | Planned |
+| `Initialize_Agent/` | How an agent joins the common foundation | Planned |
 | `Reconcile_State/` | How state conflicts are resolved | Planned |
 
 ## Manifest Structure

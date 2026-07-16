@@ -33,7 +33,7 @@ Each layer should remain understandable on its own. Lower layers describe what m
 Who    -> THE_OPTIONAL_IDENTITY_STATEMENT.md
 What   -> THE_CONSTITUTIONAL_MANIFESTO.md
 When   -> THE_OPERATIONAL_NARRATIVE.md
-Where  -> THE_FOUNDATION_CONSTRUCTION.md
+Where  -> THE_FOUNDATIONAL_CHARTER.md
 Why    -> THE_COMPUTATIONAL_SINGULARITY.md
 How    -> THE_PROTOCOL_OF_ADMISSION.md
 ```
@@ -44,7 +44,7 @@ The six root documents are written in natural language first. StrictYAML front m
 
 - A public bootstrap for shared knowledge.
 - A zero-dependency reference where core claims should be inspectable and reproducible.
-- A five-layer encyclopedia of proofs, types, procedures, axioms, and social contracts.
+- A five-layer encyclopedia of proofs, pure types, deterministic procedures, attested axioms, and real social contracts.
 - A foundation that can be cloned, forked, translated, taught, and adapted.
 - A place where authorship and provenance matter, but possession does not create ownership over the foundation.
 
@@ -59,7 +59,7 @@ The six root documents are written in natural language first. StrictYAML front m
 ## How To Use This Repository
 
 1. Read the hexagonal narrative frame to understand the intent.
-2. Inspect the pentagonal base to understand the reusable foundation.
+2. Inspect the pentagonal base to find usable artifacts.
 3. Clone, fork, translate, or adapt the pieces you need.
 4. Preserve provenance when you carry knowledge forward.
 5. Mark meaningful deltas when you change the foundation.

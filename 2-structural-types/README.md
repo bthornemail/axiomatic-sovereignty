@@ -1,8 +1,8 @@
 # Layer 2: Structural Types
 
-**Purpose:** Pure data geometries — the shapes that identity, relation, and evidence take.
+**Purpose:** Pure data geometries - the shapes that identity, relation, and evidence take.
 
-**Format:** Any type system (Haskell, Idris, Rust, OCaml, C structs, bytecode schemas) — as long as they're pure and unimported.
+**Format:** Any type system (Haskell, Idris, Rust, OCaml, C structs, bytecode schemas) as long as the shape is explicit, pure, and unimported.
 
 ---
 
@@ -13,6 +13,7 @@ Structural Types establish the data shapes that the common foundation uses. Thes
 - **Pure:** No side effects, no IO, no mutation
 - **Unimported:** Built from first principles, not from external libraries
 - **Structural:** The shape of the data is the identity of the data
+- **Deterministic:** The same encoded shape means the same thing across runtimes
 
 The types in this layer define:
 

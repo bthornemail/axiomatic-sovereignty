@@ -27,7 +27,7 @@ The current public structure uses five subfolders as the pentagonal base and six
 Who    -> THE_OPTIONAL_IDENTITY_STATEMENT.md
 What   -> THE_CONSTITUTIONAL_MANIFESTO.md
 When   -> THE_OPERATIONAL_NARRATIVE.md
-Where  -> THE_FOUNDATION_CONSTRUCTION.md
+Where  -> THE_FOUNDATIONAL_CHARTER.md
 Why    -> THE_COMPUTATIONAL_SINGULARITY.md
 How    -> THE_PROTOCOL_OF_ADMISSION.md
 ```

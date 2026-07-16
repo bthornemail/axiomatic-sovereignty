@@ -8,7 +8,7 @@
 
 ## 1. What Gets In
 
-The admission protocol determines what enters the common foundation. It is the constitutional filter for claims, artifacts, translations, and corrections.
+The admission protocol determines what enters the common foundation. It is the rigor filter for claims, artifacts, translations, and corrections.
 
 The gates judge contributions, not people. A rejected contribution does not reduce the sovereignty of the contributor, and an accepted contribution does not give the contributor control over the foundation.
 
@@ -33,9 +33,9 @@ A contribution that fails the logic gate is:
 
 ### Gate 2: Type
 
-Is the claim well-typed? Does it inhabit the correct type?
+Is the claim well-typed? Does it preserve the shape it claims to preserve?
 
-This gate is the domain of type theory: dependent types, homotopy type theory, structural validation.
+This gate is the domain of pure types, structural validation, and explicit encodings.
 
 A contribution that fails the type gate is:
 - Malformed
@@ -44,14 +44,14 @@ A contribution that fails the type gate is:
 
 ### Gate 3: Procedure
 
-Is the claim computable? Does it terminate? Does it produce the correct output?
+Is the claim computable? Does it terminate? Does the same input produce the same output?
 
-This gate is the domain of executable specifications: test suites, runtime validation, reproducibility checks.
+This gate is the domain of algorithmic determinism: pure functions, explicit inputs, explicit outputs, reproducible transitions, and runtime-independent checks.
 
 A contribution that fails the procedure gate is:
 - Non-terminating
 - Non-reproducible
-- Producing incorrect output
+- Producing ambiguous or incorrect output
 
 ### Gate 4: Canonical
 
@@ -101,6 +101,7 @@ While the constitution is language-agnostic, implementations must be expressible
 - **Version Pinning:** Exact language and dependency versions
 - **Reproducibility:** Identical inputs produce identical outputs
 - **Auditability:** Inspectable by non-experts
+- **Deterministic Surface:** Clear inputs, outputs, and transition boundaries
 
 ## 6. The Admission Invariant
 
@@ -111,6 +112,8 @@ rejection includes the failing gate
 resubmission is always permitted
 the criteria are always public
 accepted contributions do not create ownership over the foundation
+usable artifacts are preferred over placeholders
+pure functions and types are the default expression of deterministic claims
 ```
 
 ---

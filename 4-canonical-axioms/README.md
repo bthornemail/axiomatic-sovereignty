@@ -8,13 +8,13 @@
 
 ## What This Layer Defines
 
-Canonical Axioms specify the rights that every contributor to the common foundation possesses. These are not policies. They are axioms — statements that are true by definition and cannot be violated.
+Canonical Axioms specify sovereign bounds that a contributor can attest to and defend as part of the common foundation. These are not placeholders or slogans. They should be clear enough to encode, check, translate, and contest.
 
 ## Axioms
 
-| Directory | Right | Status |
+| Directory | Axiom | Status |
 |-----------|-------|--------|
-| `Axiom_of_Self_Generation/` | The right to create from nothing | Draft |
+| _none yet_ | Add only when there is an actual attested axiom | Empty |
 
 ## Axiom Structure
 
@@ -27,8 +27,8 @@ Each axiom contains:
 ## The Axiom Invariant
 
 ```text
-axioms are true by definition
-axioms cannot be violated
-axioms are independent (no axiom implies another)
-axioms are consistent (no axiom contradicts another)
+axioms are attested, not placeholders
+axioms should be precise enough to encode
+axioms should not contradict lower-layer proofs or types
+axioms may be forked when people disagree
 ```

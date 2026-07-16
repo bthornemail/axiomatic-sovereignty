@@ -8,13 +8,13 @@
 
 ## What This Layer Defines
 
-Social Contracts specify the agreements that a community makes with itself. These are not imposed commands. They are promises upheld by reputation and trust.
+Social Contracts specify real agreements that people choose to uphold. These are not placeholders or decorative charters. A contract belongs here only when someone can actually point to the terms they would attest to, use, fork, or adapt.
 
 ## Contracts
 
 | Directory | Contract | Status |
 |-----------|----------|--------|
-| `Foundation_Charter/` | The charter of the common foundation | Draft |
+| _none yet_ | Add only when there is an actual contract | Empty |
 
 ## Contract Structure
 
@@ -27,8 +27,8 @@ Each contract contains:
 ## The Social Contract Invariant
 
 ```text
-social contracts are upheld by trust, not imposed control
-social contracts may be amended by community consent
-social contracts may be forked by individual dissent
-social contracts expire when the community dissolves
+social contracts are real agreements, not placeholders
+social contracts should state terms people can attest to
+social contracts may be forked when people disagree
+social contracts should remain separate from lower-layer proofs and types
 ```

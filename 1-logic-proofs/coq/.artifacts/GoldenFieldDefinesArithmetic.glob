@@ -1,0 +1,560 @@
+DIGEST NO
+FGoldenFieldDefinesArithmetic
+R207:219 Coq.QArith.QArith <> <> lib
+R246:262 Coq.QArith.Qreduction <> <> lib
+R289:300 Coq.QArith.Qring <> <> lib
+R327:339 Coq.ZArith.ZArith <> <> lib
+R366:378 Coq.micromega.Lia <> <> lib
+R405:415 Coq.Reals.Reals <> <> lib
+rec 446:451 <> Golden
+proj 476:477 <> gr
+proj 486:487 <> gs
+R481:481 Coq.QArith.QArith_base <> Q rec
+R491:491 Coq.QArith.QArith_base <> Q rec
+def 508:510 <> geq
+R519:524 GoldenFieldDefinesArithmetic <> Golden rec
+binder 513:513 <> x:4
+binder 515:515 <> y:5
+R551:554 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R543:546 Coq.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R539:540 GoldenFieldDefinesArithmetic <> gr proj
+R542:542 GoldenFieldDefinesArithmetic <> x:4 var
+R547:548 GoldenFieldDefinesArithmetic <> gr proj
+R550:550 GoldenFieldDefinesArithmetic <> y:5 var
+R559:562 Coq.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R555:556 GoldenFieldDefinesArithmetic <> gs proj
+R558:558 GoldenFieldDefinesArithmetic <> x:4 var
+R563:564 GoldenFieldDefinesArithmetic <> gs proj
+R566:566 GoldenFieldDefinesArithmetic <> y:5 var
+def 581:583 <> gr0
+R587:592 GoldenFieldDefinesArithmetic <> Golden rec
+R597:604 GoldenFieldDefinesArithmetic <> mkGolden constr
+def 622:624 <> gr1
+R628:633 GoldenFieldDefinesArithmetic <> Golden rec
+R638:645 GoldenFieldDefinesArithmetic <> mkGolden constr
+def 663:665 <> phi
+R669:674 GoldenFieldDefinesArithmetic <> Golden rec
+R679:686 GoldenFieldDefinesArithmetic <> mkGolden constr
+R690:690 Coq.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R696:696 Coq.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+def 712:718 <> phi_inv
+R722:727 GoldenFieldDefinesArithmetic <> Golden rec
+R732:739 GoldenFieldDefinesArithmetic <> mkGolden constr
+R744:744 Coq.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+R750:750 Coq.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+def 766:769 <> half
+R773:778 GoldenFieldDefinesArithmetic <> Golden rec
+R783:790 GoldenFieldDefinesArithmetic <> mkGolden constr
+R794:794 Coq.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+def 812:819 <> neg_half
+R823:828 GoldenFieldDefinesArithmetic <> Golden rec
+R833:840 GoldenFieldDefinesArithmetic <> mkGolden constr
+R845:845 Coq.QArith.QArith_base <> ::Q_scope:x_'#'_x not
+def 864:868 <> g_add
+R877:882 GoldenFieldDefinesArithmetic <> Golden rec
+binder 871:871 <> x:6
+binder 873:873 <> y:7
+R887:892 GoldenFieldDefinesArithmetic <> Golden rec
+R899:906 GoldenFieldDefinesArithmetic <> mkGolden constr
+R913:915 Coq.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R909:910 GoldenFieldDefinesArithmetic <> gr proj
+R912:912 GoldenFieldDefinesArithmetic <> x:6 var
+R916:917 GoldenFieldDefinesArithmetic <> gr proj
+R919:919 GoldenFieldDefinesArithmetic <> y:7 var
+R927:929 Coq.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R923:924 GoldenFieldDefinesArithmetic <> gs proj
+R926:926 GoldenFieldDefinesArithmetic <> x:6 var
+R930:931 GoldenFieldDefinesArithmetic <> gs proj
+R933:933 GoldenFieldDefinesArithmetic <> y:7 var
+def 949:953 <> g_neg
+R960:965 GoldenFieldDefinesArithmetic <> Golden rec
+binder 956:956 <> x:8
+R970:975 GoldenFieldDefinesArithmetic <> Golden rec
+R982:989 GoldenFieldDefinesArithmetic <> mkGolden constr
+R992:993 Coq.QArith.QArith_base <> ::Q_scope:'-'_x not
+R994:995 GoldenFieldDefinesArithmetic <> gr proj
+R997:997 GoldenFieldDefinesArithmetic <> x:8 var
+R1001:1002 Coq.QArith.QArith_base <> ::Q_scope:'-'_x not
+R1003:1004 GoldenFieldDefinesArithmetic <> gs proj
+R1006:1006 GoldenFieldDefinesArithmetic <> x:8 var
+def 1022:1026 <> g_mul
+R1035:1040 GoldenFieldDefinesArithmetic <> Golden rec
+binder 1029:1029 <> x:9
+binder 1031:1031 <> y:10
+R1045:1050 GoldenFieldDefinesArithmetic <> Golden rec
+R1057:1064 GoldenFieldDefinesArithmetic <> mkGolden constr
+R1078:1080 Coq.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R1071:1073 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R1067:1068 GoldenFieldDefinesArithmetic <> gr proj
+R1070:1070 GoldenFieldDefinesArithmetic <> x:9 var
+R1074:1075 GoldenFieldDefinesArithmetic <> gr proj
+R1077:1077 GoldenFieldDefinesArithmetic <> y:10 var
+R1089:1091 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R1082:1084 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R1085:1086 GoldenFieldDefinesArithmetic <> gs proj
+R1088:1088 GoldenFieldDefinesArithmetic <> x:9 var
+R1092:1093 GoldenFieldDefinesArithmetic <> gs proj
+R1095:1095 GoldenFieldDefinesArithmetic <> y:10 var
+R1121:1123 Coq.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R1114:1116 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R1110:1111 GoldenFieldDefinesArithmetic <> gr proj
+R1113:1113 GoldenFieldDefinesArithmetic <> x:9 var
+R1117:1118 GoldenFieldDefinesArithmetic <> gs proj
+R1120:1120 GoldenFieldDefinesArithmetic <> y:10 var
+R1128:1130 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R1124:1125 GoldenFieldDefinesArithmetic <> gs proj
+R1127:1127 GoldenFieldDefinesArithmetic <> x:9 var
+R1131:1132 GoldenFieldDefinesArithmetic <> gr proj
+R1134:1134 GoldenFieldDefinesArithmetic <> y:10 var
+def 1150:1154 <> g_sub
+R1163:1168 GoldenFieldDefinesArithmetic <> Golden rec
+binder 1157:1157 <> x:11
+binder 1159:1159 <> y:12
+R1173:1178 GoldenFieldDefinesArithmetic <> Golden rec
+R1185:1189 GoldenFieldDefinesArithmetic <> g_add def
+R1191:1191 GoldenFieldDefinesArithmetic <> x:11 var
+R1194:1198 GoldenFieldDefinesArithmetic <> g_neg def
+R1200:1200 GoldenFieldDefinesArithmetic <> y:12 var
+def 1216:1221 <> g_conj
+R1228:1233 GoldenFieldDefinesArithmetic <> Golden rec
+binder 1224:1224 <> x:13
+R1238:1243 GoldenFieldDefinesArithmetic <> Golden rec
+R1250:1257 GoldenFieldDefinesArithmetic <> mkGolden constr
+R1260:1261 GoldenFieldDefinesArithmetic <> gr proj
+R1263:1263 GoldenFieldDefinesArithmetic <> x:13 var
+R1267:1268 Coq.QArith.QArith_base <> ::Q_scope:'-'_x not
+R1269:1270 GoldenFieldDefinesArithmetic <> gs proj
+R1272:1272 GoldenFieldDefinesArithmetic <> x:13 var
+def 1288:1296 <> g_norm_sq
+R1303:1308 GoldenFieldDefinesArithmetic <> Golden rec
+binder 1299:1299 <> x:14
+R1313:1313 Coq.QArith.QArith_base <> Q rec
+R1329:1333 GoldenFieldDefinesArithmetic <> g_mul def
+R1335:1335 GoldenFieldDefinesArithmetic <> x:14 var
+R1338:1343 GoldenFieldDefinesArithmetic <> g_conj def
+R1345:1345 GoldenFieldDefinesArithmetic <> x:14 var
+binder 1324:1324 <> c:15
+R1353:1354 GoldenFieldDefinesArithmetic <> gr proj
+R1356:1356 GoldenFieldDefinesArithmetic <> c:15 var
+def 1369:1373 <> g_pow
+R1380:1385 GoldenFieldDefinesArithmetic <> Golden rec
+binder 1376:1376 <> x:16
+R1393:1395 Coq.Init.Datatypes <> nat ind
+binder 1389:1389 <> n:17
+R1400:1405 GoldenFieldDefinesArithmetic <> Golden rec
+R1418:1418 GoldenFieldDefinesArithmetic <> n:17 var
+R1438:1440 GoldenFieldDefinesArithmetic <> gr1 def
+R1446:1446 Coq.Init.Datatypes <> S constr
+R1453:1457 GoldenFieldDefinesArithmetic <> g_mul def
+R1459:1459 GoldenFieldDefinesArithmetic <> x:16 var
+R1462:1466 GoldenFieldDefinesArithmetic <> g_pow:18 def
+R1468:1468 GoldenFieldDefinesArithmetic <> x:16 var
+prf 1487:1499 <> Qnum_Qden_inj
+binder 1501:1502 <> n1:20
+binder 1504:1505 <> d1:21
+binder 1507:1508 <> n2:22
+binder 1510:1511 <> d2:23
+R1522:1525 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1517:1519 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1515:1516 GoldenFieldDefinesArithmetic <> n1:20 var
+R1520:1521 GoldenFieldDefinesArithmetic <> n2:22 var
+R1533:1536 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1528:1530 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1526:1527 GoldenFieldDefinesArithmetic <> d1:21 var
+R1531:1532 GoldenFieldDefinesArithmetic <> d2:23 var
+R1548:1550 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1537:1541 Coq.QArith.QArith_base <> Qmake constr
+R1543:1544 GoldenFieldDefinesArithmetic <> n1:20 var
+R1546:1547 GoldenFieldDefinesArithmetic <> d1:21 var
+R1551:1555 Coq.QArith.QArith_base <> Qmake constr
+R1557:1558 GoldenFieldDefinesArithmetic <> n2:22 var
+R1560:1561 GoldenFieldDefinesArithmetic <> d2:23 var
+prf 1611:1624 <> Z_five_mul_num
+R1631:1631 Coq.Numbers.BinNums <> Z ind
+binder 1627:1627 <> z:24
+R1735:1737 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1644:1644 GoldenFieldDefinesArithmetic <> z:24 var
+R1655:1656 Coq.Numbers.BinNums <> Z0 constr
+R1661:1662 Coq.Numbers.BinNums <> Z0 constr
+R1668:1672 Coq.ZArith.BinInt Z pos abbrev
+R1679:1683 Coq.ZArith.BinInt Z pos abbrev
+R1687:1689 Coq.PArith.BinPos <> ::positive_scope:x_'+'_x not
+R1693:1694 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R1691:1692 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R1701:1705 Coq.ZArith.BinInt Z neg abbrev
+R1712:1716 Coq.ZArith.BinInt Z neg abbrev
+R1720:1722 Coq.PArith.BinPos <> ::positive_scope:x_'+'_x not
+R1726:1727 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R1724:1725 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R1740:1742 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R1743:1743 GoldenFieldDefinesArithmetic <> z:24 var
+R1815:1823 Coq.ZArith.BinInt Pos2Z inj thm
+R1844:1856 Coq.ZArith.BinInt Pos2Z inj_mul thm
+R1962:1963 Coq.Numbers.BinNums <> Z0 constr
+R1968:1969 Coq.Numbers.BinNums <> Z0 constr
+R1979:1983 Coq.ZArith.BinInt Z pos abbrev
+R1990:1994 Coq.ZArith.BinInt Z pos abbrev
+R1998:2000 Coq.PArith.BinPos <> ::positive_scope:x_'+'_x not
+R2004:2005 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R2002:2003 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R2016:2020 Coq.ZArith.BinInt Z neg abbrev
+R2027:2031 Coq.ZArith.BinInt Z neg abbrev
+R2035:2037 Coq.PArith.BinPos <> ::positive_scope:x_'+'_x not
+R2041:2042 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R2039:2040 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R1962:1963 Coq.Numbers.BinNums <> Z0 constr
+R1968:1969 Coq.Numbers.BinNums <> Z0 constr
+R1979:1983 Coq.ZArith.BinInt Z pos abbrev
+R1990:1994 Coq.ZArith.BinInt Z pos abbrev
+R1998:2000 Coq.PArith.BinPos <> ::positive_scope:x_'+'_x not
+R2004:2005 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R2002:2003 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R2016:2020 Coq.ZArith.BinInt Z neg abbrev
+R2027:2031 Coq.ZArith.BinInt Z neg abbrev
+R2035:2037 Coq.PArith.BinPos <> ::positive_scope:x_'+'_x not
+R2041:2042 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R2039:2040 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R2073:2086 GoldenFieldDefinesArithmetic <> Z_five_mul_num thm
+R2116:2128 Coq.ZArith.BinInt Pos2Z inj_mul thm
+R2149:2161 Coq.ZArith.BinInt Pos2Z inj_add thm
+R2182:2193 Coq.ZArith.BinInt Pos2Z inj_xO thm
+R2214:2225 Coq.ZArith.BinInt Pos2Z inj_xI thm
+R2257:2269 GoldenFieldDefinesArithmetic <> Qnum_Qden_inj thm
+R2371:2376 GoldenFieldDefinesArithmetic <> Golden rec
+R2371:2376 GoldenFieldDefinesArithmetic <> Golden rec
+R2405:2405 Coq.QArith.QArith_base <> Q rec
+R2405:2405 Coq.QArith.QArith_base <> Q rec
+R2442:2446 GoldenFieldDefinesArithmetic <> g_add def
+R2449:2453 GoldenFieldDefinesArithmetic <> g_neg def
+R2456:2460 GoldenFieldDefinesArithmetic <> g_mul def
+R2463:2467 GoldenFieldDefinesArithmetic <> g_sub def
+R2470:2475 GoldenFieldDefinesArithmetic <> g_conj def
+R2478:2480 GoldenFieldDefinesArithmetic <> gr0 def
+R2483:2485 GoldenFieldDefinesArithmetic <> gr1 def
+R2488:2490 GoldenFieldDefinesArithmetic <> phi def
+R2493:2499 GoldenFieldDefinesArithmetic <> phi_inv def
+R2502:2505 GoldenFieldDefinesArithmetic <> half def
+R2508:2515 GoldenFieldDefinesArithmetic <> neg_half def
+R2518:2522 Coq.QArith.QArith_base <> Qplus def
+R2525:2529 Coq.QArith.QArith_base <> Qmult def
+prf 2574:2584 <> g_add_assoc
+R2603:2608 GoldenFieldDefinesArithmetic <> Golden rec
+binder 2595:2595 <> x:26
+binder 2597:2597 <> y:27
+binder 2599:2599 <> z:28
+R2632:2634 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2613:2617 GoldenFieldDefinesArithmetic <> g_add def
+R2620:2624 GoldenFieldDefinesArithmetic <> g_add def
+R2626:2626 GoldenFieldDefinesArithmetic <> x:26 var
+R2628:2628 GoldenFieldDefinesArithmetic <> y:27 var
+R2631:2631 GoldenFieldDefinesArithmetic <> z:28 var
+R2635:2639 GoldenFieldDefinesArithmetic <> g_add def
+R2641:2641 GoldenFieldDefinesArithmetic <> x:26 var
+R2644:2648 GoldenFieldDefinesArithmetic <> g_add def
+R2650:2650 GoldenFieldDefinesArithmetic <> y:27 var
+R2652:2652 GoldenFieldDefinesArithmetic <> z:28 var
+prf 2688:2697 <> g_add_comm
+R2714:2719 GoldenFieldDefinesArithmetic <> Golden rec
+binder 2708:2708 <> x:29
+binder 2710:2710 <> y:30
+R2733:2735 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2724:2728 GoldenFieldDefinesArithmetic <> g_add def
+R2730:2730 GoldenFieldDefinesArithmetic <> x:29 var
+R2732:2732 GoldenFieldDefinesArithmetic <> y:30 var
+R2736:2740 GoldenFieldDefinesArithmetic <> g_add def
+R2742:2742 GoldenFieldDefinesArithmetic <> y:30 var
+R2744:2744 GoldenFieldDefinesArithmetic <> x:29 var
+prf 2779:2787 <> g_add_0_l
+R2802:2807 GoldenFieldDefinesArithmetic <> Golden rec
+binder 2798:2798 <> x:31
+R2823:2825 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2812:2816 GoldenFieldDefinesArithmetic <> g_add def
+R2818:2820 GoldenFieldDefinesArithmetic <> gr0 def
+R2822:2822 GoldenFieldDefinesArithmetic <> x:31 var
+R2826:2826 GoldenFieldDefinesArithmetic <> x:31 var
+prf 2861:2869 <> g_add_0_r
+R2884:2889 GoldenFieldDefinesArithmetic <> Golden rec
+binder 2880:2880 <> x:32
+R2905:2907 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2894:2898 GoldenFieldDefinesArithmetic <> g_add def
+R2900:2900 GoldenFieldDefinesArithmetic <> x:32 var
+R2902:2904 GoldenFieldDefinesArithmetic <> gr0 def
+R2908:2908 GoldenFieldDefinesArithmetic <> x:32 var
+prf 2943:2953 <> g_add_neg_r
+R2968:2973 GoldenFieldDefinesArithmetic <> Golden rec
+binder 2964:2964 <> x:33
+R3005:3008 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3000:3003 Coq.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R2978:2979 GoldenFieldDefinesArithmetic <> gr proj
+R2982:2986 GoldenFieldDefinesArithmetic <> g_add def
+R2988:2988 GoldenFieldDefinesArithmetic <> x:33 var
+R2991:2995 GoldenFieldDefinesArithmetic <> g_neg def
+R2997:2997 GoldenFieldDefinesArithmetic <> x:33 var
+R3031:3034 Coq.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R3009:3010 GoldenFieldDefinesArithmetic <> gs proj
+R3013:3017 GoldenFieldDefinesArithmetic <> g_add def
+R3019:3019 GoldenFieldDefinesArithmetic <> x:33 var
+R3022:3026 GoldenFieldDefinesArithmetic <> g_neg def
+R3028:3028 GoldenFieldDefinesArithmetic <> x:33 var
+R3066:3070 GoldenFieldDefinesArithmetic <> g_add def
+R3073:3077 GoldenFieldDefinesArithmetic <> g_neg def
+R3080:3081 GoldenFieldDefinesArithmetic <> gr proj
+R3084:3085 GoldenFieldDefinesArithmetic <> gs proj
+prf 3122:3132 <> g_mul_assoc
+R3151:3156 GoldenFieldDefinesArithmetic <> Golden rec
+binder 3143:3143 <> x:34
+binder 3145:3145 <> y:35
+binder 3147:3147 <> z:36
+R3161:3163 GoldenFieldDefinesArithmetic <> geq def
+R3166:3170 GoldenFieldDefinesArithmetic <> g_mul def
+R3173:3177 GoldenFieldDefinesArithmetic <> g_mul def
+R3179:3179 GoldenFieldDefinesArithmetic <> x:34 var
+R3181:3181 GoldenFieldDefinesArithmetic <> y:35 var
+R3184:3184 GoldenFieldDefinesArithmetic <> z:36 var
+R3188:3192 GoldenFieldDefinesArithmetic <> g_mul def
+R3194:3194 GoldenFieldDefinesArithmetic <> x:34 var
+R3197:3201 GoldenFieldDefinesArithmetic <> g_mul def
+R3203:3203 GoldenFieldDefinesArithmetic <> y:35 var
+R3205:3205 GoldenFieldDefinesArithmetic <> z:36 var
+R3260:3262 GoldenFieldDefinesArithmetic <> geq def
+R3265:3269 GoldenFieldDefinesArithmetic <> g_mul def
+prf 3306:3315 <> g_mul_comm
+R3332:3337 GoldenFieldDefinesArithmetic <> Golden rec
+binder 3326:3326 <> x:37
+binder 3328:3328 <> y:38
+R3351:3353 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3342:3346 GoldenFieldDefinesArithmetic <> g_mul def
+R3348:3348 GoldenFieldDefinesArithmetic <> x:37 var
+R3350:3350 GoldenFieldDefinesArithmetic <> y:38 var
+R3354:3358 GoldenFieldDefinesArithmetic <> g_mul def
+R3360:3360 GoldenFieldDefinesArithmetic <> y:38 var
+R3362:3362 GoldenFieldDefinesArithmetic <> x:37 var
+prf 3397:3405 <> g_mul_1_l
+R3420:3425 GoldenFieldDefinesArithmetic <> Golden rec
+binder 3416:3416 <> x:39
+R3430:3432 GoldenFieldDefinesArithmetic <> geq def
+R3435:3439 GoldenFieldDefinesArithmetic <> g_mul def
+R3441:3443 GoldenFieldDefinesArithmetic <> gr1 def
+R3445:3445 GoldenFieldDefinesArithmetic <> x:39 var
+R3448:3448 GoldenFieldDefinesArithmetic <> x:39 var
+R3488:3490 GoldenFieldDefinesArithmetic <> geq def
+R3493:3497 GoldenFieldDefinesArithmetic <> g_mul def
+R3500:3502 GoldenFieldDefinesArithmetic <> gr1 def
+prf 3539:3547 <> g_mul_1_r
+R3562:3567 GoldenFieldDefinesArithmetic <> Golden rec
+binder 3558:3558 <> x:40
+R3572:3574 GoldenFieldDefinesArithmetic <> geq def
+R3577:3581 GoldenFieldDefinesArithmetic <> g_mul def
+R3583:3583 GoldenFieldDefinesArithmetic <> x:40 var
+R3585:3587 GoldenFieldDefinesArithmetic <> gr1 def
+R3590:3590 GoldenFieldDefinesArithmetic <> x:40 var
+R3630:3632 GoldenFieldDefinesArithmetic <> geq def
+R3635:3639 GoldenFieldDefinesArithmetic <> g_mul def
+R3642:3644 GoldenFieldDefinesArithmetic <> gr1 def
+prf 3681:3689 <> g_mul_0_l
+R3704:3709 GoldenFieldDefinesArithmetic <> Golden rec
+binder 3700:3700 <> x:41
+R3735:3738 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3730:3733 Coq.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R3714:3715 GoldenFieldDefinesArithmetic <> gr proj
+R3718:3722 GoldenFieldDefinesArithmetic <> g_mul def
+R3724:3726 GoldenFieldDefinesArithmetic <> gr0 def
+R3728:3728 GoldenFieldDefinesArithmetic <> x:41 var
+R3755:3758 Coq.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R3739:3740 GoldenFieldDefinesArithmetic <> gs proj
+R3743:3747 GoldenFieldDefinesArithmetic <> g_mul def
+R3749:3751 GoldenFieldDefinesArithmetic <> gr0 def
+R3753:3753 GoldenFieldDefinesArithmetic <> x:41 var
+R3790:3794 GoldenFieldDefinesArithmetic <> g_mul def
+R3797:3799 GoldenFieldDefinesArithmetic <> gr0 def
+R3802:3803 GoldenFieldDefinesArithmetic <> gr proj
+R3806:3807 GoldenFieldDefinesArithmetic <> gs proj
+prf 3844:3852 <> g_mul_0_r
+R3867:3872 GoldenFieldDefinesArithmetic <> Golden rec
+binder 3863:3863 <> x:42
+R3898:3901 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3893:3896 Coq.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R3877:3878 GoldenFieldDefinesArithmetic <> gr proj
+R3881:3885 GoldenFieldDefinesArithmetic <> g_mul def
+R3887:3887 GoldenFieldDefinesArithmetic <> x:42 var
+R3889:3891 GoldenFieldDefinesArithmetic <> gr0 def
+R3918:3921 Coq.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R3902:3903 GoldenFieldDefinesArithmetic <> gs proj
+R3906:3910 GoldenFieldDefinesArithmetic <> g_mul def
+R3912:3912 GoldenFieldDefinesArithmetic <> x:42 var
+R3914:3916 GoldenFieldDefinesArithmetic <> gr0 def
+R3953:3957 GoldenFieldDefinesArithmetic <> g_mul def
+R3960:3962 GoldenFieldDefinesArithmetic <> gr0 def
+R3965:3966 GoldenFieldDefinesArithmetic <> gr proj
+R3969:3970 GoldenFieldDefinesArithmetic <> gs proj
+prf 4007:4017 <> g_distrib_l
+R4036:4041 GoldenFieldDefinesArithmetic <> Golden rec
+binder 4028:4028 <> x:43
+binder 4030:4030 <> y:44
+binder 4032:4032 <> z:45
+R4046:4048 GoldenFieldDefinesArithmetic <> geq def
+R4051:4055 GoldenFieldDefinesArithmetic <> g_mul def
+R4057:4057 GoldenFieldDefinesArithmetic <> x:43 var
+R4060:4064 GoldenFieldDefinesArithmetic <> g_add def
+R4066:4066 GoldenFieldDefinesArithmetic <> y:44 var
+R4068:4068 GoldenFieldDefinesArithmetic <> z:45 var
+R4073:4077 GoldenFieldDefinesArithmetic <> g_add def
+R4080:4084 GoldenFieldDefinesArithmetic <> g_mul def
+R4086:4086 GoldenFieldDefinesArithmetic <> x:43 var
+R4088:4088 GoldenFieldDefinesArithmetic <> y:44 var
+R4092:4096 GoldenFieldDefinesArithmetic <> g_mul def
+R4098:4098 GoldenFieldDefinesArithmetic <> x:43 var
+R4100:4100 GoldenFieldDefinesArithmetic <> z:45 var
+R4155:4157 GoldenFieldDefinesArithmetic <> geq def
+R4160:4164 GoldenFieldDefinesArithmetic <> g_mul def
+R4167:4171 GoldenFieldDefinesArithmetic <> g_add def
+prf 4208:4218 <> g_distrib_r
+R4237:4242 GoldenFieldDefinesArithmetic <> Golden rec
+binder 4229:4229 <> x:46
+binder 4231:4231 <> y:47
+binder 4233:4233 <> z:48
+R4247:4249 GoldenFieldDefinesArithmetic <> geq def
+R4252:4256 GoldenFieldDefinesArithmetic <> g_mul def
+R4259:4263 GoldenFieldDefinesArithmetic <> g_add def
+R4265:4265 GoldenFieldDefinesArithmetic <> x:46 var
+R4267:4267 GoldenFieldDefinesArithmetic <> y:47 var
+R4270:4270 GoldenFieldDefinesArithmetic <> z:48 var
+R4274:4278 GoldenFieldDefinesArithmetic <> g_add def
+R4281:4285 GoldenFieldDefinesArithmetic <> g_mul def
+R4287:4287 GoldenFieldDefinesArithmetic <> x:46 var
+R4289:4289 GoldenFieldDefinesArithmetic <> z:48 var
+R4293:4297 GoldenFieldDefinesArithmetic <> g_mul def
+R4299:4299 GoldenFieldDefinesArithmetic <> y:47 var
+R4301:4301 GoldenFieldDefinesArithmetic <> z:48 var
+R4356:4358 GoldenFieldDefinesArithmetic <> geq def
+R4361:4365 GoldenFieldDefinesArithmetic <> g_mul def
+R4368:4372 GoldenFieldDefinesArithmetic <> g_add def
+prf 4409:4425 <> g_conj_involutive
+R4440:4445 GoldenFieldDefinesArithmetic <> Golden rec
+binder 4436:4436 <> x:49
+R4450:4452 GoldenFieldDefinesArithmetic <> geq def
+R4455:4460 GoldenFieldDefinesArithmetic <> g_conj def
+R4463:4468 GoldenFieldDefinesArithmetic <> g_conj def
+R4470:4470 GoldenFieldDefinesArithmetic <> x:49 var
+R4474:4474 GoldenFieldDefinesArithmetic <> x:49 var
+R4514:4516 GoldenFieldDefinesArithmetic <> geq def
+R4519:4524 GoldenFieldDefinesArithmetic <> g_conj def
+prf 4561:4570 <> g_conj_add
+R4587:4592 GoldenFieldDefinesArithmetic <> Golden rec
+binder 4581:4581 <> x:50
+binder 4583:4583 <> y:51
+R4597:4599 GoldenFieldDefinesArithmetic <> geq def
+R4602:4607 GoldenFieldDefinesArithmetic <> g_conj def
+R4610:4614 GoldenFieldDefinesArithmetic <> g_add def
+R4616:4616 GoldenFieldDefinesArithmetic <> x:50 var
+R4618:4618 GoldenFieldDefinesArithmetic <> y:51 var
+R4623:4627 GoldenFieldDefinesArithmetic <> g_add def
+R4630:4635 GoldenFieldDefinesArithmetic <> g_conj def
+R4637:4637 GoldenFieldDefinesArithmetic <> x:50 var
+R4641:4646 GoldenFieldDefinesArithmetic <> g_conj def
+R4648:4648 GoldenFieldDefinesArithmetic <> y:51 var
+R4696:4698 GoldenFieldDefinesArithmetic <> geq def
+R4701:4706 GoldenFieldDefinesArithmetic <> g_conj def
+R4709:4713 GoldenFieldDefinesArithmetic <> g_add def
+prf 4750:4759 <> g_conj_mul
+R4776:4781 GoldenFieldDefinesArithmetic <> Golden rec
+binder 4770:4770 <> x:52
+binder 4772:4772 <> y:53
+R4786:4788 GoldenFieldDefinesArithmetic <> geq def
+R4791:4796 GoldenFieldDefinesArithmetic <> g_conj def
+R4799:4803 GoldenFieldDefinesArithmetic <> g_mul def
+R4805:4805 GoldenFieldDefinesArithmetic <> x:52 var
+R4807:4807 GoldenFieldDefinesArithmetic <> y:53 var
+R4812:4816 GoldenFieldDefinesArithmetic <> g_mul def
+R4819:4824 GoldenFieldDefinesArithmetic <> g_conj def
+R4826:4826 GoldenFieldDefinesArithmetic <> x:52 var
+R4830:4835 GoldenFieldDefinesArithmetic <> g_conj def
+R4837:4837 GoldenFieldDefinesArithmetic <> y:53 var
+R4885:4887 GoldenFieldDefinesArithmetic <> geq def
+R4890:4895 GoldenFieldDefinesArithmetic <> g_conj def
+R4898:4902 GoldenFieldDefinesArithmetic <> g_mul def
+prf 4939:4951 <> g_norm_sq_mul
+R4968:4973 GoldenFieldDefinesArithmetic <> Golden rec
+binder 4962:4962 <> x:54
+binder 4964:4964 <> y:55
+R4999:5002 Coq.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R4978:4986 GoldenFieldDefinesArithmetic <> g_norm_sq def
+R4989:4993 GoldenFieldDefinesArithmetic <> g_mul def
+R4995:4995 GoldenFieldDefinesArithmetic <> x:54 var
+R4997:4997 GoldenFieldDefinesArithmetic <> y:55 var
+R5014:5016 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R5003:5011 GoldenFieldDefinesArithmetic <> g_norm_sq def
+R5013:5013 GoldenFieldDefinesArithmetic <> x:54 var
+R5017:5025 GoldenFieldDefinesArithmetic <> g_norm_sq def
+R5027:5027 GoldenFieldDefinesArithmetic <> y:55 var
+R5075:5083 GoldenFieldDefinesArithmetic <> g_norm_sq def
+R5086:5090 GoldenFieldDefinesArithmetic <> g_mul def
+R5093:5098 GoldenFieldDefinesArithmetic <> g_conj def
+prf 5128:5149 <> phi_sq_eq_phi_plus_one
+R5195:5198 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5173:5176 Coq.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R5155:5156 GoldenFieldDefinesArithmetic <> gr proj
+R5159:5163 GoldenFieldDefinesArithmetic <> g_mul def
+R5165:5167 GoldenFieldDefinesArithmetic <> phi def
+R5169:5171 GoldenFieldDefinesArithmetic <> phi def
+R5177:5178 GoldenFieldDefinesArithmetic <> gr proj
+R5181:5185 GoldenFieldDefinesArithmetic <> g_add def
+R5187:5189 GoldenFieldDefinesArithmetic <> phi def
+R5191:5193 GoldenFieldDefinesArithmetic <> gr1 def
+R5217:5220 Coq.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R5199:5200 GoldenFieldDefinesArithmetic <> gs proj
+R5203:5207 GoldenFieldDefinesArithmetic <> g_mul def
+R5209:5211 GoldenFieldDefinesArithmetic <> phi def
+R5213:5215 GoldenFieldDefinesArithmetic <> phi def
+R5221:5222 GoldenFieldDefinesArithmetic <> gs proj
+R5225:5229 GoldenFieldDefinesArithmetic <> g_add def
+R5231:5233 GoldenFieldDefinesArithmetic <> phi def
+R5235:5237 GoldenFieldDefinesArithmetic <> gr1 def
+R5257:5259 GoldenFieldDefinesArithmetic <> phi def
+R5262:5264 GoldenFieldDefinesArithmetic <> gr1 def
+R5267:5271 GoldenFieldDefinesArithmetic <> g_mul def
+R5274:5278 GoldenFieldDefinesArithmetic <> g_add def
+R5281:5282 GoldenFieldDefinesArithmetic <> gr proj
+R5285:5286 GoldenFieldDefinesArithmetic <> gs proj
+prf 5323:5346 <> phi_inv_eq_phi_minus_one
+R5384:5387 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5362:5365 Coq.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R5352:5353 GoldenFieldDefinesArithmetic <> gr proj
+R5355:5361 GoldenFieldDefinesArithmetic <> phi_inv def
+R5366:5367 GoldenFieldDefinesArithmetic <> gr proj
+R5370:5374 GoldenFieldDefinesArithmetic <> g_sub def
+R5376:5378 GoldenFieldDefinesArithmetic <> phi def
+R5380:5382 GoldenFieldDefinesArithmetic <> gr1 def
+R5398:5401 Coq.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R5388:5389 GoldenFieldDefinesArithmetic <> gs proj
+R5391:5397 GoldenFieldDefinesArithmetic <> phi_inv def
+R5402:5403 GoldenFieldDefinesArithmetic <> gs proj
+R5406:5410 GoldenFieldDefinesArithmetic <> g_sub def
+R5412:5414 GoldenFieldDefinesArithmetic <> phi def
+R5416:5418 GoldenFieldDefinesArithmetic <> gr1 def
+R5438:5444 GoldenFieldDefinesArithmetic <> phi_inv def
+R5447:5449 GoldenFieldDefinesArithmetic <> phi def
+R5452:5454 GoldenFieldDefinesArithmetic <> gr1 def
+R5457:5461 GoldenFieldDefinesArithmetic <> g_sub def
+R5464:5468 GoldenFieldDefinesArithmetic <> g_add def
+R5471:5475 GoldenFieldDefinesArithmetic <> g_neg def
+R5478:5479 GoldenFieldDefinesArithmetic <> gr proj
+R5482:5483 GoldenFieldDefinesArithmetic <> gs proj
+prf 5520:5536 <> phi_times_phi_inv
+R5569:5572 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5564:5567 Coq.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R5542:5543 GoldenFieldDefinesArithmetic <> gr proj
+R5546:5550 GoldenFieldDefinesArithmetic <> g_mul def
+R5552:5554 GoldenFieldDefinesArithmetic <> phi def
+R5556:5562 GoldenFieldDefinesArithmetic <> phi_inv def
+R5595:5598 Coq.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R5573:5574 GoldenFieldDefinesArithmetic <> gs proj
+R5577:5581 GoldenFieldDefinesArithmetic <> g_mul def
+R5583:5585 GoldenFieldDefinesArithmetic <> phi def
+R5587:5593 GoldenFieldDefinesArithmetic <> phi_inv def
+R5618:5620 GoldenFieldDefinesArithmetic <> phi def
+R5623:5629 GoldenFieldDefinesArithmetic <> phi_inv def
+R5632:5634 GoldenFieldDefinesArithmetic <> gr1 def
+R5637:5641 GoldenFieldDefinesArithmetic <> g_mul def
+R5644:5645 GoldenFieldDefinesArithmetic <> gr proj
+R5648:5649 GoldenFieldDefinesArithmetic <> gs proj

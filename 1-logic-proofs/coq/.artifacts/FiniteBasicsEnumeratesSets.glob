@@ -1,0 +1,218 @@
+DIGEST NO
+FFiniteBasicsEnumeratesSets
+R171:181 Coq.Arith.Arith <> <> lib
+R208:217 Coq.Lists.List <> <> lib
+R244:246 Coq.Vectors.Fin <> <> lib
+R256:268 Coq.Lists.List ListNotations <> mod
+def 283:290 <> cardinal
+binder 293:293 <> T:1
+R308:311 Coq.Init.Datatypes <> list ind
+R313:313 FiniteBasicsEnumeratesSets <> T:1 var
+binder 304:304 <> l:2
+R318:320 Coq.Init.Datatypes <> nat ind
+R325:330 Coq.Init.Datatypes <> length def
+R332:332 FiniteBasicsEnumeratesSets <> l:2 var
+prf 344:363 <> cardinal_nonnegative
+binder 374:374 <> T:3
+R381:384 Coq.Init.Datatypes <> list ind
+R386:386 FiniteBasicsEnumeratesSets <> T:3 var
+binder 377:377 <> l:4
+R391:394 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R395:402 FiniteBasicsEnumeratesSets <> cardinal def
+R404:404 FiniteBasicsEnumeratesSets <> T:3 var
+R406:406 FiniteBasicsEnumeratesSets <> l:4 var
+prf 465:476 <> cardinal_app
+binder 487:487 <> T:5
+R496:499 Coq.Init.Datatypes <> list ind
+R501:501 FiniteBasicsEnumeratesSets <> T:5 var
+binder 490:490 <> a:6
+binder 492:492 <> b:7
+R526:528 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R507:514 FiniteBasicsEnumeratesSets <> cardinal def
+R516:516 FiniteBasicsEnumeratesSets <> T:5 var
+R520:523 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R519:519 FiniteBasicsEnumeratesSets <> a:6 var
+R524:524 FiniteBasicsEnumeratesSets <> b:7 var
+R541:543 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R529:536 FiniteBasicsEnumeratesSets <> cardinal def
+R538:538 FiniteBasicsEnumeratesSets <> T:5 var
+R540:540 FiniteBasicsEnumeratesSets <> a:6 var
+R544:551 FiniteBasicsEnumeratesSets <> cardinal def
+R553:553 FiniteBasicsEnumeratesSets <> T:5 var
+R555:555 FiniteBasicsEnumeratesSets <> b:7 var
+R585:594 Coq.Lists.List <> app_length thm
+R585:594 Coq.Lists.List <> app_length thm
+def 614:619 <> subset
+binder 622:622 <> T:8
+R639:642 Coq.Init.Datatypes <> list ind
+R644:644 FiniteBasicsEnumeratesSets <> T:8 var
+binder 633:633 <> a:9
+binder 635:635 <> b:10
+binder 666:666 <> x:11
+R675:678 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R669:670 Coq.Lists.List <> In def
+R674:674 FiniteBasicsEnumeratesSets <> a:9 var
+R672:672 FiniteBasicsEnumeratesSets <> x:11 var
+R679:680 Coq.Lists.List <> In def
+R684:684 FiniteBasicsEnumeratesSets <> b:10 var
+R682:682 FiniteBasicsEnumeratesSets <> x:11 var
+prf 696:706 <> subset_refl
+binder 717:717 <> T:12
+R724:727 Coq.Init.Datatypes <> list ind
+R729:729 FiniteBasicsEnumeratesSets <> T:12 var
+binder 720:720 <> l:13
+R733:738 FiniteBasicsEnumeratesSets <> subset def
+R742:742 FiniteBasicsEnumeratesSets <> l:13 var
+R740:740 FiniteBasicsEnumeratesSets <> l:13 var
+prf 793:804 <> subset_trans
+binder 815:815 <> T:14
+R826:829 Coq.Init.Datatypes <> list ind
+R831:831 FiniteBasicsEnumeratesSets <> T:14 var
+binder 818:818 <> a:15
+binder 820:820 <> b:16
+binder 822:822 <> c:17
+R847:850 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R837:842 FiniteBasicsEnumeratesSets <> subset def
+R846:846 FiniteBasicsEnumeratesSets <> b:16 var
+R844:844 FiniteBasicsEnumeratesSets <> a:15 var
+R861:864 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R851:856 FiniteBasicsEnumeratesSets <> subset def
+R860:860 FiniteBasicsEnumeratesSets <> c:17 var
+R858:858 FiniteBasicsEnumeratesSets <> b:16 var
+R865:870 FiniteBasicsEnumeratesSets <> subset def
+R874:874 FiniteBasicsEnumeratesSets <> c:17 var
+R872:872 FiniteBasicsEnumeratesSets <> a:15 var
+def 966:971 <> eq_dec
+binder 974:974 <> T:18
+R1004:1004 FiniteBasicsEnumeratesSets <> T:18 var
+binder 998:998 <> x:19
+binder 1000:1000 <> y:20
+R1007:1007 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1013:1017 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1024:1024 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1009:1011 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1008:1008 FiniteBasicsEnumeratesSets <> x:19 var
+R1012:1012 FiniteBasicsEnumeratesSets <> y:20 var
+R1019:1022 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1018:1018 FiniteBasicsEnumeratesSets <> x:19 var
+R1023:1023 FiniteBasicsEnumeratesSets <> y:20 var
+binder 985:987 <> dec:21
+R1036:1036 FiniteBasicsEnumeratesSets <> T:18 var
+binder 1030:1030 <> x:22
+binder 1032:1032 <> y:23
+R1041:1041 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1047:1051 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1058:1058 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1043:1045 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1042:1042 FiniteBasicsEnumeratesSets <> x:22 var
+R1046:1046 FiniteBasicsEnumeratesSets <> y:23 var
+R1053:1056 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1052:1052 FiniteBasicsEnumeratesSets <> x:22 var
+R1057:1057 FiniteBasicsEnumeratesSets <> y:23 var
+R1063:1065 FiniteBasicsEnumeratesSets <> dec:21 var
+R1069:1069 FiniteBasicsEnumeratesSets <> y:23 var
+R1067:1067 FiniteBasicsEnumeratesSets <> x:22 var
+prf 1081:1096 <> decidable_eq_fin
+binder 1107:1107 <> n:24
+R1116:1120 Coq.Vectors.Fin <> t ind
+R1122:1122 FiniteBasicsEnumeratesSets <> n:24 var
+binder 1110:1110 <> x:25
+binder 1112:1112 <> y:26
+R1126:1126 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1132:1136 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1143:1143 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1128:1130 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1127:1127 FiniteBasicsEnumeratesSets <> x:25 var
+R1131:1131 FiniteBasicsEnumeratesSets <> y:26 var
+R1138:1141 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1137:1137 FiniteBasicsEnumeratesSets <> x:25 var
+R1142:1142 FiniteBasicsEnumeratesSets <> y:26 var
+R1177:1186 Coq.Vectors.Fin <> eq_dec thm
+R1177:1186 Coq.Vectors.Fin <> eq_dec thm
+prf 1207:1222 <> decidable_eq_nat
+R1239:1241 Coq.Init.Datatypes <> nat ind
+binder 1233:1233 <> x:27
+binder 1235:1235 <> y:28
+R1244:1244 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1250:1254 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1261:1261 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1246:1248 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1245:1245 FiniteBasicsEnumeratesSets <> x:27 var
+R1249:1249 FiniteBasicsEnumeratesSets <> y:28 var
+R1256:1259 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1255:1255 FiniteBasicsEnumeratesSets <> x:27 var
+R1260:1260 FiniteBasicsEnumeratesSets <> y:28 var
+R1279:1288 Coq.Arith.PeanoNat Nat eq_dec thm
+R1279:1288 Coq.Arith.PeanoNat Nat eq_dec thm
+def 1312:1319 <> distinct
+binder 1322:1322 <> T:29
+R1337:1340 Coq.Init.Datatypes <> list ind
+R1342:1342 FiniteBasicsEnumeratesSets <> T:29 var
+binder 1333:1333 <> l:30
+binder 1364:1364 <> x:31
+binder 1366:1366 <> y:32
+R1375:1378 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1369:1370 Coq.Lists.List <> In def
+R1374:1374 FiniteBasicsEnumeratesSets <> l:30 var
+R1372:1372 FiniteBasicsEnumeratesSets <> x:31 var
+R1385:1388 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1379:1380 Coq.Lists.List <> In def
+R1384:1384 FiniteBasicsEnumeratesSets <> l:30 var
+R1382:1382 FiniteBasicsEnumeratesSets <> y:32 var
+R1394:1397 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1390:1392 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1389:1389 FiniteBasicsEnumeratesSets <> x:31 var
+R1393:1393 FiniteBasicsEnumeratesSets <> y:32 var
+R1399:1401 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1398:1398 FiniteBasicsEnumeratesSets <> x:31 var
+R1402:1402 FiniteBasicsEnumeratesSets <> y:32 var
+def 1417:1433 <> finite_enumerated
+binder 1436:1436 <> T:33
+R1451:1454 Coq.Init.Datatypes <> list ind
+R1456:1456 FiniteBasicsEnumeratesSets <> T:33 var
+binder 1447:1447 <> l:34
+R1465:1468 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1464:1464 FiniteBasicsEnumeratesSets <> T:33 var
+binder 1460:1460 <> P:35
+binder 1494:1494 <> x:36
+R1503:1506 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1497:1498 Coq.Lists.List <> In def
+R1502:1502 FiniteBasicsEnumeratesSets <> l:34 var
+R1500:1500 FiniteBasicsEnumeratesSets <> x:36 var
+R1507:1507 FiniteBasicsEnumeratesSets <> P:35 var
+R1509:1509 FiniteBasicsEnumeratesSets <> x:36 var
+rec 1520:1528 <> FiniteSet
+proj 1567:1577 <> fs_elements
+proj 1591:1596 <> fs_all
+binder 1531:1531 <> T:37
+R1581:1584 Coq.Init.Datatypes <> list ind
+R1586:1586 FiniteBasicsEnumeratesSets <> T:37 var
+R1616:1616 FiniteBasicsEnumeratesSets <> T:37 var
+binder 1612:1612 <> x:40
+R1619:1620 Coq.Lists.List <> In def
+R1624:1634 FiniteBasicsEnumeratesSets <> fs_elements:39 meth
+R1622:1622 FiniteBasicsEnumeratesSets <> x:40 var
+prf 1648:1666 <> finite_set_card_pos
+binder 1677:1677 <> T:42
+R1685:1693 FiniteBasicsEnumeratesSets <> FiniteSet rec
+R1695:1695 FiniteBasicsEnumeratesSets <> T:42 var
+binder 1680:1681 <> fs:43
+R1734:1737 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1702:1704 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R1705:1712 FiniteBasicsEnumeratesSets <> cardinal def
+R1714:1714 FiniteBasicsEnumeratesSets <> T:42 var
+R1717:1727 FiniteBasicsEnumeratesSets <> fs_elements proj
+R1729:1729 FiniteBasicsEnumeratesSets <> T:42 var
+R1731:1732 FiniteBasicsEnumeratesSets <> fs:43 var
+R1767:1769 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1738:1745 FiniteBasicsEnumeratesSets <> cardinal def
+R1747:1747 FiniteBasicsEnumeratesSets <> T:42 var
+R1750:1760 FiniteBasicsEnumeratesSets <> fs_elements proj
+R1762:1762 FiniteBasicsEnumeratesSets <> T:42 var
+R1764:1765 FiniteBasicsEnumeratesSets <> fs:43 var
+R1807:1814 FiniteBasicsEnumeratesSets <> cardinal def
+R1819:1829 FiniteBasicsEnumeratesSets <> fs_elements proj
+R1807:1814 FiniteBasicsEnumeratesSets <> cardinal def
+R1819:1829 FiniteBasicsEnumeratesSets <> fs_elements proj
+R1886:1898 Coq.Arith.PeanoNat Nat lt_0_succ thm
+R1886:1898 Coq.Arith.PeanoNat Nat lt_0_succ thm

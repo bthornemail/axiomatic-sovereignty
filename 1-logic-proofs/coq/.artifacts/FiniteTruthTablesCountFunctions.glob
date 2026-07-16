@@ -1,0 +1,214 @@
+DIGEST NO
+FFiniteTruthTablesCountFunctions
+R212:217 Coq.NArith.NArith <> <> lib
+R219:221 Coq.micromega.Lia <> <> lib
+R223:228 Coq.Vectors.Vector <> <> lib
+R230:232 Coq.Vectors.Fin <> <> lib
+def 268:284 <> input_state_count
+R291:293 Coq.Init.Datatypes <> nat ind
+binder 287:287 <> n:1
+R298:298 Coq.Numbers.BinNums <> N ind
+R305:309 Coq.NArith.BinNat N pow def
+R314:321 Coq.NArith.BinNat N of_nat def
+R323:323 FiniteTruthTablesCountFunctions <> n:1 var
+def 339:355 <> boolean_law_count
+R362:364 Coq.Init.Datatypes <> nat ind
+binder 358:358 <> n:2
+R369:369 Coq.Numbers.BinNums <> N ind
+R376:380 Coq.NArith.BinNat N pow def
+R385:401 FiniteTruthTablesCountFunctions <> input_state_count def
+R403:403 FiniteTruthTablesCountFunctions <> n:2 var
+prf 416:445 <> input_state_counts_0_through_8
+R474:479 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R470:472 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R451:467 FiniteTruthTablesCountFunctions <> input_state_count def
+R503:508 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R499:501 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R480:496 FiniteTruthTablesCountFunctions <> input_state_count def
+R532:537 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R528:530 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R509:525 FiniteTruthTablesCountFunctions <> input_state_count def
+R561:566 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R557:559 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R538:554 FiniteTruthTablesCountFunctions <> input_state_count def
+R591:596 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R586:588 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R567:583 FiniteTruthTablesCountFunctions <> input_state_count def
+R621:626 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R616:618 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R597:613 FiniteTruthTablesCountFunctions <> input_state_count def
+R651:656 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R646:648 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R627:643 FiniteTruthTablesCountFunctions <> input_state_count def
+R682:687 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R676:678 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R657:673 FiniteTruthTablesCountFunctions <> input_state_count def
+R707:709 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R688:704 FiniteTruthTablesCountFunctions <> input_state_count def
+prf 762:791 <> boolean_law_counts_0_through_6
+R820:825 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R816:818 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R797:813 FiniteTruthTablesCountFunctions <> boolean_law_count def
+R849:854 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R845:847 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R826:842 FiniteTruthTablesCountFunctions <> boolean_law_count def
+R879:884 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R874:876 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R855:871 FiniteTruthTablesCountFunctions <> boolean_law_count def
+R910:915 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R904:906 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R885:901 FiniteTruthTablesCountFunctions <> boolean_law_count def
+R943:948 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R935:937 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R916:932 FiniteTruthTablesCountFunctions <> boolean_law_count def
+R981:986 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R968:970 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R949:965 FiniteTruthTablesCountFunctions <> boolean_law_count def
+R1006:1008 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R987:1003 FiniteTruthTablesCountFunctions <> boolean_law_count def
+prf 1078:1102 <> six_inputs_have_64_states
+R1127:1129 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1108:1124 FiniteTruthTablesCountFunctions <> input_state_count def
+prf 1168:1196 <> six_inputs_have_2_pow_64_laws
+R1221:1223 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1202:1218 FiniteTruthTablesCountFunctions <> boolean_law_count def
+R1224:1228 Coq.NArith.BinNat N pow def
+prf 1270:1297 <> eight_inputs_have_256_states
+R1322:1324 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1303:1319 FiniteTruthTablesCountFunctions <> input_state_count def
+prf 1364:1395 <> eight_inputs_have_2_pow_256_laws
+R1420:1422 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1401:1417 FiniteTruthTablesCountFunctions <> boolean_law_count def
+R1423:1427 Coq.NArith.BinNat N pow def
+def 1473:1483 <> TruthVector
+R1490:1492 Coq.Init.Datatypes <> nat ind
+binder 1486:1486 <> n:3
+R1507:1514 Coq.Vectors.Vector <> t ind
+R1516:1519 Coq.Init.Datatypes <> bool ind
+R1522:1528 Coq.Init.Nat <> pow def
+R1532:1532 FiniteTruthTablesCountFunctions <> n:3 var
+def 1546:1565 <> boolean_vector_count
+R1575:1577 Coq.Init.Datatypes <> nat ind
+binder 1568:1571 <> rows:4
+R1582:1582 Coq.Numbers.BinNums <> N ind
+R1595:1598 FiniteTruthTablesCountFunctions <> rows:4 var
+R1609:1609 Coq.Init.Datatypes <> O constr
+R1620:1620 Coq.Init.Datatypes <> S constr
+R1631:1633 Coq.NArith.BinNat <> ::N_scope:x_'*'_x not
+R1634:1653 FiniteTruthTablesCountFunctions <> boolean_vector_count:5 def
+prf 1676:1703 <> boolean_vector_count_is_pow2
+binder 1716:1719 <> rows:7
+R1751:1753 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1726:1745 FiniteTruthTablesCountFunctions <> boolean_vector_count def
+R1747:1750 FiniteTruthTablesCountFunctions <> rows:7 var
+R1754:1758 Coq.NArith.BinNat N pow def
+R1763:1770 Coq.NArith.BinNat N of_nat def
+R1772:1775 FiniteTruthTablesCountFunctions <> rows:7 var
+R1882:1891 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1854:1856 Coq.NArith.BinNat <> ::N_scope:x_'*'_x not
+R1857:1876 FiniteTruthTablesCountFunctions <> boolean_vector_count def
+R1892:1896 Coq.NArith.BinNat N pow def
+R1901:1908 Coq.NArith.BinNat N of_nat def
+R1911:1911 Coq.Init.Datatypes <> S constr
+R1882:1891 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1854:1856 Coq.NArith.BinNat <> ::N_scope:x_'*'_x not
+R1857:1876 FiniteTruthTablesCountFunctions <> boolean_vector_count def
+R1892:1896 Coq.NArith.BinNat N pow def
+R1901:1908 Coq.NArith.BinNat N of_nat def
+R1911:1911 Coq.Init.Datatypes <> S constr
+R1938:1951 Coq.NArith.Nnat Nat2N inj_succ thm
+R1954:1966 Coq.NArith.BinNat N pow_succ_r' thm
+R1938:1951 Coq.NArith.Nnat Nat2N inj_succ thm
+R1938:1951 Coq.NArith.Nnat Nat2N inj_succ thm
+R1954:1966 Coq.NArith.BinNat N pow_succ_r' thm
+R1954:1966 Coq.NArith.BinNat N pow_succ_r' thm
+prf 2000:2047 <> six_input_law_count_follows_from_64_boolean_rows
+R2076:2078 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2053:2072 FiniteTruthTablesCountFunctions <> boolean_vector_count def
+R2079:2095 FiniteTruthTablesCountFunctions <> boolean_law_count def
+prf 2146:2196 <> eight_input_law_count_follows_from_256_boolean_rows
+R2226:2228 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2202:2221 FiniteTruthTablesCountFunctions <> boolean_vector_count def
+R2229:2245 FiniteTruthTablesCountFunctions <> boolean_law_count def
+def 2299:2317 <> truth_vector_lookup
+R2324:2326 Coq.Init.Datatypes <> nat ind
+binder 2320:2320 <> n:8
+R2338:2348 FiniteTruthTablesCountFunctions <> TruthVector def
+R2350:2350 FiniteTruthTablesCountFunctions <> n:8 var
+binder 2332:2334 <> law:9
+R2362:2366 Coq.Vectors.Fin <> t ind
+R2369:2375 Coq.Init.Nat <> pow def
+R2379:2379 FiniteTruthTablesCountFunctions <> n:8 var
+binder 2354:2358 <> index:10
+R2385:2388 Coq.Init.Datatypes <> bool ind
+R2395:2404 Coq.Vectors.Vector <> nth def
+R2410:2414 FiniteTruthTablesCountFunctions <> index:10 var
+R2406:2408 FiniteTruthTablesCountFunctions <> law:9 var
+prf 2426:2458 <> truth_vector_lookup_deterministic
+binder 2471:2471 <> n:11
+R2480:2490 FiniteTruthTablesCountFunctions <> TruthVector def
+R2492:2492 FiniteTruthTablesCountFunctions <> n:11 var
+binder 2474:2476 <> law:12
+R2504:2508 Coq.Vectors.Fin <> t ind
+R2511:2517 Coq.Init.Nat <> pow def
+R2521:2521 FiniteTruthTablesCountFunctions <> n:11 var
+binder 2496:2500 <> index:13
+R2559:2561 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2530:2548 FiniteTruthTablesCountFunctions <> truth_vector_lookup def
+R2554:2558 FiniteTruthTablesCountFunctions <> index:13 var
+R2550:2552 FiniteTruthTablesCountFunctions <> law:12 var
+R2562:2580 FiniteTruthTablesCountFunctions <> truth_vector_lookup def
+R2586:2590 FiniteTruthTablesCountFunctions <> index:13 var
+R2582:2584 FiniteTruthTablesCountFunctions <> law:12 var
+def 2630:2642 <> six_bit_index
+R2653:2653 Coq.Numbers.BinNums <> N ind
+binder 2645:2649 <> input:14
+R2658:2658 Coq.Numbers.BinNums <> N ind
+R2668:2672 Coq.NArith.BinNat <> ::N_scope:x_'mod'_x not
+R2663:2667 FiniteTruthTablesCountFunctions <> input:14 var
+def 2689:2700 <> law64_lookup
+R2715:2715 Coq.Numbers.BinNums <> N ind
+binder 2703:2705 <> law:15
+binder 2707:2711 <> input:16
+R2720:2723 Coq.Init.Datatypes <> bool ind
+R2730:2738 Coq.NArith.BinNat N testbit def
+R2740:2742 FiniteTruthTablesCountFunctions <> law:15 var
+R2745:2757 FiniteTruthTablesCountFunctions <> six_bit_index def
+R2759:2763 FiniteTruthTablesCountFunctions <> input:16 var
+prf 2776:2796 <> six_bit_index_bounded
+binder 2809:2813 <> input:17
+R2835:2837 Coq.NArith.BinNat <> ::N_scope:x_'<'_x not
+R2816:2828 FiniteTruthTablesCountFunctions <> six_bit_index def
+R2830:2834 FiniteTruthTablesCountFunctions <> input:17 var
+R2873:2885 FiniteTruthTablesCountFunctions <> six_bit_index def
+R2896:2903 Coq.NArith.BinNat N mod_lt thm
+R2896:2903 Coq.NArith.BinNat N mod_lt thm
+prf 2936:2961 <> law64_lookup_selects_index
+binder 2974:2976 <> law:18
+binder 2978:2982 <> input:19
+R3011:3013 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2989:3000 FiniteTruthTablesCountFunctions <> law64_lookup def
+R3002:3004 FiniteTruthTablesCountFunctions <> law:18 var
+R3006:3010 FiniteTruthTablesCountFunctions <> input:19 var
+R3014:3022 Coq.NArith.BinNat N testbit def
+R3024:3026 FiniteTruthTablesCountFunctions <> law:18 var
+R3034:3038 Coq.NArith.BinNat <> ::N_scope:x_'mod'_x not
+R3029:3033 FiniteTruthTablesCountFunctions <> input:19 var
+prf 3078:3103 <> law64_lookup_deterministic
+binder 3116:3118 <> law:20
+binder 3120:3124 <> input:21
+R3153:3155 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3131:3142 FiniteTruthTablesCountFunctions <> law64_lookup def
+R3144:3146 FiniteTruthTablesCountFunctions <> law:20 var
+R3148:3152 FiniteTruthTablesCountFunctions <> input:21 var
+R3156:3167 FiniteTruthTablesCountFunctions <> law64_lookup def
+R3169:3171 FiniteTruthTablesCountFunctions <> law:20 var
+R3173:3177 FiniteTruthTablesCountFunctions <> input:21 var
+def 3217:3245 <> fixed_frame_lookup_operations
+R3249:3249 Coq.Numbers.BinNums <> N ind
+prf 3266:3309 <> fixed_frame_lookup_cost_is_input_independent
+R3334:3334 Coq.Numbers.BinNums <> N ind
+binder 3322:3324 <> law:22
+binder 3326:3330 <> input:23
+R3370:3372 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3341:3369 FiniteTruthTablesCountFunctions <> fixed_frame_lookup_operations def

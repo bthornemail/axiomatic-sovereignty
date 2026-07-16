@@ -1,0 +1,694 @@
+DIGEST NO
+FDiagonalGaugeCloses
+R272:282 Coq.Reals.Reals <> <> lib
+R309:321 Coq.NArith.NArith <> <> lib
+R348:357 Coq.Lists.List <> <> lib
+R384:397 Coq.Arith.PeanoNat <> <> lib
+R424:436 Coq.micromega.Lia <> <> lib
+R446:458 Coq.Lists.List ListNotations <> mod
+def 493:498 <> nibble
+R505:505 Coq.Numbers.BinNums <> N ind
+binder 501:501 <> x:1
+R519:521 Coq.NArith.BinNat <> ::N_scope:x_'<'_x not
+R518:518 DiagonalGaugeCloses <> x:1 var
+def 538:546 <> poly_xor4
+R559:559 Coq.Numbers.BinNums <> N ind
+binder 549:549 <> a:2
+binder 551:551 <> b:3
+binder 553:553 <> c:4
+binder 555:555 <> d:5
+R564:564 Coq.Numbers.BinNums <> N ind
+R571:576 Coq.NArith.BinNat N lxor def
+R579:584 Coq.NArith.BinNat N lxor def
+R587:592 Coq.NArith.BinNat N lxor def
+R594:594 DiagonalGaugeCloses <> a:2 var
+R596:596 DiagonalGaugeCloses <> b:3 var
+R599:599 DiagonalGaugeCloses <> c:4 var
+R602:602 DiagonalGaugeCloses <> d:5 var
+def 617:622 <> dplus0
+R626:626 Coq.Numbers.BinNums <> N ind
+def 645:650 <> dplus1
+R654:654 Coq.Numbers.BinNums <> N ind
+def 673:678 <> dplus2
+R682:682 Coq.Numbers.BinNums <> N ind
+def 702:707 <> dplus3
+R711:711 Coq.Numbers.BinNums <> N ind
+def 732:738 <> dminus0
+R742:742 Coq.Numbers.BinNums <> N ind
+def 761:767 <> dminus1
+R771:771 Coq.Numbers.BinNums <> N ind
+def 790:796 <> dminus2
+R800:800 Coq.Numbers.BinNums <> N ind
+def 819:825 <> dminus3
+R829:829 Coq.Numbers.BinNums <> N ind
+prf 847:860 <> dplus_xor_zero
+R903:905 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R866:874 DiagonalGaugeCloses <> poly_xor4 def
+R876:881 DiagonalGaugeCloses <> dplus0 def
+R883:888 DiagonalGaugeCloses <> dplus1 def
+R890:895 DiagonalGaugeCloses <> dplus2 def
+R897:902 DiagonalGaugeCloses <> dplus3 def
+prf 955:969 <> dminus_xor_zero
+R1016:1018 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R975:983 DiagonalGaugeCloses <> poly_xor4 def
+R985:991 DiagonalGaugeCloses <> dminus0 def
+R993:999 DiagonalGaugeCloses <> dminus1 def
+R1001:1007 DiagonalGaugeCloses <> dminus2 def
+R1009:1015 DiagonalGaugeCloses <> dminus3 def
+prf 1068:1079 <> dplus_sum_1e
+R1118:1120 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1109:1111 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R1100:1102 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R1091:1093 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R1085:1090 DiagonalGaugeCloses <> dplus0 def
+R1094:1099 DiagonalGaugeCloses <> dplus1 def
+R1103:1108 DiagonalGaugeCloses <> dplus2 def
+R1112:1117 DiagonalGaugeCloses <> dplus3 def
+prf 1171:1183 <> dminus_sum_1e
+R1226:1228 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1216:1218 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R1206:1208 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R1196:1198 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R1189:1195 DiagonalGaugeCloses <> dminus0 def
+R1199:1205 DiagonalGaugeCloses <> dminus1 def
+R1209:1215 DiagonalGaugeCloses <> dminus2 def
+R1219:1225 DiagonalGaugeCloses <> dminus3 def
+rec 1278:1292 <> DiagonalClosure
+proj 1326:1336 <> closure_xor
+proj 1345:1355 <> closure_sum
+R1340:1340 Coq.Numbers.BinNums <> N ind
+R1359:1359 Coq.Numbers.BinNums <> N ind
+def 1376:1388 <> dplus_closure
+R1392:1406 DiagonalGaugeCloses <> DiagonalClosure rec
+R1413:1429 DiagonalGaugeCloses <> mkDiagonalClosure constr
+R1432:1440 DiagonalGaugeCloses <> poly_xor4 def
+R1442:1447 DiagonalGaugeCloses <> dplus0 def
+R1449:1454 DiagonalGaugeCloses <> dplus1 def
+R1456:1461 DiagonalGaugeCloses <> dplus2 def
+R1463:1468 DiagonalGaugeCloses <> dplus3 def
+R1516:1518 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R1507:1509 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R1498:1500 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R1492:1497 DiagonalGaugeCloses <> dplus0 def
+R1501:1506 DiagonalGaugeCloses <> dplus1 def
+R1510:1515 DiagonalGaugeCloses <> dplus2 def
+R1519:1524 DiagonalGaugeCloses <> dplus3 def
+def 1540:1553 <> dminus_closure
+R1557:1571 DiagonalGaugeCloses <> DiagonalClosure rec
+R1578:1594 DiagonalGaugeCloses <> mkDiagonalClosure constr
+R1597:1605 DiagonalGaugeCloses <> poly_xor4 def
+R1607:1613 DiagonalGaugeCloses <> dminus0 def
+R1615:1621 DiagonalGaugeCloses <> dminus1 def
+R1623:1629 DiagonalGaugeCloses <> dminus2 def
+R1631:1637 DiagonalGaugeCloses <> dminus3 def
+R1688:1690 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R1678:1680 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R1668:1670 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R1661:1667 DiagonalGaugeCloses <> dminus0 def
+R1671:1677 DiagonalGaugeCloses <> dminus1 def
+R1681:1687 DiagonalGaugeCloses <> dminus2 def
+R1691:1697 DiagonalGaugeCloses <> dminus3 def
+prf 1710:1728 <> dplus_closure_valid
+R1763:1766 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1759:1761 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1734:1744 DiagonalGaugeCloses <> closure_xor proj
+R1746:1758 DiagonalGaugeCloses <> dplus_closure def
+R1792:1794 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1767:1777 DiagonalGaugeCloses <> closure_sum proj
+R1779:1791 DiagonalGaugeCloses <> dplus_closure def
+prf 1838:1857 <> dminus_closure_valid
+R1893:1896 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1889:1891 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1863:1873 DiagonalGaugeCloses <> closure_xor proj
+R1875:1888 DiagonalGaugeCloses <> dminus_closure def
+R1923:1925 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1897:1907 DiagonalGaugeCloses <> closure_sum proj
+R1909:1922 DiagonalGaugeCloses <> dminus_closure def
+prf 1969:1979 <> diag_sum_3c
+R2062:2064 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2018:2023 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R2061:2061 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R2009:2011 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R2000:2002 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R1991:1993 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R1985:1990 DiagonalGaugeCloses <> dplus0 def
+R1994:1999 DiagonalGaugeCloses <> dplus1 def
+R2003:2008 DiagonalGaugeCloses <> dplus2 def
+R2012:2017 DiagonalGaugeCloses <> dplus3 def
+R2051:2053 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R2041:2043 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R2031:2033 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R2024:2030 DiagonalGaugeCloses <> dminus0 def
+R2034:2040 DiagonalGaugeCloses <> dminus1 def
+R2044:2050 DiagonalGaugeCloses <> dminus2 def
+R2054:2060 DiagonalGaugeCloses <> dminus3 def
+def 2118:2125 <> is_dplus
+R2132:2132 Coq.Numbers.BinNums <> N ind
+binder 2128:2128 <> x:9
+R2137:2140 Coq.Init.Datatypes <> bool ind
+R2194:2198 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R2210:2210 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R2177:2181 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R2193:2193 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R2147:2147 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R2159:2164 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R2176:2176 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R2149:2152 Coq.NArith.BinNat <> ::N_scope:x_'=?'_x not
+R2148:2148 DiagonalGaugeCloses <> x:9 var
+R2153:2158 DiagonalGaugeCloses <> dplus0 def
+R2166:2169 Coq.NArith.BinNat <> ::N_scope:x_'=?'_x not
+R2165:2165 DiagonalGaugeCloses <> x:9 var
+R2170:2175 DiagonalGaugeCloses <> dplus1 def
+R2183:2186 Coq.NArith.BinNat <> ::N_scope:x_'=?'_x not
+R2182:2182 DiagonalGaugeCloses <> x:9 var
+R2187:2192 DiagonalGaugeCloses <> dplus2 def
+R2200:2203 Coq.NArith.BinNat <> ::N_scope:x_'=?'_x not
+R2199:2199 DiagonalGaugeCloses <> x:9 var
+R2204:2209 DiagonalGaugeCloses <> dplus3 def
+def 2225:2233 <> is_dminus
+R2240:2240 Coq.Numbers.BinNums <> N ind
+binder 2236:2236 <> x:10
+R2245:2248 Coq.Init.Datatypes <> bool ind
+R2305:2309 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R2322:2322 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R2287:2291 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R2304:2304 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R2255:2255 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R2268:2273 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R2286:2286 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R2257:2260 Coq.NArith.BinNat <> ::N_scope:x_'=?'_x not
+R2256:2256 DiagonalGaugeCloses <> x:10 var
+R2261:2267 DiagonalGaugeCloses <> dminus0 def
+R2275:2278 Coq.NArith.BinNat <> ::N_scope:x_'=?'_x not
+R2274:2274 DiagonalGaugeCloses <> x:10 var
+R2279:2285 DiagonalGaugeCloses <> dminus1 def
+R2293:2296 Coq.NArith.BinNat <> ::N_scope:x_'=?'_x not
+R2292:2292 DiagonalGaugeCloses <> x:10 var
+R2297:2303 DiagonalGaugeCloses <> dminus2 def
+R2311:2314 Coq.NArith.BinNat <> ::N_scope:x_'=?'_x not
+R2310:2310 DiagonalGaugeCloses <> x:10 var
+R2315:2321 DiagonalGaugeCloses <> dminus3 def
+def 2337:2348 <> polybius_row
+R2355:2355 Coq.Numbers.BinNums <> N ind
+binder 2351:2351 <> x:11
+R2360:2360 Coq.Numbers.BinNums <> N ind
+R2366:2368 Coq.NArith.BinNat <> ::N_scope:x_'/'_x not
+R2365:2365 DiagonalGaugeCloses <> x:11 var
+def 2383:2394 <> polybius_col
+R2401:2401 Coq.Numbers.BinNums <> N ind
+binder 2397:2397 <> x:12
+R2406:2406 Coq.Numbers.BinNums <> N ind
+R2412:2416 Coq.NArith.BinNat <> ::N_scope:x_'mod'_x not
+R2411:2411 DiagonalGaugeCloses <> x:12 var
+def 2432:2439 <> on_dplus
+R2446:2446 Coq.Numbers.BinNums <> N ind
+binder 2442:2442 <> x:13
+R2451:2454 Coq.Init.Datatypes <> bool ind
+R2475:2478 Coq.NArith.BinNat <> ::N_scope:x_'=?'_x not
+R2461:2472 DiagonalGaugeCloses <> polybius_row def
+R2474:2474 DiagonalGaugeCloses <> x:13 var
+R2479:2490 DiagonalGaugeCloses <> polybius_col def
+R2492:2492 DiagonalGaugeCloses <> x:13 var
+def 2507:2515 <> on_dminus
+R2522:2522 Coq.Numbers.BinNums <> N ind
+binder 2518:2518 <> x:14
+R2527:2530 Coq.Init.Datatypes <> bool ind
+R2568:2571 Coq.NArith.BinNat <> ::N_scope:x_'=?'_x not
+R2551:2553 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R2537:2548 DiagonalGaugeCloses <> polybius_row def
+R2550:2550 DiagonalGaugeCloses <> x:14 var
+R2554:2565 DiagonalGaugeCloses <> polybius_col def
+R2567:2567 DiagonalGaugeCloses <> x:14 var
+prf 2584:2614 <> dplus_is_polybius_main_diagonal
+R2637:2642 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2630:2632 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2620:2627 DiagonalGaugeCloses <> on_dplus def
+R2633:2636 Coq.Init.Datatypes <> true constr
+R2660:2665 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2653:2655 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2643:2650 DiagonalGaugeCloses <> on_dplus def
+R2656:2659 Coq.Init.Datatypes <> true constr
+R2684:2689 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2677:2679 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2666:2673 DiagonalGaugeCloses <> on_dplus def
+R2680:2683 Coq.Init.Datatypes <> true constr
+R2701:2703 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2690:2697 DiagonalGaugeCloses <> on_dplus def
+R2704:2707 Coq.Init.Datatypes <> true constr
+prf 2757:2790 <> dminus_is_polybius_mirror_diagonal
+R2814:2819 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2807:2809 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2796:2804 DiagonalGaugeCloses <> on_dminus def
+R2810:2813 Coq.Init.Datatypes <> true constr
+R2838:2843 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2831:2833 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2820:2828 DiagonalGaugeCloses <> on_dminus def
+R2834:2837 Coq.Init.Datatypes <> true constr
+R2862:2867 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2855:2857 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2844:2852 DiagonalGaugeCloses <> on_dminus def
+R2858:2861 Coq.Init.Datatypes <> true constr
+R2880:2882 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2868:2876 DiagonalGaugeCloses <> on_dminus def
+R2883:2886 Coq.Init.Datatypes <> true constr
+def 2939:2952 <> complement_sum
+R2956:2956 Coq.Numbers.BinNums <> N ind
+R2963:2971 Coq.Lists.List <> fold_left def
+R3052:3052 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3054:3055 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3057:3058 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3060:3061 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3063:3064 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3066:3067 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3069:3070 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3072:3073 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3075:3076 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3078:3079 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3081:3082 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3085:3086 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3089:3090 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3093:3094 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3097:3098 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3101:3102 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3105:3105 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+binder 2982:2984 <> acc:15
+binder 2986:2986 <> x:16
+R2994:2996 Coq.Init.Datatypes <> orb def
+R3012:3020 DiagonalGaugeCloses <> is_dminus def
+R3022:3022 DiagonalGaugeCloses <> x:16 var
+R2999:3006 DiagonalGaugeCloses <> is_dplus def
+R3008:3008 DiagonalGaugeCloses <> x:16 var
+R3042:3044 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R3039:3041 DiagonalGaugeCloses <> acc:15 var
+R3045:3045 DiagonalGaugeCloses <> x:16 var
+R3030:3032 DiagonalGaugeCloses <> acc:15 var
+prf 3123:3139 <> complement_sum_3c
+R3157:3159 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3143:3156 DiagonalGaugeCloses <> complement_sum def
+def 3213:3221 <> wheel_sum
+R3225:3225 Coq.Numbers.BinNums <> N ind
+R3232:3240 Coq.Lists.List <> fold_left def
+R3248:3248 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3250:3251 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3253:3254 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3256:3257 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3259:3260 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3262:3263 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3265:3266 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3268:3269 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3271:3272 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3274:3275 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3277:3278 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3281:3282 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3285:3286 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3289:3290 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3293:3294 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3297:3298 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3301:3301 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3242:3246 Coq.NArith.BinNat N add def
+prf 3315:3331 <> full_wheel_sum_78
+R3344:3346 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3335:3343 DiagonalGaugeCloses <> wheel_sum def
+def 3401:3419 <> active_byte_surface
+R3423:3423 Coq.Numbers.BinNums <> N ind
+R3430:3432 Coq.NArith.BinNat <> ::N_scope:x_'*'_x not
+prf 3446:3471 <> active_byte_surface_is_240
+R3496:3498 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3477:3495 DiagonalGaugeCloses <> active_byte_surface def
+def 3541:3546 <> mask16
+R3553:3553 Coq.Numbers.BinNums <> N ind
+binder 3549:3549 <> x:17
+R3558:3558 Coq.Numbers.BinNums <> N ind
+R3564:3568 Coq.NArith.BinNat <> ::N_scope:x_'mod'_x not
+R3563:3563 DiagonalGaugeCloses <> x:17 var
+def 3588:3593 <> rotl16
+R3602:3602 Coq.Numbers.BinNums <> N ind
+binder 3596:3596 <> x:18
+binder 3598:3598 <> k:19
+R3607:3607 Coq.Numbers.BinNums <> N ind
+R3614:3619 DiagonalGaugeCloses <> mask16 def
+R3643:3645 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R3622:3629 Coq.NArith.BinNat N shiftl def
+R3632:3637 DiagonalGaugeCloses <> mask16 def
+R3639:3639 DiagonalGaugeCloses <> x:18 var
+R3642:3642 DiagonalGaugeCloses <> k:19 var
+R3646:3653 Coq.NArith.BinNat N shiftr def
+R3656:3661 DiagonalGaugeCloses <> mask16 def
+R3663:3663 DiagonalGaugeCloses <> x:18 var
+R3669:3671 Coq.NArith.BinNat <> ::N_scope:x_'-'_x not
+R3672:3672 DiagonalGaugeCloses <> k:19 var
+def 3689:3694 <> rotr16
+R3703:3703 Coq.Numbers.BinNums <> N ind
+binder 3697:3697 <> x:20
+binder 3699:3699 <> k:21
+R3708:3708 Coq.Numbers.BinNums <> N ind
+R3715:3720 DiagonalGaugeCloses <> mask16 def
+R3744:3746 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R3723:3730 Coq.NArith.BinNat N shiftr def
+R3733:3738 DiagonalGaugeCloses <> mask16 def
+R3740:3740 DiagonalGaugeCloses <> x:20 var
+R3743:3743 DiagonalGaugeCloses <> k:21 var
+R3747:3754 Coq.NArith.BinNat N shiftl def
+R3757:3762 DiagonalGaugeCloses <> mask16 def
+R3764:3764 DiagonalGaugeCloses <> x:20 var
+R3770:3772 Coq.NArith.BinNat <> ::N_scope:x_'-'_x not
+R3773:3773 DiagonalGaugeCloses <> k:21 var
+def 3790:3796 <> delta16
+R3805:3805 Coq.Numbers.BinNums <> N ind
+binder 3799:3799 <> x:22
+binder 3801:3801 <> c:23
+R3810:3810 Coq.Numbers.BinNums <> N ind
+R3817:3822 DiagonalGaugeCloses <> mask16 def
+R3825:3830 Coq.NArith.BinNat N lxor def
+R3833:3838 Coq.NArith.BinNat N lxor def
+R3841:3846 Coq.NArith.BinNat N lxor def
+R3849:3854 DiagonalGaugeCloses <> rotl16 def
+R3856:3856 DiagonalGaugeCloses <> x:22 var
+R3862:3867 DiagonalGaugeCloses <> rotl16 def
+R3869:3869 DiagonalGaugeCloses <> x:22 var
+R3876:3881 DiagonalGaugeCloses <> rotr16 def
+R3883:3883 DiagonalGaugeCloses <> x:22 var
+R3889:3889 DiagonalGaugeCloses <> c:23 var
+prf 3902:3913 <> mask16_bound
+R3928:3928 Coq.Numbers.BinNums <> N ind
+binder 3924:3924 <> x:24
+R3939:3941 Coq.NArith.BinNat <> ::N_scope:x_'<'_x not
+R3931:3936 DiagonalGaugeCloses <> mask16 def
+R3938:3938 DiagonalGaugeCloses <> x:24 var
+R3976:3981 DiagonalGaugeCloses <> mask16 def
+R3992:4008 Coq.NArith.BinNat N mod_upper_bound def
+R3992:4008 Coq.NArith.BinNat N mod_upper_bound def
+prf 4041:4064 <> delta16_width_preserving
+R4081:4081 Coq.Numbers.BinNums <> N ind
+binder 4075:4075 <> x:25
+binder 4077:4077 <> c:26
+R4095:4097 Coq.NArith.BinNat <> ::N_scope:x_'<'_x not
+R4084:4090 DiagonalGaugeCloses <> delta16 def
+R4092:4092 DiagonalGaugeCloses <> x:25 var
+R4094:4094 DiagonalGaugeCloses <> c:26 var
+R4135:4141 DiagonalGaugeCloses <> delta16 def
+R4152:4163 DiagonalGaugeCloses <> mask16_bound thm
+R4152:4163 DiagonalGaugeCloses <> mask16_bound thm
+prf 4180:4200 <> delta16_deterministic
+R4217:4217 Coq.Numbers.BinNums <> N ind
+binder 4211:4211 <> x:27
+binder 4213:4213 <> c:28
+R4231:4233 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4220:4226 DiagonalGaugeCloses <> delta16 def
+R4228:4228 DiagonalGaugeCloses <> x:27 var
+R4230:4230 DiagonalGaugeCloses <> c:28 var
+R4234:4240 DiagonalGaugeCloses <> delta16 def
+R4242:4242 DiagonalGaugeCloses <> x:27 var
+R4244:4244 DiagonalGaugeCloses <> c:28 var
+ind 4304:4314 <> ChiralPhase
+constr 4328:4337 <> DPlusPhase
+constr 4341:4351 <> DMinusPhase
+constr 4355:4367 <> BalancedPhase
+constr 4371:4385 <> IncompletePhase
+scheme 4304:4314 <> ChiralPhase_rect
+scheme 4304:4314 <> ChiralPhase_ind
+scheme 4304:4314 <> ChiralPhase_rec
+scheme 4304:4314 <> ChiralPhase_sind
+def 4400:4412 <> phase_to_sign
+R4419:4429 DiagonalGaugeCloses <> ChiralPhase ind
+binder 4415:4415 <> p:31
+R4434:4434 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R4447:4447 DiagonalGaugeCloses <> p:31 var
+R4458:4467 DiagonalGaugeCloses <> DPlusPhase constr
+R4478:4488 DiagonalGaugeCloses <> DMinusPhase constr
+R4500:4512 DiagonalGaugeCloses <> BalancedPhase constr
+R4523:4537 DiagonalGaugeCloses <> IncompletePhase constr
+def 4563:4585 <> diagonal_phase_schedule
+R4589:4592 Coq.Init.Datatypes <> list ind
+R4594:4604 DiagonalGaugeCloses <> ChiralPhase ind
+R4611:4611 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4622:4623 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4635:4635 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4612:4621 DiagonalGaugeCloses <> DPlusPhase constr
+R4624:4634 DiagonalGaugeCloses <> DMinusPhase constr
+def 4650:4666 <> polybius_phase_at
+R4673:4675 Coq.Init.Datatypes <> nat ind
+binder 4669:4669 <> n:33
+R4680:4690 DiagonalGaugeCloses <> ChiralPhase ind
+R4697:4699 Coq.Lists.List <> nth def
+R4739:4751 DiagonalGaugeCloses <> BalancedPhase constr
+R4715:4737 DiagonalGaugeCloses <> diagonal_phase_schedule def
+R4703:4707 Coq.Arith.PeanoNat <> ::nat_scope:x_'mod'_x not
+R4702:4702 DiagonalGaugeCloses <> n:33 var
+def 4766:4784 <> diagonal_race_phase
+R4791:4793 Coq.Init.Datatypes <> nat ind
+binder 4787:4787 <> n:34
+R4798:4808 DiagonalGaugeCloses <> ChiralPhase ind
+R4821:4837 DiagonalGaugeCloses <> polybius_phase_at def
+R4839:4839 DiagonalGaugeCloses <> n:34 var
+R4850:4859 DiagonalGaugeCloses <> DPlusPhase constr
+R4873:4876 Coq.Init.Datatypes <> andb def
+R4937:4940 Coq.NArith.BinNat <> ::N_scope:x_'=?'_x not
+R4912:4922 DiagonalGaugeCloses <> closure_sum proj
+R4924:4936 DiagonalGaugeCloses <> dplus_closure def
+R4904:4907 Coq.NArith.BinNat <> ::N_scope:x_'=?'_x not
+R4879:4889 DiagonalGaugeCloses <> closure_xor proj
+R4891:4903 DiagonalGaugeCloses <> dplus_closure def
+R4972:4986 DiagonalGaugeCloses <> IncompletePhase constr
+R4956:4965 DiagonalGaugeCloses <> DPlusPhase constr
+R4992:5002 DiagonalGaugeCloses <> DMinusPhase constr
+R5016:5019 Coq.Init.Datatypes <> andb def
+R5082:5085 Coq.NArith.BinNat <> ::N_scope:x_'=?'_x not
+R5056:5066 DiagonalGaugeCloses <> closure_sum proj
+R5068:5081 DiagonalGaugeCloses <> dminus_closure def
+R5048:5051 Coq.NArith.BinNat <> ::N_scope:x_'=?'_x not
+R5022:5032 DiagonalGaugeCloses <> closure_xor proj
+R5034:5047 DiagonalGaugeCloses <> dminus_closure def
+R5118:5132 DiagonalGaugeCloses <> IncompletePhase constr
+R5101:5111 DiagonalGaugeCloses <> DMinusPhase constr
+R5138:5150 DiagonalGaugeCloses <> BalancedPhase constr
+R5155:5167 DiagonalGaugeCloses <> BalancedPhase constr
+R5173:5187 DiagonalGaugeCloses <> IncompletePhase constr
+R5192:5206 DiagonalGaugeCloses <> IncompletePhase constr
+prf 5224:5251 <> diagonal_phase_schedule_even
+R5266:5268 Coq.Init.Datatypes <> nat ind
+binder 5262:5262 <> n:35
+R5292:5294 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5273:5289 DiagonalGaugeCloses <> polybius_phase_at def
+R5291:5291 DiagonalGaugeCloses <> n:35 var
+R5298:5305 Coq.Arith.PeanoNat Nat even def
+R5307:5307 DiagonalGaugeCloses <> n:35 var
+R5330:5340 DiagonalGaugeCloses <> DMinusPhase constr
+R5314:5323 DiagonalGaugeCloses <> DPlusPhase constr
+R5370:5386 DiagonalGaugeCloses <> polybius_phase_at def
+R5389:5411 DiagonalGaugeCloses <> diagonal_phase_schedule def
+R5426:5433 Coq.Arith.PeanoNat Nat even def
+R5426:5433 Coq.Arith.PeanoNat Nat even def
+R5461:5465 Coq.Arith.PeanoNat <> ::nat_scope:x_'mod'_x not
+R5461:5465 Coq.Arith.PeanoNat <> ::nat_scope:x_'mod'_x not
+R5516:5518 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5550:5552 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R5546:5546 Coq.Init.Datatypes <> S constr
+R5585:5603 Coq.Arith.PeanoNat Nat mod_upper_bound def
+R5516:5518 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5550:5552 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R5546:5546 Coq.Init.Datatypes <> S constr
+R5585:5603 Coq.Arith.PeanoNat Nat mod_upper_bound def
+R5661:5673 Coq.Arith.PeanoNat Nat even_spec thm
+R5661:5673 Coq.Arith.PeanoNat Nat even_spec thm
+R5725:5725 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5733:5736 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5727:5731 Coq.Arith.PeanoNat <> ::nat_scope:x_'mod'_x not
+R5725:5725 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5733:5736 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5727:5731 Coq.Arith.PeanoNat <> ::nat_scope:x_'mod'_x not
+R5778:5789 Coq.Arith.PeanoNat Nat mul_comm thm
+R5778:5789 Coq.Arith.PeanoNat Nat mul_comm thm
+R5778:5789 Coq.Arith.PeanoNat Nat mul_comm thm
+R5806:5821 Coq.Arith.PeanoNat Nat.Div0 mod_mul thm
+R5806:5821 Coq.Arith.PeanoNat Nat.Div0 mod_mul thm
+R5850:5854 Coq.Arith.PeanoNat <> ::nat_scope:x_'mod'_x not
+R5850:5854 Coq.Arith.PeanoNat <> ::nat_scope:x_'mod'_x not
+R5899:5906 Coq.Arith.PeanoNat Nat Even def
+R5899:5906 Coq.Arith.PeanoNat Nat Even def
+R5926:5944 Coq.Arith.PeanoNat Nat.Lcm0 mod_divide thm
+R5926:5944 Coq.Arith.PeanoNat Nat.Lcm0 mod_divide thm
+R6018:6029 Coq.Arith.PeanoNat Nat mul_comm thm
+R6018:6029 Coq.Arith.PeanoNat Nat mul_comm thm
+R6018:6029 Coq.Arith.PeanoNat Nat mul_comm thm
+R6062:6074 Coq.Arith.PeanoNat Nat even_spec thm
+R6062:6074 Coq.Arith.PeanoNat Nat even_spec thm
+R6141:6143 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6175:6177 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R6171:6171 Coq.Init.Datatypes <> S constr
+R6210:6228 Coq.Arith.PeanoNat Nat mod_upper_bound def
+R6141:6143 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6175:6177 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R6171:6171 Coq.Init.Datatypes <> S constr
+R6210:6228 Coq.Arith.PeanoNat Nat mod_upper_bound def
+prf 6292:6335 <> polybius_diagonal_race_forces_phase_schedule
+R6350:6352 Coq.Init.Datatypes <> nat ind
+binder 6346:6346 <> n:36
+R6378:6380 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6357:6375 DiagonalGaugeCloses <> diagonal_race_phase def
+R6377:6377 DiagonalGaugeCloses <> n:36 var
+R6381:6397 DiagonalGaugeCloses <> polybius_phase_at def
+R6399:6399 DiagonalGaugeCloses <> n:36 var
+R6429:6447 DiagonalGaugeCloses <> diagonal_race_phase def
+R6462:6478 DiagonalGaugeCloses <> polybius_phase_at def
+R6462:6478 DiagonalGaugeCloses <> polybius_phase_at def
+rec 6522:6540 <> DiagonalAccumulator
+proj 6578:6594 <> accumulator_phase
+R6598:6608 DiagonalGaugeCloses <> ChiralPhase ind
+def 6625:6646 <> diagonal_closure_ready
+R6653:6667 DiagonalGaugeCloses <> DiagonalClosure rec
+binder 6649:6649 <> c:39
+R6672:6675 Coq.Init.Datatypes <> bool ind
+R6682:6685 Coq.Init.Datatypes <> andb def
+R6714:6718 Coq.NArith.BinNat N eqb def
+R6721:6731 DiagonalGaugeCloses <> closure_sum proj
+R6733:6733 DiagonalGaugeCloses <> c:39 var
+R6688:6692 Coq.NArith.BinNat N eqb def
+R6695:6705 DiagonalGaugeCloses <> closure_xor proj
+R6707:6707 DiagonalGaugeCloses <> c:39 var
+def 6753:6777 <> diagonal_accumulator_step
+R6784:6802 DiagonalGaugeCloses <> DiagonalAccumulator rec
+binder 6780:6780 <> a:40
+R6807:6825 DiagonalGaugeCloses <> DiagonalAccumulator rec
+R6838:6854 DiagonalGaugeCloses <> accumulator_phase proj
+R6856:6856 DiagonalGaugeCloses <> a:40 var
+R6867:6876 DiagonalGaugeCloses <> DPlusPhase constr
+R6890:6911 DiagonalGaugeCloses <> diagonal_closure_ready def
+R6913:6925 DiagonalGaugeCloses <> dplus_closure def
+R6983:7003 DiagonalGaugeCloses <> mkDiagonalAccumulator constr
+R7005:7019 DiagonalGaugeCloses <> IncompletePhase constr
+R6938:6958 DiagonalGaugeCloses <> mkDiagonalAccumulator constr
+R6960:6970 DiagonalGaugeCloses <> DMinusPhase constr
+R7025:7035 DiagonalGaugeCloses <> DMinusPhase constr
+R7049:7070 DiagonalGaugeCloses <> diagonal_closure_ready def
+R7072:7085 DiagonalGaugeCloses <> dminus_closure def
+R7142:7162 DiagonalGaugeCloses <> mkDiagonalAccumulator constr
+R7164:7178 DiagonalGaugeCloses <> IncompletePhase constr
+R7098:7118 DiagonalGaugeCloses <> mkDiagonalAccumulator constr
+R7120:7129 DiagonalGaugeCloses <> DPlusPhase constr
+R7184:7196 DiagonalGaugeCloses <> BalancedPhase constr
+R7201:7221 DiagonalGaugeCloses <> mkDiagonalAccumulator constr
+R7223:7235 DiagonalGaugeCloses <> BalancedPhase constr
+R7241:7255 DiagonalGaugeCloses <> IncompletePhase constr
+R7260:7280 DiagonalGaugeCloses <> mkDiagonalAccumulator constr
+R7282:7296 DiagonalGaugeCloses <> IncompletePhase constr
+def 7317:7339 <> diagonal_accumulator_at
+R7346:7348 Coq.Init.Datatypes <> nat ind
+binder 7342:7342 <> n:41
+R7353:7371 DiagonalGaugeCloses <> DiagonalAccumulator rec
+R7378:7385 Coq.Arith.PeanoNat Nat iter def
+R7416:7436 DiagonalGaugeCloses <> mkDiagonalAccumulator constr
+R7438:7447 DiagonalGaugeCloses <> DPlusPhase constr
+R7389:7413 DiagonalGaugeCloses <> diagonal_accumulator_step def
+R7387:7387 DiagonalGaugeCloses <> n:41 var
+def 7463:7488 <> diagonal_accumulator_phase
+R7495:7497 Coq.Init.Datatypes <> nat ind
+binder 7491:7491 <> n:42
+R7502:7512 DiagonalGaugeCloses <> ChiralPhase ind
+R7519:7535 DiagonalGaugeCloses <> accumulator_phase proj
+R7538:7560 DiagonalGaugeCloses <> diagonal_accumulator_at def
+R7562:7562 DiagonalGaugeCloses <> n:42 var
+prf 7573:7592 <> nat_induction_by_two
+R7612:7615 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7609:7611 Coq.Init.Datatypes <> nat ind
+binder 7605:7605 <> P:43
+R7633:7640 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7626:7626 DiagonalGaugeCloses <> P:43 var
+R7648:7655 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7641:7641 DiagonalGaugeCloses <> P:43 var
+R7656:7656 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7691:7699 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7668:7670 Coq.Init.Datatypes <> nat ind
+binder 7664:7664 <> n:44
+R7676:7679 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7673:7673 DiagonalGaugeCloses <> P:43 var
+R7675:7675 DiagonalGaugeCloses <> n:44 var
+R7680:7680 DiagonalGaugeCloses <> P:43 var
+R7683:7683 Coq.Init.Datatypes <> S constr
+R7686:7686 Coq.Init.Datatypes <> S constr
+R7688:7688 DiagonalGaugeCloses <> n:44 var
+R7711:7713 Coq.Init.Datatypes <> nat ind
+binder 7707:7707 <> n:45
+R7716:7716 DiagonalGaugeCloses <> P:43 var
+R7718:7718 DiagonalGaugeCloses <> n:45 var
+R7767:7770 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7774:7774 Coq.Init.Datatypes <> S constr
+R7767:7770 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7774:7774 Coq.Init.Datatypes <> S constr
+prf 7931:7972 <> diagonal_accumulator_forces_phase_schedule
+R7987:7989 Coq.Init.Datatypes <> nat ind
+binder 7983:7983 <> n:46
+R8022:8024 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7994:8019 DiagonalGaugeCloses <> diagonal_accumulator_phase def
+R8021:8021 DiagonalGaugeCloses <> n:46 var
+R8025:8041 DiagonalGaugeCloses <> polybius_phase_at def
+R8043:8043 DiagonalGaugeCloses <> n:46 var
+R8084:8103 DiagonalGaugeCloses <> nat_induction_by_two thm
+R8084:8103 DiagonalGaugeCloses <> nat_induction_by_two thm
+R8175:8200 DiagonalGaugeCloses <> diagonal_accumulator_phase def
+R8203:8225 DiagonalGaugeCloses <> diagonal_accumulator_at def
+R8245:8252 Coq.Arith.PeanoNat Nat iter def
+R8291:8311 DiagonalGaugeCloses <> mkDiagonalAccumulator constr
+R8313:8322 DiagonalGaugeCloses <> DPlusPhase constr
+R8264:8288 DiagonalGaugeCloses <> diagonal_accumulator_step def
+R8255:8255 Coq.Init.Datatypes <> S constr
+R8258:8258 Coq.Init.Datatypes <> S constr
+R8338:8362 DiagonalGaugeCloses <> diagonal_accumulator_step def
+R8379:8403 DiagonalGaugeCloses <> diagonal_accumulator_step def
+R8422:8429 Coq.Arith.PeanoNat Nat iter def
+R8460:8480 DiagonalGaugeCloses <> mkDiagonalAccumulator constr
+R8482:8491 DiagonalGaugeCloses <> DPlusPhase constr
+R8433:8457 DiagonalGaugeCloses <> diagonal_accumulator_step def
+R8245:8252 Coq.Arith.PeanoNat Nat iter def
+R8291:8311 DiagonalGaugeCloses <> mkDiagonalAccumulator constr
+R8313:8322 DiagonalGaugeCloses <> DPlusPhase constr
+R8264:8288 DiagonalGaugeCloses <> diagonal_accumulator_step def
+R8255:8255 Coq.Init.Datatypes <> S constr
+R8258:8258 Coq.Init.Datatypes <> S constr
+R8338:8362 DiagonalGaugeCloses <> diagonal_accumulator_step def
+R8379:8403 DiagonalGaugeCloses <> diagonal_accumulator_step def
+R8422:8429 Coq.Arith.PeanoNat Nat iter def
+R8460:8480 DiagonalGaugeCloses <> mkDiagonalAccumulator constr
+R8482:8491 DiagonalGaugeCloses <> DPlusPhase constr
+R8433:8457 DiagonalGaugeCloses <> diagonal_accumulator_step def
+R8512:8519 Coq.Arith.PeanoNat Nat iter def
+R8550:8570 DiagonalGaugeCloses <> mkDiagonalAccumulator constr
+R8572:8581 DiagonalGaugeCloses <> DPlusPhase constr
+R8523:8547 DiagonalGaugeCloses <> diagonal_accumulator_step def
+R8512:8519 Coq.Arith.PeanoNat Nat iter def
+R8550:8570 DiagonalGaugeCloses <> mkDiagonalAccumulator constr
+R8572:8581 DiagonalGaugeCloses <> DPlusPhase constr
+R8523:8547 DiagonalGaugeCloses <> diagonal_accumulator_step def
+R8640:8667 DiagonalGaugeCloses <> diagonal_phase_schedule_even thm
+R8640:8667 DiagonalGaugeCloses <> diagonal_phase_schedule_even thm
+R8640:8667 DiagonalGaugeCloses <> diagonal_phase_schedule_even thm
+R8682:8709 DiagonalGaugeCloses <> diagonal_phase_schedule_even thm
+R8682:8709 DiagonalGaugeCloses <> diagonal_phase_schedule_even thm
+R8682:8709 DiagonalGaugeCloses <> diagonal_phase_schedule_even thm
+R8724:8741 Coq.Arith.PeanoNat Nat even_succ_succ thm
+R8724:8741 Coq.Arith.PeanoNat Nat even_succ_succ thm
+R8724:8741 Coq.Arith.PeanoNat Nat even_succ_succ thm
+R8758:8765 Coq.Arith.PeanoNat Nat even def
+R8758:8765 Coq.Arith.PeanoNat Nat even def
+prf 8810:8848 <> diagonal_accumulator_phase_matches_race
+R8863:8865 Coq.Init.Datatypes <> nat ind
+binder 8859:8859 <> n:47
+R8898:8900 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8870:8895 DiagonalGaugeCloses <> diagonal_accumulator_phase def
+R8897:8897 DiagonalGaugeCloses <> n:47 var
+R8901:8919 DiagonalGaugeCloses <> diagonal_race_phase def
+R8921:8921 DiagonalGaugeCloses <> n:47 var
+R8952:8993 DiagonalGaugeCloses <> diagonal_accumulator_forces_phase_schedule thm
+R8952:8993 DiagonalGaugeCloses <> diagonal_accumulator_forces_phase_schedule thm
+R8952:8993 DiagonalGaugeCloses <> diagonal_accumulator_forces_phase_schedule thm
+R9006:9049 DiagonalGaugeCloses <> polybius_diagonal_race_forces_phase_schedule thm
+R9006:9049 DiagonalGaugeCloses <> polybius_diagonal_race_forces_phase_schedule thm
+R9006:9049 DiagonalGaugeCloses <> polybius_diagonal_race_forces_phase_schedule thm
+prf 9081:9096 <> dplus_phase_sign
+R9124:9126 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9100:9112 DiagonalGaugeCloses <> phase_to_sign def
+R9114:9123 DiagonalGaugeCloses <> DPlusPhase constr
+prf 9164:9180 <> dminus_phase_sign
+R9209:9211 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9184:9196 DiagonalGaugeCloses <> phase_to_sign def
+R9198:9208 DiagonalGaugeCloses <> DMinusPhase constr

@@ -1,0 +1,189 @@
+DIGEST NO
+FAtomicKernelDefinesReplay
+R15:31 Coq.NArith.NArith <> <> lib
+R49:62 Coq.Lists.List <> <> lib
+R72:84 Coq.Lists.List ListNotations <> mod
+def 267:270 <> mask
+R279:279 Coq.Numbers.BinNums <> N ind
+binder 273:273 <> n:1
+binder 275:275 <> x:2
+R284:284 Coq.Numbers.BinNums <> N ind
+R289:294 Coq.NArith.BinNat N land def
+R296:296 AtomicKernelDefinesReplay <> x:2 var
+R299:304 Coq.NArith.BinNat N pred def
+R307:311 Coq.NArith.BinNat N pow def
+R315:315 AtomicKernelDefinesReplay <> n:1 var
+def 332:335 <> rotl
+R346:346 Coq.Numbers.BinNums <> N ind
+binder 338:338 <> n:3
+binder 340:340 <> x:4
+binder 342:342 <> k:5
+R351:351 Coq.Numbers.BinNums <> N ind
+R368:375 Coq.NArith.BinNat N modulo def
+R377:377 AtomicKernelDefinesReplay <> k:5 var
+R379:379 AtomicKernelDefinesReplay <> n:3 var
+binder 362:363 <> k':6
+R386:389 AtomicKernelDefinesReplay <> mask def
+R391:391 AtomicKernelDefinesReplay <> n:3 var
+R394:398 Coq.NArith.BinNat N lor def
+R401:408 Coq.NArith.BinNat N shiftl def
+R410:410 AtomicKernelDefinesReplay <> x:4 var
+R412:413 AtomicKernelDefinesReplay <> k':6 var
+R417:424 Coq.NArith.BinNat N shiftr def
+R426:426 AtomicKernelDefinesReplay <> x:4 var
+R430:432 Coq.NArith.BinNat <> ::N_scope:x_'-'_x not
+R429:429 AtomicKernelDefinesReplay <> n:3 var
+R433:434 AtomicKernelDefinesReplay <> k':6 var
+def 452:455 <> rotr
+R466:466 Coq.Numbers.BinNums <> N ind
+binder 458:458 <> n:7
+binder 460:460 <> x:8
+binder 462:462 <> k:9
+R471:471 Coq.Numbers.BinNums <> N ind
+R488:495 Coq.NArith.BinNat N modulo def
+R497:497 AtomicKernelDefinesReplay <> k:9 var
+R499:499 AtomicKernelDefinesReplay <> n:7 var
+binder 482:483 <> k':10
+R506:509 AtomicKernelDefinesReplay <> mask def
+R511:511 AtomicKernelDefinesReplay <> n:7 var
+R514:518 Coq.NArith.BinNat N lor def
+R521:528 Coq.NArith.BinNat N shiftr def
+R530:530 AtomicKernelDefinesReplay <> x:8 var
+R532:533 AtomicKernelDefinesReplay <> k':10 var
+R537:544 Coq.NArith.BinNat N shiftl def
+R546:546 AtomicKernelDefinesReplay <> x:8 var
+R550:552 Coq.NArith.BinNat <> ::N_scope:x_'-'_x not
+R549:549 AtomicKernelDefinesReplay <> n:7 var
+R553:554 AtomicKernelDefinesReplay <> k':10 var
+def 570:587 <> repeat_byte_1d_nat
+R594:596 Coq.Init.Datatypes <> nat ind
+binder 590:590 <> m:11
+R601:601 Coq.Numbers.BinNums <> N ind
+R614:614 AtomicKernelDefinesReplay <> m:11 var
+R625:625 Coq.Init.Datatypes <> O constr
+R636:636 Coq.Init.Datatypes <> S constr
+R644:648 Coq.NArith.BinNat N lor def
+R651:658 Coq.NArith.BinNat N shiftl def
+R661:678 AtomicKernelDefinesReplay <> repeat_byte_1d_nat:12 def
+def 709:725 <> constant_of_width
+R732:732 Coq.Numbers.BinNums <> N ind
+binder 728:728 <> n:14
+R737:737 Coq.Numbers.BinNums <> N ind
+R744:761 AtomicKernelDefinesReplay <> repeat_byte_1d_nat def
+R764:771 Coq.NArith.BinNat N to_nat def
+R774:778 Coq.NArith.BinNat N div def
+R780:780 AtomicKernelDefinesReplay <> n:14 var
+def 799:803 <> delta
+R812:812 Coq.Numbers.BinNums <> N ind
+binder 806:806 <> n:15
+binder 808:808 <> x:16
+R817:817 Coq.Numbers.BinNums <> N ind
+R824:827 AtomicKernelDefinesReplay <> mask def
+R829:829 AtomicKernelDefinesReplay <> n:15 var
+R836:841 Coq.NArith.BinNat N lxor def
+R850:855 Coq.NArith.BinNat N lxor def
+R858:863 Coq.NArith.BinNat N lxor def
+R866:869 AtomicKernelDefinesReplay <> rotl def
+R871:871 AtomicKernelDefinesReplay <> n:15 var
+R873:873 AtomicKernelDefinesReplay <> x:16 var
+R879:882 AtomicKernelDefinesReplay <> rotl def
+R884:884 AtomicKernelDefinesReplay <> n:15 var
+R886:886 AtomicKernelDefinesReplay <> x:16 var
+R893:896 AtomicKernelDefinesReplay <> rotr def
+R898:898 AtomicKernelDefinesReplay <> n:15 var
+R900:900 AtomicKernelDefinesReplay <> x:16 var
+R913:929 AtomicKernelDefinesReplay <> constant_of_width def
+R931:931 AtomicKernelDefinesReplay <> n:15 var
+def 946:956 <> replay_loop
+R967:969 Coq.Init.Datatypes <> nat ind
+binder 959:963 <> steps:17
+R977:977 Coq.Numbers.BinNums <> N ind
+binder 973:973 <> n:18
+R985:985 Coq.Numbers.BinNums <> N ind
+binder 981:981 <> x:19
+R990:993 Coq.Init.Datatypes <> list ind
+R995:995 Coq.Numbers.BinNums <> N ind
+R1008:1012 AtomicKernelDefinesReplay <> steps:17 var
+R1023:1023 Coq.Init.Datatypes <> O constr
+R1028:1029 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R1035:1035 Coq.Init.Datatypes <> S constr
+R1043:1046 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1042:1042 AtomicKernelDefinesReplay <> x:19 var
+R1047:1057 AtomicKernelDefinesReplay <> replay_loop:20 def
+R1064:1068 AtomicKernelDefinesReplay <> delta def
+R1070:1070 AtomicKernelDefinesReplay <> n:18 var
+R1072:1072 AtomicKernelDefinesReplay <> x:19 var
+R1061:1061 AtomicKernelDefinesReplay <> n:18 var
+def 1094:1099 <> replay
+R1106:1106 Coq.Numbers.BinNums <> N ind
+binder 1102:1102 <> n:22
+R1117:1117 Coq.Numbers.BinNums <> N ind
+binder 1110:1113 <> seed:23
+R1129:1131 Coq.Init.Datatypes <> nat ind
+binder 1121:1125 <> steps:24
+R1136:1139 Coq.Init.Datatypes <> list ind
+R1141:1141 Coq.Numbers.BinNums <> N ind
+R1148:1158 AtomicKernelDefinesReplay <> replay_loop def
+R1160:1164 AtomicKernelDefinesReplay <> steps:24 var
+R1166:1166 AtomicKernelDefinesReplay <> n:22 var
+R1169:1172 AtomicKernelDefinesReplay <> mask def
+R1174:1174 AtomicKernelDefinesReplay <> n:22 var
+R1176:1179 AtomicKernelDefinesReplay <> seed:23 var
+prf 1192:1216 <> vnext_delta_deterministic
+binder 1229:1229 <> n:25
+binder 1231:1231 <> x:26
+binder 1233:1233 <> y:27
+R1241:1244 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1237:1239 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1236:1236 AtomicKernelDefinesReplay <> x:26 var
+R1240:1240 AtomicKernelDefinesReplay <> y:27 var
+R1254:1256 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1245:1249 AtomicKernelDefinesReplay <> delta def
+R1251:1251 AtomicKernelDefinesReplay <> n:25 var
+R1253:1253 AtomicKernelDefinesReplay <> x:26 var
+R1257:1261 AtomicKernelDefinesReplay <> delta def
+R1263:1263 AtomicKernelDefinesReplay <> n:25 var
+R1265:1265 AtomicKernelDefinesReplay <> y:27 var
+prf 1326:1351 <> vnext_replay_deterministic
+binder 1364:1364 <> n:28
+binder 1366:1370 <> steps:29
+binder 1372:1376 <> seed1:30
+binder 1378:1382 <> seed2:31
+R1402:1405 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1394:1396 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1389:1393 AtomicKernelDefinesReplay <> seed1:30 var
+R1397:1401 AtomicKernelDefinesReplay <> seed2:31 var
+R1426:1428 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1406:1411 AtomicKernelDefinesReplay <> replay def
+R1413:1413 AtomicKernelDefinesReplay <> n:28 var
+R1415:1419 AtomicKernelDefinesReplay <> seed1:30 var
+R1421:1425 AtomicKernelDefinesReplay <> steps:29 var
+R1429:1434 AtomicKernelDefinesReplay <> replay def
+R1436:1436 AtomicKernelDefinesReplay <> n:28 var
+R1438:1442 AtomicKernelDefinesReplay <> seed2:31 var
+R1444:1448 AtomicKernelDefinesReplay <> steps:29 var
+prf 1529:1549 <> vnext_replay_loop_len
+binder 1562:1562 <> n:32
+binder 1564:1568 <> steps:33
+binder 1570:1570 <> x:34
+R1607:1609 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1577:1582 Coq.Init.Datatypes <> length def
+R1585:1595 AtomicKernelDefinesReplay <> replay_loop def
+R1597:1601 AtomicKernelDefinesReplay <> steps:33 var
+R1603:1603 AtomicKernelDefinesReplay <> n:32 var
+R1605:1605 AtomicKernelDefinesReplay <> x:34 var
+R1610:1614 AtomicKernelDefinesReplay <> steps:33 var
+prf 1764:1779 <> vnext_replay_len
+binder 1792:1792 <> n:35
+binder 1794:1798 <> steps:36
+binder 1800:1803 <> seed:37
+R1838:1840 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1810:1815 Coq.Init.Datatypes <> length def
+R1818:1823 AtomicKernelDefinesReplay <> replay def
+R1825:1825 AtomicKernelDefinesReplay <> n:35 var
+R1827:1830 AtomicKernelDefinesReplay <> seed:37 var
+R1832:1836 AtomicKernelDefinesReplay <> steps:36 var
+R1841:1845 AtomicKernelDefinesReplay <> steps:36 var
+R1887:1892 AtomicKernelDefinesReplay <> replay def
+R1903:1923 AtomicKernelDefinesReplay <> vnext_replay_loop_len thm
+R1903:1923 AtomicKernelDefinesReplay <> vnext_replay_loop_len thm

@@ -1,0 +1,271 @@
+DIGEST NO
+FNullRingCloses
+R199:204 Coq.NArith.NArith <> <> lib
+R206:209 Coq.Lists.List <> <> lib
+R211:214 Coq.Bool.Bool <> <> lib
+R216:218 Coq.micromega.Lia <> <> lib
+R228:240 Coq.Lists.List ListNotations <> mod
+def 276:285 <> xor_reduce
+R293:296 Coq.Init.Datatypes <> list ind
+R298:298 Coq.Numbers.BinNums <> N ind
+binder 288:289 <> xs:1
+R303:303 Coq.Numbers.BinNums <> N ind
+R310:319 Coq.Lists.List <> fold_right def
+R330:331 NullRingCloses <> xs:1 var
+R321:326 Coq.NArith.BinNat N lxor def
+def 346:357 <> edge_witness
+R368:370 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R367:367 Coq.Numbers.BinNums <> N ind
+R371:371 Coq.Numbers.BinNums <> N ind
+binder 360:363 <> edge:2
+R376:376 Coq.Numbers.BinNums <> N ind
+R383:388 Coq.NArith.BinNat N lxor def
+R391:393 Coq.Init.Datatypes <> fst def
+R395:398 NullRingCloses <> edge:2 var
+R402:404 Coq.Init.Datatypes <> snd def
+R406:409 NullRingCloses <> edge:2 var
+def 425:438 <> edge_witnesses
+R449:452 Coq.Init.Datatypes <> list ind
+R456:458 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R455:455 Coq.Numbers.BinNums <> N ind
+R459:459 Coq.Numbers.BinNums <> N ind
+binder 441:445 <> edges:3
+R465:468 Coq.Init.Datatypes <> list ind
+R470:470 Coq.Numbers.BinNums <> N ind
+R477:479 Coq.Lists.List <> map def
+R494:498 NullRingCloses <> edges:3 var
+R481:492 NullRingCloses <> edge_witness def
+def 513:527 <> byte_ring_edges
+R531:534 Coq.Init.Datatypes <> list ind
+R538:540 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R537:537 Coq.Numbers.BinNums <> N ind
+R541:541 Coq.Numbers.BinNums <> N ind
+R549:549 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R557:558 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R568:569 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R580:581 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R590:590 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R550:550 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R552:553 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R556:556 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R559:559 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R562:563 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R567:567 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R570:570 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R574:575 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R579:579 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R582:582 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R586:587 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R589:589 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+def 605:623 <> byte_ring_witnesses
+R627:630 Coq.Init.Datatypes <> list ind
+R632:632 Coq.Numbers.BinNums <> N ind
+R639:652 NullRingCloses <> edge_witnesses def
+R654:668 NullRingCloses <> byte_ring_edges def
+prf 680:695 <> xor_self_cancels
+binder 708:708 <> x:4
+R721:723 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R711:716 Coq.NArith.BinNat N lxor def
+R718:718 NullRingCloses <> x:4 var
+R720:720 NullRingCloses <> x:4 var
+R740:755 Coq.NArith.BinNat N lxor_nilpotent thm
+R740:755 Coq.NArith.BinNat N lxor_nilpotent thm
+prf 772:795 <> byte_ring_witness_values
+R820:822 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R801:819 NullRingCloses <> byte_ring_witnesses def
+R823:823 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R826:827 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R830:831 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R835:836 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R840:840 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+prf 889:912 <> byte_ring_closes_to_null
+R948:950 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R918:927 NullRingCloses <> xor_reduce def
+R929:947 NullRingCloses <> byte_ring_witnesses def
+prf 998:1011 <> xor_reduce_app
+binder 1024:1025 <> xs:5
+binder 1027:1028 <> ys:6
+R1056:1058 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1035:1044 NullRingCloses <> xor_reduce def
+R1049:1052 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R1047:1048 NullRingCloses <> xs:5 var
+R1053:1054 NullRingCloses <> ys:6 var
+R1059:1064 Coq.NArith.BinNat N lxor def
+R1067:1076 NullRingCloses <> xor_reduce def
+R1078:1079 NullRingCloses <> xs:5 var
+R1083:1092 NullRingCloses <> xor_reduce def
+R1094:1095 NullRingCloses <> ys:6 var
+R1194:1205 Coq.NArith.BinNat N lxor_assoc thm
+R1194:1205 Coq.NArith.BinNat N lxor_assoc thm
+R1194:1205 Coq.NArith.BinNat N lxor_assoc thm
+prf 1235:1260 <> duplicated_boundary_closes
+binder 1273:1274 <> xs:7
+R1298:1300 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1277:1286 NullRingCloses <> xor_reduce def
+R1291:1294 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R1289:1290 NullRingCloses <> xs:7 var
+R1295:1296 NullRingCloses <> xs:7 var
+R1333:1346 NullRingCloses <> xor_reduce_app thm
+R1333:1346 NullRingCloses <> xor_reduce_app thm
+R1333:1346 NullRingCloses <> xor_reduce_app thm
+R1357:1372 Coq.NArith.BinNat N lxor_nilpotent thm
+R1357:1372 Coq.NArith.BinNat N lxor_nilpotent thm
+def 1390:1403 <> adjacent_edges
+R1423:1423 Coq.Numbers.BinNums <> N ind
+binder 1406:1410 <> start:8
+binder 1412:1419 <> previous:9
+R1434:1437 Coq.Init.Datatypes <> list ind
+R1439:1439 Coq.Numbers.BinNums <> N ind
+binder 1427:1430 <> rest:10
+R1446:1449 Coq.Init.Datatypes <> list ind
+R1453:1455 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1452:1452 Coq.Numbers.BinNums <> N ind
+R1456:1456 Coq.Numbers.BinNums <> N ind
+R1470:1473 NullRingCloses <> rest:10 var
+R1484:1485 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R1490:1490 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1508:1508 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1491:1491 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1500:1501 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1507:1507 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1492:1499 NullRingCloses <> previous:9 var
+R1502:1506 NullRingCloses <> start:8 var
+R1515:1518 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1538:1541 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1525:1525 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1534:1535 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1537:1537 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1526:1533 NullRingCloses <> previous:9 var
+R1542:1555 NullRingCloses <> adjacent_edges:11 def
+R1557:1561 NullRingCloses <> start:8 var
+def 1587:1603 <> closed_path_edges
+R1617:1620 Coq.Init.Datatypes <> list ind
+R1622:1622 Coq.Numbers.BinNums <> N ind
+binder 1606:1613 <> vertices:13
+R1627:1630 Coq.Init.Datatypes <> list ind
+R1634:1636 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1633:1633 Coq.Numbers.BinNums <> N ind
+R1637:1637 Coq.Numbers.BinNums <> N ind
+R1651:1658 NullRingCloses <> vertices:13 var
+R1669:1670 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R1675:1676 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R1683:1686 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1693:1706 NullRingCloses <> adjacent_edges def
+prf 1729:1761 <> adjacent_edge_witnesses_telescope
+binder 1774:1778 <> start:15
+binder 1780:1787 <> previous:16
+binder 1789:1792 <> rest:17
+R1863:1869 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1799:1808 NullRingCloses <> xor_reduce def
+R1811:1824 NullRingCloses <> edge_witnesses def
+R1827:1840 NullRingCloses <> adjacent_edges def
+R1842:1846 NullRingCloses <> start:15 var
+R1848:1855 NullRingCloses <> previous:16 var
+R1857:1860 NullRingCloses <> rest:17 var
+R1870:1875 Coq.NArith.BinNat N lxor def
+R1877:1884 NullRingCloses <> previous:16 var
+R1886:1890 NullRingCloses <> start:15 var
+R2016:2025 Coq.NArith.BinNat N lxor_0_r thm
+R2016:2025 Coq.NArith.BinNat N lxor_0_r thm
+R2016:2025 Coq.NArith.BinNat N lxor_0_r thm
+R2075:2086 NullRingCloses <> edge_witness def
+R2108:2119 Coq.NArith.BinNat N lxor_assoc thm
+R2108:2119 Coq.NArith.BinNat N lxor_assoc thm
+R2108:2119 Coq.NArith.BinNat N lxor_assoc thm
+R2138:2149 Coq.NArith.BinNat N lxor_assoc thm
+R2138:2149 Coq.NArith.BinNat N lxor_assoc thm
+R2138:2149 Coq.NArith.BinNat N lxor_assoc thm
+R2175:2190 Coq.NArith.BinNat N lxor_nilpotent thm
+R2175:2190 Coq.NArith.BinNat N lxor_nilpotent thm
+R2175:2190 Coq.NArith.BinNat N lxor_nilpotent thm
+R2205:2214 Coq.NArith.BinNat N lxor_0_l thm
+R2205:2214 Coq.NArith.BinNat N lxor_0_l thm
+R2205:2214 Coq.NArith.BinNat N lxor_0_l thm
+prf 2248:2271 <> every_closed_path_closes
+binder 2284:2291 <> vertices:18
+R2354:2356 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2298:2307 NullRingCloses <> xor_reduce def
+R2310:2323 NullRingCloses <> edge_witnesses def
+R2326:2342 NullRingCloses <> closed_path_edges def
+R2344:2351 NullRingCloses <> vertices:18 var
+R2419:2435 NullRingCloses <> closed_path_edges def
+R2450:2482 NullRingCloses <> adjacent_edge_witnesses_telescope thm
+R2450:2482 NullRingCloses <> adjacent_edge_witnesses_telescope thm
+R2450:2482 NullRingCloses <> adjacent_edge_witnesses_telescope thm
+R2495:2510 Coq.NArith.BinNat N lxor_nilpotent thm
+R2495:2510 Coq.NArith.BinNat N lxor_nilpotent thm
+prf 2527:2564 <> concrete_closed_path_matches_byte_ring
+R2605:2607 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2570:2586 NullRingCloses <> closed_path_edges def
+R2588:2588 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2590:2591 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2594:2595 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2599:2600 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2604:2604 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2608:2622 NullRingCloses <> byte_ring_edges def
+prf 2659:2685 <> concrete_closed_path_closes
+R2756:2758 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2691:2700 NullRingCloses <> xor_reduce def
+R2703:2716 NullRingCloses <> edge_witnesses def
+R2719:2735 NullRingCloses <> closed_path_edges def
+R2737:2737 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2739:2740 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2743:2744 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2748:2749 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2753:2753 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+def 2811:2820 <> address256
+R2827:2827 Coq.Numbers.BinNums <> N ind
+binder 2823:2823 <> x:19
+R2841:2843 Coq.NArith.BinNat <> ::N_scope:x_'<'_x not
+R2840:2840 NullRingCloses <> x:19 var
+R2844:2848 Coq.NArith.BinNat N pow def
+prf 2866:2888 <> address256_self_cancels
+binder 2901:2907 <> address:20
+R2932:2939 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2914:2923 NullRingCloses <> address256 def
+R2925:2931 NullRingCloses <> address:20 var
+R2962:2964 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2940:2945 Coq.NArith.BinNat N lxor def
+R2947:2953 NullRingCloses <> address:20 var
+R2955:2961 NullRingCloses <> address:20 var
+R3003:3018 Coq.NArith.BinNat N lxor_nilpotent thm
+R3003:3018 Coq.NArith.BinNat N lxor_nilpotent thm
+ind 3037:3052 <> NullPresentation
+constr 3066:3075 <> FoldedNull
+constr 3079:3094 <> UnfoldedByteRing
+constr 3098:3113 <> FullNotationNull
+scheme 3037:3052 <> NullPresentation_rect
+scheme 3037:3052 <> NullPresentation_ind
+scheme 3037:3052 <> NullPresentation_rec
+scheme 3037:3052 <> NullPresentation_sind
+def 3128:3145 <> null_closure_value
+R3163:3178 NullRingCloses <> NullPresentation ind
+binder 3148:3159 <> presentation:23
+R3183:3183 Coq.Numbers.BinNums <> N ind
+R3196:3207 NullRingCloses <> presentation:23 var
+R3218:3227 NullRingCloses <> FoldedNull constr
+R3232:3237 Coq.NArith.BinNat N lxor def
+R3247:3262 NullRingCloses <> UnfoldedByteRing constr
+R3267:3276 NullRingCloses <> xor_reduce def
+R3278:3296 NullRingCloses <> byte_ring_witnesses def
+R3302:3317 NullRingCloses <> FullNotationNull constr
+R3322:3327 Coq.NArith.BinNat N lxor def
+R3330:3334 Coq.NArith.BinNat N pow def
+R3344:3348 Coq.NArith.BinNat N pow def
+prf 3373:3408 <> all_null_presentations_share_closure
+binder 3421:3432 <> presentation:25
+R3466:3468 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3435:3452 NullRingCloses <> null_closure_value def
+R3454:3465 NullRingCloses <> presentation:25 var
+prf 3541:3579 <> folded_unfolded_full_closure_equivalent
+R3654:3659 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3614:3618 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3585:3602 NullRingCloses <> null_closure_value def
+R3604:3613 NullRingCloses <> FoldedNull constr
+R3619:3636 NullRingCloses <> null_closure_value def
+R3638:3653 NullRingCloses <> UnfoldedByteRing constr
+R3695:3699 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3660:3677 NullRingCloses <> null_closure_value def
+R3679:3694 NullRingCloses <> UnfoldedByteRing constr
+R3700:3717 NullRingCloses <> null_closure_value def
+R3719:3734 NullRingCloses <> FullNotationNull constr

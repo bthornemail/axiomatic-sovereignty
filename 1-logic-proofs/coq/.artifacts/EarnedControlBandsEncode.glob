@@ -1,0 +1,202 @@
+DIGEST NO
+FEarnedControlBandsEncode
+R109:114 Coq.NArith.NArith <> <> lib
+R116:119 Coq.Lists.List <> <> lib
+R121:124 Coq.Bool.Bool <> <> lib
+R126:128 Coq.micromega.Lia <> <> lib
+R138:150 Coq.Lists.List ListNotations <> mod
+def 186:189 <> byte
+R196:196 Coq.Numbers.BinNums <> N ind
+binder 192:192 <> x:1
+R210:212 Coq.NArith.BinNat <> ::N_scope:x_'<'_x not
+R209:209 EarnedControlBandsEncode <> x:1 var
+def 230:245 <> source_zero_text
+R249:252 Coq.Init.Datatypes <> list ind
+R254:254 Coq.Numbers.BinNums <> N ind
+R259:259 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R262:263 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R267:268 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R271:272 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R275:275 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+def 289:299 <> machine_nul
+R303:303 Coq.Numbers.BinNums <> N ind
+prf 320:355 <> visible_zero_text_is_not_machine_nul
+R377:380 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R361:376 EarnedControlBandsEncode <> source_zero_text def
+R381:381 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R393:393 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R382:392 EarnedControlBandsEncode <> machine_nul def
+def 434:449 <> pre_language_end
+R453:453 Coq.Numbers.BinNums <> N ind
+def 473:489 <> readable_boundary
+R493:493 Coq.Numbers.BinNums <> N ind
+def 513:530 <> predicate_boundary
+R534:534 Coq.Numbers.BinNums <> N ind
+def 554:566 <> meta_boundary
+R570:570 Coq.Numbers.BinNums <> N ind
+def 590:609 <> declaration_boundary
+R613:613 Coq.Numbers.BinNums <> N ind
+def 635:657 <> cumulative_surface_size
+R676:676 Coq.Numbers.BinNums <> N ind
+binder 660:672 <> end_codepoint:2
+R681:681 Coq.Numbers.BinNums <> N ind
+R701:703 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R688:700 EarnedControlBandsEncode <> end_codepoint:2 var
+prf 716:735 <> earned_surface_sizes
+R787:792 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R782:784 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R741:763 EarnedControlBandsEncode <> cumulative_surface_size def
+R765:781 EarnedControlBandsEncode <> readable_boundary def
+R840:845 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R835:837 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R793:815 EarnedControlBandsEncode <> cumulative_surface_size def
+R817:834 EarnedControlBandsEncode <> predicate_boundary def
+R888:893 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R883:885 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R846:868 EarnedControlBandsEncode <> cumulative_surface_size def
+R870:882 EarnedControlBandsEncode <> meta_boundary def
+R938:940 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R894:916 EarnedControlBandsEncode <> cumulative_surface_size def
+R918:937 EarnedControlBandsEncode <> declaration_boundary def
+prf 993:1025 <> pre_language_precedes_readability
+R1051:1053 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1047:1049 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R1031:1046 EarnedControlBandsEncode <> pre_language_end def
+R1054:1070 EarnedControlBandsEncode <> readable_boundary def
+def 1110:1126 <> omnicron_envelope
+R1137:1137 Coq.Numbers.BinNums <> N ind
+binder 1129:1133 <> gauge:3
+R1142:1145 Coq.Init.Datatypes <> list ind
+R1147:1147 Coq.Numbers.BinNums <> N ind
+R1154:1154 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1160:1161 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1163:1164 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1167:1168 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1171:1172 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1175:1176 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1179:1180 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1183:1184 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1190:1190 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1155:1159 EarnedControlBandsEncode <> gauge:3 var
+R1185:1189 EarnedControlBandsEncode <> gauge:3 var
+def 1205:1231 <> canonical_omnicron_envelope
+R1235:1238 Coq.Init.Datatypes <> list ind
+R1240:1240 Coq.Numbers.BinNums <> N ind
+R1247:1263 EarnedControlBandsEncode <> omnicron_envelope def
+def 1282:1296 <> gauge_in_f_band
+R1307:1307 Coq.Numbers.BinNums <> N ind
+binder 1299:1303 <> gauge:4
+R1312:1315 Coq.Init.Datatypes <> bool ind
+R1322:1322 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R1336:1341 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R1355:1355 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R1326:1330 Coq.NArith.BinNat <> ::N_scope:x_'<=?'_x not
+R1331:1335 EarnedControlBandsEncode <> gauge:4 var
+R1347:1351 Coq.NArith.BinNat <> ::N_scope:x_'<=?'_x not
+R1342:1346 EarnedControlBandsEncode <> gauge:4 var
+def 1370:1392 <> valid_omnicron_envelope
+R1403:1406 Coq.Init.Datatypes <> list ind
+R1408:1408 Coq.Numbers.BinNums <> N ind
+binder 1395:1399 <> bytes:5
+R1413:1416 Coq.Init.Datatypes <> bool ind
+R1429:1433 EarnedControlBandsEncode <> bytes:5 var
+R1444:1444 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1447:1448 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1452:1453 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1456:1457 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1460:1461 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1464:1465 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1468:1469 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1472:1473 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1476:1476 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1625:1635 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R1644:1644 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R1605:1615 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R1624:1624 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R1585:1595 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R1604:1604 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R1565:1575 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R1584:1584 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R1545:1555 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R1564:1564 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R1525:1535 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R1544:1544 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R1505:1515 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R1524:1524 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R1487:1501 EarnedControlBandsEncode <> gauge_in_f_band def
+R1518:1521 Coq.NArith.BinNat <> ::N_scope:x_'=?'_x not
+R1539:1542 Coq.NArith.BinNat <> ::N_scope:x_'=?'_x not
+R1558:1561 Coq.NArith.BinNat <> ::N_scope:x_'=?'_x not
+R1578:1581 Coq.NArith.BinNat <> ::N_scope:x_'=?'_x not
+R1598:1601 Coq.NArith.BinNat <> ::N_scope:x_'=?'_x not
+R1618:1621 Coq.NArith.BinNat <> ::N_scope:x_'=?'_x not
+R1638:1641 Coq.NArith.BinNat <> ::N_scope:x_'=?'_x not
+R1655:1659 Coq.Init.Datatypes <> false constr
+prf 1677:1709 <> canonical_omnicron_envelope_bytes
+R1742:1744 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1715:1741 EarnedControlBandsEncode <> canonical_omnicron_envelope def
+R1745:1745 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1749:1750 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1752:1753 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1756:1757 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1760:1761 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1764:1765 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1768:1769 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1772:1773 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1777:1777 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+prf 1814:1846 <> canonical_omnicron_envelope_valid
+R1903:1905 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1852:1874 EarnedControlBandsEncode <> valid_omnicron_envelope def
+R1876:1902 EarnedControlBandsEncode <> canonical_omnicron_envelope def
+R1906:1909 Coq.Init.Datatypes <> true constr
+prf 1958:1994 <> parameterized_omnicron_envelope_valid
+binder 2007:2011 <> gauge:7
+R2046:2053 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2039:2041 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2018:2032 EarnedControlBandsEncode <> gauge_in_f_band def
+R2034:2038 EarnedControlBandsEncode <> gauge:7 var
+R2042:2045 Coq.Init.Datatypes <> true constr
+R2103:2105 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2054:2076 EarnedControlBandsEncode <> valid_omnicron_envelope def
+R2079:2095 EarnedControlBandsEncode <> omnicron_envelope def
+R2097:2101 EarnedControlBandsEncode <> gauge:7 var
+R2106:2109 Coq.Init.Datatypes <> true constr
+R2159:2168 Coq.NArith.BinNat N eqb_refl thm
+R2159:2168 Coq.NArith.BinNat N eqb_refl thm
+R2159:2168 Coq.NArith.BinNat N eqb_refl thm
+prf 2200:2235 <> malformed_omnicron_envelope_rejected
+R2298:2300 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2241:2263 EarnedControlBandsEncode <> valid_omnicron_envelope def
+R2265:2265 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2269:2270 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2272:2273 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2276:2277 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2280:2281 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2284:2285 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2288:2289 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2292:2293 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2297:2297 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2301:2305 Coq.Init.Datatypes <> false constr
+def 2357:2371 <> reflected_gauge
+R2386:2386 Coq.Numbers.BinNums <> N ind
+binder 2374:2382 <> codepoint:8
+R2391:2391 Coq.Numbers.BinNums <> N ind
+R2405:2409 Coq.NArith.BinNat <> ::N_scope:x_'mod'_x not
+R2396:2404 EarnedControlBandsEncode <> codepoint:8 var
+prf 2423:2447 <> reflected_gauge_is_nibble
+binder 2460:2468 <> codepoint:9
+R2496:2498 Coq.NArith.BinNat <> ::N_scope:x_'<'_x not
+R2471:2485 EarnedControlBandsEncode <> reflected_gauge def
+R2487:2495 EarnedControlBandsEncode <> codepoint:9 var
+R2538:2552 EarnedControlBandsEncode <> reflected_gauge def
+R2563:2570 Coq.NArith.BinNat N mod_lt thm
+R2563:2570 Coq.NArith.BinNat N mod_lt thm
+prf 2603:2632 <> earned_boundaries_reflect_zero
+R2660:2665 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2656:2658 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2638:2652 EarnedControlBandsEncode <> reflected_gauge def
+R2688:2693 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2684:2686 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2666:2680 EarnedControlBandsEncode <> reflected_gauge def
+R2712:2714 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2694:2708 EarnedControlBandsEncode <> reflected_gauge def

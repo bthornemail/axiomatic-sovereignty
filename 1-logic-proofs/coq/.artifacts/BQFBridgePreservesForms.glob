@@ -1,0 +1,281 @@
+DIGEST NO
+FBQFBridgePreservesForms
+R224:236 Coq.NArith.NArith <> <> lib
+R263:276 Coq.Arith.PeanoNat <> <> lib
+R303:315 Coq.micromega.Lia <> <> lib
+R354:372 DiagonalGaugeCloses <> <> lib
+R390:417 FiniteIncidenceBalancesFlags <> <> lib
+def 432:445 <> bqf_high_shell
+R452:452 Coq.Numbers.BinNums <> N ind
+binder 448:448 <> x:1
+R457:457 Coq.Numbers.BinNums <> N ind
+R468:470 Coq.NArith.BinNat <> ::N_scope:x_'*'_x not
+R464:466 Coq.NArith.BinNat <> ::N_scope:x_'*'_x not
+R467:467 BQFBridgePreservesForms <> x:1 var
+R471:471 BQFBridgePreservesForms <> x:1 var
+def 486:502 <> bqf_chiral_bridge
+R511:511 Coq.Numbers.BinNums <> N ind
+binder 505:505 <> x:2
+binder 507:507 <> y:3
+R516:516 Coq.Numbers.BinNums <> N ind
+R527:529 Coq.NArith.BinNat <> ::N_scope:x_'*'_x not
+R523:525 Coq.NArith.BinNat <> ::N_scope:x_'*'_x not
+R526:526 BQFBridgePreservesForms <> x:2 var
+R530:530 BQFBridgePreservesForms <> y:3 var
+def 545:558 <> bqf_local_seed
+R565:565 Coq.Numbers.BinNums <> N ind
+binder 561:561 <> y:4
+R570:570 Coq.Numbers.BinNums <> N ind
+R580:582 Coq.NArith.BinNat <> ::N_scope:x_'*'_x not
+R576:578 Coq.NArith.BinNat <> ::N_scope:x_'*'_x not
+R579:579 BQFBridgePreservesForms <> y:4 var
+R583:583 BQFBridgePreservesForms <> y:4 var
+def 598:600 <> bqf
+R609:609 Coq.Numbers.BinNums <> N ind
+binder 603:603 <> x:5
+binder 605:605 <> y:6
+R614:614 Coq.Numbers.BinNums <> N ind
+R661:663 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R637:639 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R621:634 BQFBridgePreservesForms <> bqf_high_shell def
+R636:636 BQFBridgePreservesForms <> x:5 var
+R640:656 BQFBridgePreservesForms <> bqf_chiral_bridge def
+R658:658 BQFBridgePreservesForms <> x:5 var
+R660:660 BQFBridgePreservesForms <> y:6 var
+R664:677 BQFBridgePreservesForms <> bqf_local_seed def
+R679:679 BQFBridgePreservesForms <> y:6 var
+prf 691:703 <> bqf_decompose
+R720:720 Coq.Numbers.BinNums <> N ind
+binder 714:714 <> x:7
+binder 716:716 <> y:8
+R732:734 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R725:727 BQFBridgePreservesForms <> bqf def
+R729:729 BQFBridgePreservesForms <> x:7 var
+R731:731 BQFBridgePreservesForms <> y:8 var
+R736:739 Coq.NArith.BinNat <> ::N_scope:x_'*'_x not
+R770:770 Coq.NArith.BinNat <> ::N_scope:x_'*'_x not
+R762:764 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R750:752 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R746:748 Coq.NArith.BinNat <> ::N_scope:x_'*'_x not
+R742:744 Coq.NArith.BinNat <> ::N_scope:x_'*'_x not
+R745:745 BQFBridgePreservesForms <> x:7 var
+R749:749 BQFBridgePreservesForms <> x:7 var
+R758:760 Coq.NArith.BinNat <> ::N_scope:x_'*'_x not
+R754:756 Coq.NArith.BinNat <> ::N_scope:x_'*'_x not
+R757:757 BQFBridgePreservesForms <> x:7 var
+R761:761 BQFBridgePreservesForms <> y:8 var
+R766:768 Coq.NArith.BinNat <> ::N_scope:x_'*'_x not
+R765:765 BQFBridgePreservesForms <> y:8 var
+R769:769 BQFBridgePreservesForms <> y:8 var
+R803:805 BQFBridgePreservesForms <> bqf def
+R808:821 BQFBridgePreservesForms <> bqf_high_shell def
+R824:840 BQFBridgePreservesForms <> bqf_chiral_bridge def
+R843:856 BQFBridgePreservesForms <> bqf_local_seed def
+prf 880:904 <> bqf_chiral_bridge_is_16xy
+R921:921 Coq.Numbers.BinNums <> N ind
+binder 915:915 <> x:9
+binder 917:917 <> y:10
+R947:949 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R926:942 BQFBridgePreservesForms <> bqf_chiral_bridge def
+R944:944 BQFBridgePreservesForms <> x:9 var
+R946:946 BQFBridgePreservesForms <> y:10 var
+R956:958 Coq.NArith.BinNat <> ::N_scope:x_'*'_x not
+R952:954 Coq.NArith.BinNat <> ::N_scope:x_'*'_x not
+R955:955 BQFBridgePreservesForms <> x:9 var
+R959:959 BQFBridgePreservesForms <> y:10 var
+prf 996:1008 <> bqf_layer_sum
+R1025:1025 Coq.Numbers.BinNums <> N ind
+binder 1019:1019 <> x:11
+binder 1021:1021 <> y:12
+R1037:1039 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1030:1032 BQFBridgePreservesForms <> bqf def
+R1034:1034 BQFBridgePreservesForms <> x:11 var
+R1036:1036 BQFBridgePreservesForms <> y:12 var
+R1080:1082 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R1056:1058 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R1040:1053 BQFBridgePreservesForms <> bqf_high_shell def
+R1055:1055 BQFBridgePreservesForms <> x:11 var
+R1059:1075 BQFBridgePreservesForms <> bqf_chiral_bridge def
+R1077:1077 BQFBridgePreservesForms <> x:11 var
+R1079:1079 BQFBridgePreservesForms <> y:12 var
+R1083:1096 BQFBridgePreservesForms <> bqf_local_seed def
+R1098:1098 BQFBridgePreservesForms <> y:12 var
+def 1139:1163 <> five_factorial_resolution
+R1167:1167 Coq.Numbers.BinNums <> N ind
+def 1191:1209 <> local240_resolution
+R1213:1213 Coq.Numbers.BinNums <> N ind
+R1220:1222 Coq.NArith.BinNat <> ::N_scope:x_'*'_x not
+R1223:1247 BQFBridgePreservesForms <> five_factorial_resolution def
+prf 1262:1287 <> local240_is_two_5factorial
+R1312:1314 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1293:1311 BQFBridgePreservesForms <> local240_resolution def
+def 1371:1383 <> fano_selector
+R1390:1392 Coq.Init.Datatypes <> nat ind
+binder 1386:1386 <> n:13
+R1397:1397 Coq.Numbers.BinNums <> N ind
+R1402:1409 Coq.NArith.BinNat N of_nat def
+R1413:1417 Coq.Arith.PeanoNat <> ::nat_scope:x_'mod'_x not
+R1412:1412 BQFBridgePreservesForms <> n:13 var
+def 1438:1454 <> local240_selector
+R1461:1463 Coq.Init.Datatypes <> nat ind
+binder 1457:1457 <> n:14
+R1468:1468 Coq.Numbers.BinNums <> N ind
+R1473:1480 Coq.NArith.BinNat N of_nat def
+R1484:1488 Coq.Arith.PeanoNat <> ::nat_scope:x_'mod'_x not
+R1483:1483 BQFBridgePreservesForms <> n:14 var
+def 1511:1538 <> projection_denominator_index
+R1545:1547 Coq.Init.Datatypes <> nat ind
+binder 1541:1541 <> n:15
+R1552:1552 Coq.Numbers.BinNums <> N ind
+R1557:1564 Coq.NArith.BinNat N of_nat def
+R1572:1574 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1568:1570 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R1571:1571 BQFBridgePreservesForms <> n:15 var
+rec 1587:1595 <> BQFBridge
+proj 1623:1634 <> bridge_orbit
+proj 1645:1656 <> bridge_fano7
+proj 1665:1679 <> bridge_local240
+proj 1688:1699 <> bridge_cross
+R1638:1640 Coq.Init.Datatypes <> nat ind
+R1660:1660 Coq.Numbers.BinNums <> N ind
+R1683:1683 Coq.Numbers.BinNums <> N ind
+R1703:1703 Coq.Numbers.BinNums <> N ind
+def 1720:1731 <> bridge_phase
+R1738:1746 BQFBridgePreservesForms <> BQFBridge rec
+binder 1734:1734 <> b:21
+R1751:1761 DiagonalGaugeCloses <> ChiralPhase ind
+R1768:1793 DiagonalGaugeCloses <> diagonal_accumulator_phase def
+R1796:1807 BQFBridgePreservesForms <> bridge_orbit proj
+R1809:1809 BQFBridgePreservesForms <> b:21 var
+def 1825:1842 <> bridge_denominator
+R1849:1857 BQFBridgePreservesForms <> BQFBridge rec
+binder 1845:1845 <> b:22
+R1862:1862 Coq.Numbers.BinNums <> N ind
+R1869:1896 BQFBridgePreservesForms <> projection_denominator_index def
+R1899:1910 BQFBridgePreservesForms <> bridge_orbit proj
+R1912:1912 BQFBridgePreservesForms <> b:22 var
+def 1928:1940 <> bqf_bridge_at
+R1947:1949 Coq.Init.Datatypes <> nat ind
+binder 1943:1943 <> n:23
+R1954:1962 BQFBridgePreservesForms <> BQFBridge rec
+R1994:1996 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R1979:1991 BQFBridgePreservesForms <> fano_selector def
+R1993:1993 BQFBridgePreservesForms <> n:23 var
+binder 1973:1973 <> x:24
+R2036:2038 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R2017:2033 BQFBridgePreservesForms <> local240_selector def
+R2035:2035 BQFBridgePreservesForms <> n:23 var
+binder 2011:2011 <> y:25
+R2049:2059 BQFBridgePreservesForms <> mkBQFBridge constr
+R2065:2065 BQFBridgePreservesForms <> n:23 var
+R2072:2084 BQFBridgePreservesForms <> fano_selector def
+R2086:2086 BQFBridgePreservesForms <> n:23 var
+R2094:2110 BQFBridgePreservesForms <> local240_selector def
+R2112:2112 BQFBridgePreservesForms <> n:23 var
+R2120:2136 BQFBridgePreservesForms <> bqf_chiral_bridge def
+R2138:2138 BQFBridgePreservesForms <> x:24 var
+R2140:2140 BQFBridgePreservesForms <> y:25 var
+prf 2153:2171 <> fano_selector_bound
+R2186:2188 Coq.Init.Datatypes <> nat ind
+binder 2182:2182 <> n:26
+R2209:2211 Coq.NArith.BinNat <> ::N_scope:x_'<'_x not
+R2194:2206 BQFBridgePreservesForms <> fano_selector def
+R2208:2208 BQFBridgePreservesForms <> n:26 var
+R2245:2257 BQFBridgePreservesForms <> fano_selector def
+R2268:2283 Coq.NArith.BinNat N compare_lt_iff thm
+R2268:2283 Coq.NArith.BinNat N compare_lt_iff thm
+R2332:2334 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2315:2318 Coq.NArith.BinNat <> ::N_scope:x_'?='_x not
+R2297:2304 Coq.NArith.BinNat N of_nat def
+R2308:2312 Coq.Arith.PeanoNat <> ::nat_scope:x_'mod'_x not
+R2319:2326 Coq.NArith.BinNat N of_nat def
+R2335:2336 Coq.Init.Datatypes <> Lt constr
+R2332:2334 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2315:2318 Coq.NArith.BinNat <> ::N_scope:x_'?='_x not
+R2297:2304 Coq.NArith.BinNat N of_nat def
+R2308:2312 Coq.Arith.PeanoNat <> ::nat_scope:x_'mod'_x not
+R2319:2326 Coq.NArith.BinNat N of_nat def
+R2335:2336 Coq.Init.Datatypes <> Lt constr
+R2353:2369 Coq.NArith.Nnat Nat2N inj_compare thm
+R2353:2369 Coq.NArith.Nnat Nat2N inj_compare thm
+R2353:2369 Coq.NArith.Nnat Nat2N inj_compare thm
+R2380:2397 Coq.Arith.PeanoNat Nat compare_lt_iff thm
+R2380:2397 Coq.Arith.PeanoNat Nat compare_lt_iff thm
+R2408:2426 Coq.Arith.PeanoNat Nat mod_upper_bound def
+R2408:2426 Coq.Arith.PeanoNat Nat mod_upper_bound def
+prf 2450:2472 <> local240_selector_bound
+R2487:2489 Coq.Init.Datatypes <> nat ind
+binder 2483:2483 <> n:27
+R2514:2516 Coq.NArith.BinNat <> ::N_scope:x_'<'_x not
+R2495:2511 BQFBridgePreservesForms <> local240_selector def
+R2513:2513 BQFBridgePreservesForms <> n:27 var
+R2517:2535 BQFBridgePreservesForms <> local240_resolution def
+R2569:2594 BQFBridgePreservesForms <> local240_is_two_5factorial thm
+R2569:2594 BQFBridgePreservesForms <> local240_is_two_5factorial thm
+R2569:2594 BQFBridgePreservesForms <> local240_is_two_5factorial thm
+R2606:2622 BQFBridgePreservesForms <> local240_selector def
+R2633:2648 Coq.NArith.BinNat N compare_lt_iff thm
+R2633:2648 Coq.NArith.BinNat N compare_lt_iff thm
+R2701:2703 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2682:2685 Coq.NArith.BinNat <> ::N_scope:x_'?='_x not
+R2662:2669 Coq.NArith.BinNat N of_nat def
+R2673:2677 Coq.Arith.PeanoNat <> ::nat_scope:x_'mod'_x not
+R2686:2693 Coq.NArith.BinNat N of_nat def
+R2704:2705 Coq.Init.Datatypes <> Lt constr
+R2701:2703 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2682:2685 Coq.NArith.BinNat <> ::N_scope:x_'?='_x not
+R2662:2669 Coq.NArith.BinNat N of_nat def
+R2673:2677 Coq.Arith.PeanoNat <> ::nat_scope:x_'mod'_x not
+R2686:2693 Coq.NArith.BinNat N of_nat def
+R2704:2705 Coq.Init.Datatypes <> Lt constr
+R2722:2738 Coq.NArith.Nnat Nat2N inj_compare thm
+R2722:2738 Coq.NArith.Nnat Nat2N inj_compare thm
+R2722:2738 Coq.NArith.Nnat Nat2N inj_compare thm
+R2749:2766 Coq.Arith.PeanoNat Nat compare_lt_iff thm
+R2749:2766 Coq.Arith.PeanoNat Nat compare_lt_iff thm
+R2777:2795 Coq.Arith.PeanoNat Nat mod_upper_bound def
+R2777:2795 Coq.Arith.PeanoNat Nat mod_upper_bound def
+prf 2819:2854 <> bqf_bridge_phase_matches_accumulator
+R2869:2871 Coq.Init.Datatypes <> nat ind
+binder 2865:2865 <> n:28
+R2906:2908 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2876:2887 BQFBridgePreservesForms <> bridge_phase def
+R2890:2902 BQFBridgePreservesForms <> bqf_bridge_at def
+R2904:2904 BQFBridgePreservesForms <> n:28 var
+R2909:2934 DiagonalGaugeCloses <> diagonal_accumulator_phase def
+R2936:2936 BQFBridgePreservesForms <> n:28 var
+prf 2973:3008 <> bqf_bridge_phase_computed_from_orbit
+R3023:3031 BQFBridgePreservesForms <> BQFBridge rec
+binder 3019:3019 <> b:29
+R3050:3052 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3036:3047 BQFBridgePreservesForms <> bridge_phase def
+R3049:3049 BQFBridgePreservesForms <> b:29 var
+R3053:3078 DiagonalGaugeCloses <> diagonal_accumulator_phase def
+R3081:3092 BQFBridgePreservesForms <> bridge_orbit proj
+R3094:3094 BQFBridgePreservesForms <> b:29 var
+prf 3132:3173 <> bqf_bridge_denominator_computed_from_orbit
+R3188:3196 BQFBridgePreservesForms <> BQFBridge rec
+binder 3184:3184 <> b:30
+R3221:3223 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3201:3218 BQFBridgePreservesForms <> bridge_denominator def
+R3220:3220 BQFBridgePreservesForms <> b:30 var
+R3224:3251 BQFBridgePreservesForms <> projection_denominator_index def
+R3254:3265 BQFBridgePreservesForms <> bridge_orbit proj
+R3267:3267 BQFBridgePreservesForms <> b:30 var
+prf 3305:3328 <> bqf_bridge_cross_is_16xy
+R3343:3345 Coq.Init.Datatypes <> nat ind
+binder 3339:3339 <> n:31
+R3380:3386 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3350:3361 BQFBridgePreservesForms <> bridge_cross proj
+R3364:3376 BQFBridgePreservesForms <> bqf_bridge_at def
+R3378:3378 BQFBridgePreservesForms <> n:31 var
+R3414:3417 Coq.NArith.BinNat <> ::N_scope:x_'*'_x not
+R3441:3441 Coq.NArith.BinNat <> ::N_scope:x_'*'_x not
+R3390:3393 Coq.NArith.BinNat <> ::N_scope:x_'*'_x not
+R3413:3413 Coq.NArith.BinNat <> ::N_scope:x_'*'_x not
+R3409:3411 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R3394:3406 BQFBridgePreservesForms <> fano_selector def
+R3408:3408 BQFBridgePreservesForms <> n:31 var
+R3437:3439 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R3418:3434 BQFBridgePreservesForms <> local240_selector def
+R3436:3436 BQFBridgePreservesForms <> n:31 var

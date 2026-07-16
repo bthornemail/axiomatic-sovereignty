@@ -1,0 +1,259 @@
+DIGEST NO
+FMiquelIncidenceBalancesFlags
+R333:345 Coq.NArith.NArith <> <> lib
+R372:384 Coq.ZArith.ZArith <> <> lib
+R411:420 Coq.Lists.List <> <> lib
+R430:442 Coq.Lists.List ListNotations <> mod
+def 477:487 <> clock_count
+R491:491 Coq.Numbers.BinNums <> N ind
+def 510:521 <> offset_count
+R525:525 Coq.Numbers.BinNums <> N ind
+def 544:557 <> governor_count
+R561:561 Coq.Numbers.BinNums <> N ind
+prf 578:601 <> polyharmonic_axis_counts
+R622:625 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R618:620 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R607:617 MiquelIncidenceBalancesFlags <> clock_count def
+R642:645 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R638:640 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R626:637 MiquelIncidenceBalancesFlags <> offset_count def
+R660:662 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R646:659 MiquelIncidenceBalancesFlags <> governor_count def
+def 708:722 <> visible_offsets
+R726:729 Coq.Init.Datatypes <> list ind
+R731:731 Coq.Numbers.BinNums <> N ind
+R736:736 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R738:739 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R742:743 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R747:748 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R753:753 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+prf 765:784 <> visible_offset_count
+R810:812 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R788:793 Coq.Init.Datatypes <> length def
+R795:809 MiquelIncidenceBalancesFlags <> visible_offsets def
+prf 866:895 <> visible_offsets_step_by_nibble
+R918:923 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R913:915 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R901:908 Coq.NArith.BinNat N shiftl def
+R943:948 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R937:939 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R924:931 Coq.NArith.BinNat N shiftl def
+R963:965 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R949:956 Coq.NArith.BinNat N shiftl def
+ind 1013:1020 <> Governor
+constr 1034:1038 <> Facts
+constr 1042:1046 <> Rules
+constr 1050:1057 <> Closures
+constr 1061:1071 <> Combinators
+constr 1075:1078 <> Cons
+scheme 1013:1020 <> Governor_rect
+scheme 1013:1020 <> Governor_ind
+scheme 1013:1020 <> Governor_rec
+scheme 1013:1020 <> Governor_sind
+def 1093:1109 <> governor_exponent
+R1116:1123 MiquelIncidenceBalancesFlags <> Governor ind
+binder 1112:1112 <> g:3
+R1128:1128 Coq.Numbers.BinNums <> Z ind
+R1141:1141 MiquelIncidenceBalancesFlags <> g:3 var
+R1152:1156 MiquelIncidenceBalancesFlags <> Facts constr
+R1172:1176 MiquelIncidenceBalancesFlags <> Rules constr
+R1189:1196 MiquelIncidenceBalancesFlags <> Closures constr
+R1209:1219 MiquelIncidenceBalancesFlags <> Combinators constr
+R1232:1235 MiquelIncidenceBalancesFlags <> Cons constr
+def 1263:1271 <> governors
+R1275:1278 Coq.Init.Datatypes <> list ind
+R1280:1287 MiquelIncidenceBalancesFlags <> Governor ind
+R1294:1294 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1300:1301 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1307:1308 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1317:1318 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1330:1331 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1336:1336 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1295:1299 MiquelIncidenceBalancesFlags <> Facts constr
+R1302:1306 MiquelIncidenceBalancesFlags <> Rules constr
+R1309:1316 MiquelIncidenceBalancesFlags <> Closures constr
+R1319:1329 MiquelIncidenceBalancesFlags <> Combinators constr
+R1332:1335 MiquelIncidenceBalancesFlags <> Cons constr
+def 1351:1368 <> governor_exponents
+R1372:1375 Coq.Init.Datatypes <> list ind
+R1377:1377 Coq.Numbers.BinNums <> Z ind
+R1384:1386 Coq.Lists.List <> map def
+R1406:1414 MiquelIncidenceBalancesFlags <> governors def
+R1388:1404 MiquelIncidenceBalancesFlags <> governor_exponent def
+prf 1426:1457 <> governor_axis_has_five_positions
+R1479:1481 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1463:1468 Coq.Init.Datatypes <> length def
+R1470:1478 MiquelIncidenceBalancesFlags <> governors def
+prf 1535:1568 <> governor_exponents_are_consecutive
+R1592:1594 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1574:1591 MiquelIncidenceBalancesFlags <> governor_exponents def
+R1595:1595 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1602:1603 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1607:1608 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1612:1613 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1617:1618 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1622:1622 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+prf 1659:1680 <> rules_is_genesis_pivot
+R1709:1711 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1686:1702 MiquelIncidenceBalancesFlags <> governor_exponent def
+R1704:1708 MiquelIncidenceBalancesFlags <> Rules constr
+prf 1751:1787 <> facts_and_cons_are_declared_endpoints
+R1825:1828 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1816:1818 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1793:1809 MiquelIncidenceBalancesFlags <> governor_exponent def
+R1811:1815 MiquelIncidenceBalancesFlags <> Facts constr
+R1851:1853 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1829:1845 MiquelIncidenceBalancesFlags <> governor_exponent def
+R1847:1850 MiquelIncidenceBalancesFlags <> Cons constr
+def 1889:1901 <> miquel_points
+R1905:1908 Coq.Init.Datatypes <> list ind
+R1910:1910 Coq.Numbers.BinNums <> N ind
+R1915:1915 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1917:1918 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1920:1921 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1923:1924 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1926:1927 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1929:1930 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1932:1933 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1935:1936 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R1938:1938 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+def 2098:2110 <> miquel_blocks
+R2114:2117 Coq.Init.Datatypes <> list ind
+R2120:2123 Coq.Init.Datatypes <> list ind
+R2125:2125 Coq.Numbers.BinNums <> N ind
+R2133:2134 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2147:2151 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2164:2168 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2181:2185 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2198:2202 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2215:2219 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2232:2235 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2135:2135 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2137:2138 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2140:2141 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2143:2144 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2146:2146 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2152:2152 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2154:2155 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2157:2158 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2160:2161 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2163:2163 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2169:2169 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2171:2172 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2174:2175 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2177:2178 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2180:2180 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2186:2186 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2188:2189 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2191:2192 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2194:2195 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2197:2197 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2203:2203 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2205:2206 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2208:2209 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2211:2212 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2214:2214 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2220:2220 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2222:2223 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2225:2226 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2228:2229 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2231:2231 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+def 2250:2254 <> n_mem
+R2261:2261 Coq.Numbers.BinNums <> N ind
+binder 2257:2257 <> x:5
+R2270:2273 Coq.Init.Datatypes <> list ind
+R2275:2275 Coq.Numbers.BinNums <> N ind
+binder 2265:2266 <> xs:6
+R2280:2283 Coq.Init.Datatypes <> bool ind
+R2290:2296 Coq.Lists.List <> existsb def
+R2308:2309 MiquelIncidenceBalancesFlags <> xs:6 var
+R2299:2303 Coq.NArith.BinNat N eqb def
+R2305:2305 MiquelIncidenceBalancesFlags <> x:5 var
+def 2324:2335 <> point_degree
+R2342:2342 Coq.Numbers.BinNums <> N ind
+binder 2338:2338 <> p:7
+R2347:2349 Coq.Init.Datatypes <> nat ind
+R2356:2361 Coq.Init.Datatypes <> length def
+R2364:2369 Coq.Lists.List <> filter def
+R2381:2393 MiquelIncidenceBalancesFlags <> miquel_blocks def
+R2372:2376 MiquelIncidenceBalancesFlags <> n_mem def
+R2378:2378 MiquelIncidenceBalancesFlags <> p:7 var
+def 2409:2418 <> flag_count
+R2422:2424 Coq.Init.Datatypes <> nat ind
+R2431:2439 Coq.Lists.List <> fold_left def
+R2501:2513 MiquelIncidenceBalancesFlags <> miquel_blocks def
+binder 2446:2450 <> total:8
+binder 2452:2456 <> block:9
+R2467:2469 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2462:2466 MiquelIncidenceBalancesFlags <> total:8 var
+R2470:2475 Coq.Init.Datatypes <> length def
+R2477:2481 MiquelIncidenceBalancesFlags <> block:9 var
+prf 2531:2548 <> miquel_point_count
+R2574:2576 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2554:2559 Coq.Init.Datatypes <> length def
+R2561:2573 MiquelIncidenceBalancesFlags <> miquel_points def
+prf 2630:2647 <> miquel_block_count
+R2673:2675 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2653:2658 Coq.Init.Datatypes <> length def
+R2660:2672 MiquelIncidenceBalancesFlags <> miquel_blocks def
+prf 2729:2761 <> miquel_each_block_has_four_points
+binder 2774:2778 <> block:10
+R2803:2806 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2781:2782 Coq.Lists.List <> In def
+R2790:2802 MiquelIncidenceBalancesFlags <> miquel_blocks def
+R2784:2788 MiquelIncidenceBalancesFlags <> block:10 var
+R2819:2821 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2807:2812 Coq.Init.Datatypes <> length def
+R2814:2818 MiquelIncidenceBalancesFlags <> block:10 var
+prf 2955:2988 <> miquel_each_point_has_degree_three
+binder 3001:3001 <> p:11
+R3022:3025 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3004:3005 Coq.Lists.List <> In def
+R3009:3021 MiquelIncidenceBalancesFlags <> miquel_points def
+R3007:3007 MiquelIncidenceBalancesFlags <> p:11 var
+R3040:3042 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3026:3037 MiquelIncidenceBalancesFlags <> point_degree def
+R3039:3039 MiquelIncidenceBalancesFlags <> p:11 var
+prf 3172:3188 <> miquel_flag_count
+R3204:3206 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3194:3203 MiquelIncidenceBalancesFlags <> flag_count def
+prf 3261:3284 <> miquel_incidence_balance
+R3296:3298 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3292:3294 Coq.NArith.BinNat <> ::N_scope:x_'*'_x not
+R3300:3302 Coq.NArith.BinNat <> ::N_scope:x_'*'_x not
+def 3358:3382 <> hidden_governor_positions
+R3386:3386 Coq.Numbers.BinNums <> N ind
+def 3405:3425 <> pairwise_gauge_planes
+R3429:3429 Coq.Numbers.BinNums <> N ind
+def 3448:3470 <> omi_oversight_positions
+R3474:3474 Coq.Numbers.BinNums <> N ind
+R3506:3508 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R3481:3505 MiquelIncidenceBalancesFlags <> hidden_governor_positions def
+R3509:3529 MiquelIncidenceBalancesFlags <> pairwise_gauge_planes def
+prf 3541:3566 <> four_gauges_have_six_pairs
+R3582:3584 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3578:3580 Coq.NArith.BinNat <> ::N_scope:x_'/'_x not
+R3574:3576 Coq.NArith.BinNat <> ::N_scope:x_'*'_x not
+R3585:3605 MiquelIncidenceBalancesFlags <> pairwise_gauge_planes def
+prf 3657:3686 <> omi_oversight_is_five_plus_six
+R3715:3717 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3692:3714 MiquelIncidenceBalancesFlags <> omi_oversight_positions def
+ind 3770:3782 <> AuthorityRole
+constr 3796:3807 <> StageContext
+constr 3811:3823 <> ValidateCarry
+constr 3827:3842 <> ScribeProjection
+constr 3846:3863 <> AcceptReplayStable
+scheme 3770:3782 <> AuthorityRole_rect
+scheme 3770:3782 <> AuthorityRole_ind
+scheme 3770:3782 <> AuthorityRole_rec
+scheme 3770:3782 <> AuthorityRole_sind
+def 3878:3897 <> tetragrammatron_role
+R3901:3913 MiquelIncidenceBalancesFlags <> AuthorityRole ind
+R3918:3930 MiquelIncidenceBalancesFlags <> ValidateCarry constr
+def 3944:3955 <> receipt_role
+R3959:3971 MiquelIncidenceBalancesFlags <> AuthorityRole ind
+R3976:3993 MiquelIncidenceBalancesFlags <> AcceptReplayStable constr
+prf 4005:4032 <> validation_is_not_acceptance
+R4058:4061 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4038:4057 MiquelIncidenceBalancesFlags <> tetragrammatron_role def
+R4062:4073 MiquelIncidenceBalancesFlags <> receipt_role def

@@ -1,0 +1,171 @@
+DIGEST NO
+FAuthorityPipelinePreservesDecision
+R241:246 Coq.NArith.NArith <> <> lib
+R248:251 Coq.Lists.List <> <> lib
+R253:256 Coq.Bool.Bool <> <> lib
+R266:278 Coq.Lists.List ListNotations <> mod
+R297:320 EarnedControlBandsEncode <> <> lib
+R338:356 DiagonalGaugeCloses <> <> lib
+R374:387 NullRingCloses <> <> lib
+ind 422:439 <> ValidationDecision
+constr 453:458 <> Lawful
+constr 462:469 <> Unlawful
+scheme 422:439 <> ValidationDecision_rect
+scheme 422:439 <> ValidationDecision_ind
+scheme 422:439 <> ValidationDecision_rec
+scheme 422:439 <> ValidationDecision_sind
+rec 480:493 <> FramedRelation
+proj 526:542 <> relation_envelope
+proj 556:573 <> relation_witnesses
+proj 587:600 <> relation_gauge
+R546:549 Coq.Init.Datatypes <> list ind
+R551:551 Coq.Numbers.BinNums <> N ind
+R577:580 Coq.Init.Datatypes <> list ind
+R582:582 Coq.Numbers.BinNums <> N ind
+R604:604 Coq.Numbers.BinNums <> N ind
+def 621:640 <> omnicron_frame_valid
+R651:664 AuthorityPipelinePreservesDecision <> FramedRelation rec
+binder 643:647 <> frame:7
+R669:672 Coq.Init.Datatypes <> bool ind
+R679:701 EarnedControlBandsEncode <> valid_omnicron_envelope def
+R704:720 AuthorityPipelinePreservesDecision <> relation_envelope proj
+R722:726 AuthorityPipelinePreservesDecision <> frame:7 var
+def 742:765 <> tetragrammatron_validate
+R776:789 AuthorityPipelinePreservesDecision <> FramedRelation rec
+binder 768:772 <> frame:8
+R796:813 AuthorityPipelinePreservesDecision <> ValidationDecision ind
+R823:826 Coq.Init.Datatypes <> andb def
+R872:875 Coq.Init.Datatypes <> andb def
+R937:940 Coq.Init.Datatypes <> andb def
+R1009:1013 Coq.NArith.BinNat N eqb def
+R1016:1025 NullRingCloses <> xor_reduce def
+R1028:1045 AuthorityPipelinePreservesDecision <> relation_witnesses proj
+R1047:1051 AuthorityPipelinePreservesDecision <> frame:8 var
+R956:977 DiagonalGaugeCloses <> diagonal_closure_ready def
+R979:992 DiagonalGaugeCloses <> dminus_closure def
+R888:909 DiagonalGaugeCloses <> diagonal_closure_ready def
+R911:923 DiagonalGaugeCloses <> dplus_closure def
+R836:855 AuthorityPipelinePreservesDecision <> omnicron_frame_valid def
+R857:861 AuthorityPipelinePreservesDecision <> frame:8 var
+R1081:1088 AuthorityPipelinePreservesDecision <> Unlawful constr
+R1067:1072 AuthorityPipelinePreservesDecision <> Lawful constr
+rec 1099:1115 <> ValidatedRelation
+proj 1151:1165 <> validated_frame
+proj 1187:1205 <> validation_decision
+R1169:1182 AuthorityPipelinePreservesDecision <> FramedRelation rec
+R1209:1226 AuthorityPipelinePreservesDecision <> ValidationDecision ind
+def 1243:1264 <> tetragrammatron_decide
+R1275:1288 AuthorityPipelinePreservesDecision <> FramedRelation rec
+binder 1267:1271 <> frame:12
+R1295:1311 AuthorityPipelinePreservesDecision <> ValidatedRelation rec
+R1318:1336 AuthorityPipelinePreservesDecision <> mkValidatedRelation constr
+R1338:1342 AuthorityPipelinePreservesDecision <> frame:12 var
+R1345:1368 AuthorityPipelinePreservesDecision <> tetragrammatron_validate def
+R1370:1374 AuthorityPipelinePreservesDecision <> frame:12 var
+rec 1386:1405 <> InterpolatedRelation
+proj 1444:1462 <> interpolated_source
+proj 1471:1494 <> interpolated_destination
+proj 1503:1523 <> interpolated_decision
+R1466:1466 Coq.Numbers.BinNums <> N ind
+R1498:1498 Coq.Numbers.BinNums <> N ind
+R1527:1544 AuthorityPipelinePreservesDecision <> ValidationDecision ind
+def 1561:1580 <> metatron_interpolate
+R1606:1606 Coq.Numbers.BinNums <> N ind
+binder 1585:1590 <> source:17
+binder 1592:1602 <> destination:18
+R1622:1638 AuthorityPipelinePreservesDecision <> ValidatedRelation rec
+binder 1610:1618 <> validated:19
+R1645:1664 AuthorityPipelinePreservesDecision <> InterpolatedRelation rec
+R1671:1692 AuthorityPipelinePreservesDecision <> mkInterpolatedRelation constr
+R1694:1699 AuthorityPipelinePreservesDecision <> source:17 var
+R1701:1711 AuthorityPipelinePreservesDecision <> destination:18 var
+R1718:1736 AuthorityPipelinePreservesDecision <> validation_decision proj
+R1738:1746 AuthorityPipelinePreservesDecision <> validated:19 var
+prf 1759:1790 <> omnicron_framing_does_not_decide
+binder 1803:1807 <> frame:20
+R1840:1846 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1814:1833 AuthorityPipelinePreservesDecision <> omnicron_frame_valid def
+R1835:1839 AuthorityPipelinePreservesDecision <> frame:20 var
+R1847:1869 EarnedControlBandsEncode <> valid_omnicron_envelope def
+R1872:1888 AuthorityPipelinePreservesDecision <> relation_envelope proj
+R1890:1894 AuthorityPipelinePreservesDecision <> frame:20 var
+prf 1932:1965 <> tetragrammatron_is_decision_source
+binder 1978:1982 <> frame:21
+R2039:2045 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1989:2007 AuthorityPipelinePreservesDecision <> validation_decision proj
+R2010:2031 AuthorityPipelinePreservesDecision <> tetragrammatron_decide def
+R2033:2037 AuthorityPipelinePreservesDecision <> frame:21 var
+R2046:2069 AuthorityPipelinePreservesDecision <> tetragrammatron_validate def
+R2071:2075 AuthorityPipelinePreservesDecision <> frame:21 var
+prf 2112:2152 <> metatron_interpolation_preserves_decision
+binder 2165:2170 <> source:22
+binder 2172:2182 <> destination:23
+binder 2184:2192 <> validated:24
+R2278:2284 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2199:2219 AuthorityPipelinePreservesDecision <> interpolated_decision proj
+R2228:2247 AuthorityPipelinePreservesDecision <> metatron_interpolate def
+R2249:2254 AuthorityPipelinePreservesDecision <> source:22 var
+R2256:2266 AuthorityPipelinePreservesDecision <> destination:23 var
+R2268:2276 AuthorityPipelinePreservesDecision <> validated:24 var
+R2285:2303 AuthorityPipelinePreservesDecision <> validation_decision proj
+R2305:2313 AuthorityPipelinePreservesDecision <> validated:24 var
+prf 2350:2385 <> metatron_cannot_make_unlawful_lawful
+binder 2398:2403 <> source:25
+binder 2405:2415 <> destination:26
+binder 2417:2421 <> frame:27
+R2469:2476 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2458:2460 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2428:2451 AuthorityPipelinePreservesDecision <> tetragrammatron_validate def
+R2453:2457 AuthorityPipelinePreservesDecision <> frame:27 var
+R2461:2468 AuthorityPipelinePreservesDecision <> Unlawful constr
+R2585:2587 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2477:2497 AuthorityPipelinePreservesDecision <> interpolated_decision proj
+R2506:2525 AuthorityPipelinePreservesDecision <> metatron_interpolate def
+R2527:2532 AuthorityPipelinePreservesDecision <> source:25 var
+R2534:2544 AuthorityPipelinePreservesDecision <> destination:26 var
+R2555:2576 AuthorityPipelinePreservesDecision <> tetragrammatron_decide def
+R2578:2582 AuthorityPipelinePreservesDecision <> frame:27 var
+R2588:2595 AuthorityPipelinePreservesDecision <> Unlawful constr
+R2651:2670 AuthorityPipelinePreservesDecision <> metatron_interpolate def
+R2673:2694 AuthorityPipelinePreservesDecision <> tetragrammatron_decide def
+def 2732:2751 <> canonical_null_frame
+R2755:2768 AuthorityPipelinePreservesDecision <> FramedRelation rec
+R2775:2790 AuthorityPipelinePreservesDecision <> mkFramedRelation constr
+R2792:2818 EarnedControlBandsEncode <> canonical_omnicron_envelope def
+R2820:2838 NullRingCloses <> byte_ring_witnesses def
+prf 2854:2883 <> canonical_null_frame_is_lawful
+R2934:2936 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2889:2912 AuthorityPipelinePreservesDecision <> tetragrammatron_validate def
+R2914:2933 AuthorityPipelinePreservesDecision <> canonical_null_frame def
+R2937:2942 AuthorityPipelinePreservesDecision <> Lawful constr
+def 2994:3013 <> malformed_null_frame
+R3017:3030 AuthorityPipelinePreservesDecision <> FramedRelation rec
+R3037:3052 AuthorityPipelinePreservesDecision <> mkFramedRelation constr
+R3054:3054 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3058:3059 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3061:3062 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3065:3066 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3069:3070 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3073:3074 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3077:3078 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3081:3082 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3086:3086 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3092:3110 NullRingCloses <> byte_ring_witnesses def
+prf 3126:3152 <> malformed_frame_is_unlawful
+R3203:3205 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3158:3181 AuthorityPipelinePreservesDecision <> tetragrammatron_validate def
+R3183:3202 AuthorityPipelinePreservesDecision <> malformed_null_frame def
+R3206:3213 AuthorityPipelinePreservesDecision <> Unlawful constr
+def 3265:3282 <> open_witness_frame
+R3286:3299 AuthorityPipelinePreservesDecision <> FramedRelation rec
+R3306:3321 AuthorityPipelinePreservesDecision <> mkFramedRelation constr
+R3323:3349 EarnedControlBandsEncode <> canonical_omnicron_envelope def
+R3351:3351 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3354:3355 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3358:3359 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3363:3363 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+prf 3379:3411 <> nonclosing_witnesses_are_unlawful
+R3460:3462 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3417:3440 AuthorityPipelinePreservesDecision <> tetragrammatron_validate def
+R3442:3459 AuthorityPipelinePreservesDecision <> open_witness_frame def
+R3463:3470 AuthorityPipelinePreservesDecision <> Unlawful constr

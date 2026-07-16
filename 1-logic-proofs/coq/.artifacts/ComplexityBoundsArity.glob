@@ -1,0 +1,390 @@
+DIGEST NO
+FComplexityBoundsArity
+R26:39 Coq.Arith.PeanoNat <> <> lib
+R43:45 Coq.micromega.Lia <> <> lib
+R49:53 Coq.micromega.Psatz <> <> lib
+def 326:331 <> choose
+R340:342 Coq.Init.Datatypes <> nat ind
+binder 334:334 <> n:1
+binder 336:336 <> k:2
+R347:349 Coq.Init.Datatypes <> nat ind
+R365:365 ComplexityBoundsArity <> k:2 var
+R362:362 ComplexityBoundsArity <> n:1 var
+R393:393 Coq.Init.Datatypes <> S constr
+R406:406 Coq.Init.Datatypes <> S constr
+R412:412 Coq.Init.Datatypes <> S constr
+R432:434 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R420:425 ComplexityBoundsArity <> choose:3 def
+R435:440 ComplexityBoundsArity <> choose:3 def
+R446:446 Coq.Init.Datatypes <> S constr
+prf 466:475 <> choose_n_0
+binder 486:486 <> n:6
+R499:501 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R489:494 ComplexityBoundsArity <> choose def
+R496:496 ComplexityBoundsArity <> n:6 var
+prf 558:567 <> choose_0_S
+binder 578:578 <> k:7
+R595:597 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R581:586 ComplexityBoundsArity <> choose def
+R591:591 Coq.Init.Datatypes <> S constr
+R593:593 ComplexityBoundsArity <> k:7 var
+prf 642:651 <> choose_S_S
+binder 662:662 <> n:8
+binder 664:664 <> k:9
+R685:687 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R667:672 ComplexityBoundsArity <> choose def
+R675:675 Coq.Init.Datatypes <> S constr
+R677:677 ComplexityBoundsArity <> n:8 var
+R681:681 Coq.Init.Datatypes <> S constr
+R683:683 ComplexityBoundsArity <> k:9 var
+R698:700 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R688:693 ComplexityBoundsArity <> choose def
+R695:695 ComplexityBoundsArity <> n:8 var
+R697:697 ComplexityBoundsArity <> k:9 var
+R701:706 ComplexityBoundsArity <> choose def
+R708:708 ComplexityBoundsArity <> n:8 var
+R711:711 Coq.Init.Datatypes <> S constr
+R713:713 ComplexityBoundsArity <> k:9 var
+prf 761:769 <> choose_gt
+binder 780:780 <> n:10
+binder 782:782 <> k:11
+R790:793 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R786:788 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R785:785 ComplexityBoundsArity <> n:10 var
+R789:789 ComplexityBoundsArity <> k:11 var
+R804:806 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R794:799 ComplexityBoundsArity <> choose def
+R801:801 ComplexityBoundsArity <> n:10 var
+R803:803 ComplexityBoundsArity <> k:11 var
+R952:967 Coq.Arith.PeanoNat Nat succ_lt_mono thm
+R952:967 Coq.Arith.PeanoNat Nat succ_lt_mono thm
+R1022:1022 Coq.Init.Datatypes <> S constr
+R1022:1022 Coq.Init.Datatypes <> S constr
+R1022:1022 Coq.Init.Datatypes <> S constr
+R1022:1022 Coq.Init.Datatypes <> S constr
+prf 1052:1061 <> choose_n_1
+binder 1072:1072 <> n:12
+R1085:1087 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1075:1080 ComplexityBoundsArity <> choose def
+R1082:1082 ComplexityBoundsArity <> n:12 var
+R1088:1088 ComplexityBoundsArity <> n:12 var
+R1160:1169 ComplexityBoundsArity <> choose_n_0 thm
+R1160:1169 ComplexityBoundsArity <> choose_n_0 thm
+R1160:1169 ComplexityBoundsArity <> choose_n_0 thm
+def 1196:1210 <> sum_choose_upto
+R1219:1221 Coq.Init.Datatypes <> nat ind
+binder 1213:1213 <> n:13
+binder 1215:1215 <> m:14
+R1226:1228 Coq.Init.Datatypes <> nat ind
+R1241:1241 ComplexityBoundsArity <> m:14 var
+R1257:1262 ComplexityBoundsArity <> choose def
+R1264:1264 ComplexityBoundsArity <> n:13 var
+R1272:1272 Coq.Init.Datatypes <> S constr
+R1300:1302 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1280:1294 ComplexityBoundsArity <> sum_choose_upto:15 def
+R1296:1296 ComplexityBoundsArity <> n:13 var
+R1303:1308 ComplexityBoundsArity <> choose def
+R1310:1310 ComplexityBoundsArity <> n:13 var
+R1313:1313 Coq.Init.Datatypes <> S constr
+def 1336:1355 <> sum_choose_succ_upto
+R1364:1366 Coq.Init.Datatypes <> nat ind
+binder 1358:1358 <> n:17
+binder 1360:1360 <> m:18
+R1371:1373 Coq.Init.Datatypes <> nat ind
+R1386:1386 ComplexityBoundsArity <> m:18 var
+R1402:1407 ComplexityBoundsArity <> choose def
+R1409:1409 ComplexityBoundsArity <> n:17 var
+R1417:1417 Coq.Init.Datatypes <> S constr
+R1450:1452 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1425:1444 ComplexityBoundsArity <> sum_choose_succ_upto:19 def
+R1446:1446 ComplexityBoundsArity <> n:17 var
+R1453:1458 ComplexityBoundsArity <> choose def
+R1460:1460 ComplexityBoundsArity <> n:17 var
+R1463:1463 Coq.Init.Datatypes <> S constr
+R1466:1466 Coq.Init.Datatypes <> S constr
+def 1492:1505 <> sum_choose_all
+R1512:1514 Coq.Init.Datatypes <> nat ind
+binder 1508:1508 <> n:21
+R1519:1521 Coq.Init.Datatypes <> nat ind
+R1526:1540 ComplexityBoundsArity <> sum_choose_upto def
+R1542:1542 ComplexityBoundsArity <> n:21 var
+R1544:1544 ComplexityBoundsArity <> n:21 var
+prf 1554:1575 <> sum_choose_upto_ge_one
+binder 1588:1588 <> n:22
+binder 1590:1590 <> m:23
+R1594:1597 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R1598:1612 ComplexityBoundsArity <> sum_choose_upto def
+R1614:1614 ComplexityBoundsArity <> n:22 var
+R1616:1616 ComplexityBoundsArity <> m:23 var
+R1674:1683 ComplexityBoundsArity <> choose_n_0 thm
+R1674:1683 ComplexityBoundsArity <> choose_n_0 thm
+R1674:1683 ComplexityBoundsArity <> choose_n_0 thm
+prf 1712:1731 <> sum_choose_upto_succ
+binder 1744:1744 <> n:24
+binder 1746:1746 <> m:25
+R1772:1774 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1749:1763 ComplexityBoundsArity <> sum_choose_upto def
+R1765:1765 ComplexityBoundsArity <> n:24 var
+R1768:1768 Coq.Init.Datatypes <> S constr
+R1770:1770 ComplexityBoundsArity <> m:25 var
+R1785:1787 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1775:1780 ComplexityBoundsArity <> choose def
+R1782:1782 ComplexityBoundsArity <> n:24 var
+R1788:1807 ComplexityBoundsArity <> sum_choose_succ_upto def
+R1809:1809 ComplexityBoundsArity <> n:24 var
+R1811:1811 ComplexityBoundsArity <> m:25 var
+R1880:1889 ComplexityBoundsArity <> choose_n_0 thm
+R1880:1889 ComplexityBoundsArity <> choose_n_0 thm
+R1880:1889 ComplexityBoundsArity <> choose_n_0 thm
+R1908:1922 ComplexityBoundsArity <> sum_choose_upto def
+R1927:1927 Coq.Init.Datatypes <> S constr
+R1930:1930 Coq.Init.Datatypes <> S constr
+R1908:1922 ComplexityBoundsArity <> sum_choose_upto def
+R1927:1927 Coq.Init.Datatypes <> S constr
+R1930:1930 Coq.Init.Datatypes <> S constr
+R1949:1968 ComplexityBoundsArity <> sum_choose_succ_upto def
+R1973:1973 Coq.Init.Datatypes <> S constr
+R1949:1968 ComplexityBoundsArity <> sum_choose_succ_upto def
+R1973:1973 Coq.Init.Datatypes <> S constr
+R2042:2051 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2021:2023 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1998:2012 ComplexityBoundsArity <> sum_choose_upto def
+R2017:2017 Coq.Init.Datatypes <> S constr
+R2024:2029 ComplexityBoundsArity <> choose def
+R2034:2034 Coq.Init.Datatypes <> S constr
+R2037:2037 Coq.Init.Datatypes <> S constr
+R2062:2072 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2118:2118 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2052:2057 ComplexityBoundsArity <> choose def
+R2097:2099 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2073:2092 ComplexityBoundsArity <> sum_choose_succ_upto def
+R2100:2105 ComplexityBoundsArity <> choose def
+R2110:2110 Coq.Init.Datatypes <> S constr
+R2113:2113 Coq.Init.Datatypes <> S constr
+R2042:2051 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2021:2023 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1998:2012 ComplexityBoundsArity <> sum_choose_upto def
+R2017:2017 Coq.Init.Datatypes <> S constr
+R2024:2029 ComplexityBoundsArity <> choose def
+R2034:2034 Coq.Init.Datatypes <> S constr
+R2037:2037 Coq.Init.Datatypes <> S constr
+R2062:2072 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2118:2118 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2052:2057 ComplexityBoundsArity <> choose def
+R2097:2099 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2073:2092 ComplexityBoundsArity <> sum_choose_succ_upto def
+R2100:2105 ComplexityBoundsArity <> choose def
+R2110:2110 Coq.Init.Datatypes <> S constr
+R2113:2113 Coq.Init.Datatypes <> S constr
+prf 2159:2185 <> sum_choose_succ_upto_expand
+binder 2198:2198 <> n:26
+binder 2200:2200 <> m:27
+R2231:2233 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2203:2222 ComplexityBoundsArity <> sum_choose_succ_upto def
+R2225:2225 Coq.Init.Datatypes <> S constr
+R2227:2227 ComplexityBoundsArity <> n:26 var
+R2230:2230 ComplexityBoundsArity <> m:27 var
+R2253:2255 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2234:2248 ComplexityBoundsArity <> sum_choose_upto def
+R2250:2250 ComplexityBoundsArity <> n:26 var
+R2252:2252 ComplexityBoundsArity <> m:27 var
+R2256:2275 ComplexityBoundsArity <> sum_choose_succ_upto def
+R2277:2277 ComplexityBoundsArity <> n:26 var
+R2279:2279 ComplexityBoundsArity <> m:27 var
+R2353:2362 ComplexityBoundsArity <> choose_n_1 thm
+R2353:2362 ComplexityBoundsArity <> choose_n_1 thm
+R2353:2362 ComplexityBoundsArity <> choose_n_1 thm
+R2353:2362 ComplexityBoundsArity <> choose_n_1 thm
+R2377:2386 ComplexityBoundsArity <> choose_n_0 thm
+R2377:2386 ComplexityBoundsArity <> choose_n_0 thm
+R2377:2386 ComplexityBoundsArity <> choose_n_0 thm
+prf 2446:2469 <> sum_choose_succ_upto_all
+binder 2482:2482 <> n:28
+R2509:2511 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2485:2504 ComplexityBoundsArity <> sum_choose_succ_upto def
+R2506:2506 ComplexityBoundsArity <> n:28 var
+R2508:2508 ComplexityBoundsArity <> n:28 var
+R2528:2530 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R2512:2525 ComplexityBoundsArity <> sum_choose_all def
+R2527:2527 ComplexityBoundsArity <> n:28 var
+R2561:2574 ComplexityBoundsArity <> sum_choose_all def
+R2591:2610 ComplexityBoundsArity <> sum_choose_upto_succ thm
+R2591:2610 ComplexityBoundsArity <> sum_choose_upto_succ thm
+R2722:2724 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2699:2713 ComplexityBoundsArity <> sum_choose_upto def
+R2718:2718 Coq.Init.Datatypes <> S constr
+R2725:2739 ComplexityBoundsArity <> sum_choose_upto def
+R2722:2724 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2699:2713 ComplexityBoundsArity <> sum_choose_upto def
+R2718:2718 Coq.Init.Datatypes <> S constr
+R2725:2739 ComplexityBoundsArity <> sum_choose_upto def
+R2767:2775 ComplexityBoundsArity <> choose_gt thm
+R2780:2780 Coq.Init.Datatypes <> S constr
+R2767:2775 ComplexityBoundsArity <> choose_gt thm
+R2780:2780 Coq.Init.Datatypes <> S constr
+R2767:2775 ComplexityBoundsArity <> choose_gt thm
+R2780:2780 Coq.Init.Datatypes <> S constr
+R2767:2775 ComplexityBoundsArity <> choose_gt thm
+R2780:2780 Coq.Init.Datatypes <> S constr
+R2829:2838 ComplexityBoundsArity <> choose_n_0 thm
+R2829:2838 ComplexityBoundsArity <> choose_n_0 thm
+R2829:2838 ComplexityBoundsArity <> choose_n_0 thm
+prf 2952:2970 <> sum_choose_all_succ
+binder 2983:2983 <> n:29
+R3006:3008 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2986:2999 ComplexityBoundsArity <> sum_choose_all def
+R3002:3002 Coq.Init.Datatypes <> S constr
+R3004:3004 ComplexityBoundsArity <> n:29 var
+R3010:3012 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R3013:3026 ComplexityBoundsArity <> sum_choose_all def
+R3028:3028 ComplexityBoundsArity <> n:29 var
+R3058:3071 ComplexityBoundsArity <> sum_choose_all def
+R3084:3103 ComplexityBoundsArity <> sum_choose_upto_succ thm
+R3084:3103 ComplexityBoundsArity <> sum_choose_upto_succ thm
+R3084:3103 ComplexityBoundsArity <> sum_choose_upto_succ thm
+R3116:3142 ComplexityBoundsArity <> sum_choose_succ_upto_expand thm
+R3116:3142 ComplexityBoundsArity <> sum_choose_succ_upto_expand thm
+R3116:3142 ComplexityBoundsArity <> sum_choose_succ_upto_expand thm
+R3155:3178 ComplexityBoundsArity <> sum_choose_succ_upto_all thm
+R3155:3178 ComplexityBoundsArity <> sum_choose_succ_upto_all thm
+R3155:3178 ComplexityBoundsArity <> sum_choose_succ_upto_all thm
+R3191:3200 ComplexityBoundsArity <> choose_n_0 thm
+R3191:3200 ComplexityBoundsArity <> choose_n_0 thm
+R3191:3200 ComplexityBoundsArity <> choose_n_0 thm
+R3212:3225 ComplexityBoundsArity <> sum_choose_all def
+R3242:3263 ComplexityBoundsArity <> sum_choose_upto_ge_one thm
+R3242:3263 ComplexityBoundsArity <> sum_choose_upto_ge_one thm
+prf 3292:3313 <> sum_choose_all_eq_pow2
+binder 3326:3326 <> n:30
+R3345:3347 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3329:3342 ComplexityBoundsArity <> sum_choose_all def
+R3344:3344 ComplexityBoundsArity <> n:30 var
+R3349:3351 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R3352:3352 ComplexityBoundsArity <> n:30 var
+R3417:3435 ComplexityBoundsArity <> sum_choose_all_succ thm
+R3417:3435 ComplexityBoundsArity <> sum_choose_all_succ thm
+R3417:3435 ComplexityBoundsArity <> sum_choose_all_succ thm
+R3467:3480 Coq.Arith.PeanoNat Nat pow_succ_r thm
+R3467:3480 Coq.Arith.PeanoNat Nat pow_succ_r thm
+R3467:3480 Coq.Arith.PeanoNat Nat pow_succ_r thm
+R3467:3480 Coq.Arith.PeanoNat Nat pow_succ_r thm
+def 3522:3528 <> choose2
+R3535:3537 Coq.Init.Datatypes <> nat ind
+binder 3531:3531 <> n:31
+R3542:3544 Coq.Init.Datatypes <> nat ind
+R3549:3554 ComplexityBoundsArity <> choose def
+R3556:3556 ComplexityBoundsArity <> n:31 var
+def 3572:3578 <> choose3
+R3585:3587 Coq.Init.Datatypes <> nat ind
+binder 3581:3581 <> n:32
+R3592:3594 Coq.Init.Datatypes <> nat ind
+R3599:3604 ComplexityBoundsArity <> choose def
+R3606:3606 ComplexityBoundsArity <> n:32 var
+prf 3618:3629 <> choose2_succ
+binder 3642:3642 <> n:33
+R3658:3660 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3645:3651 ComplexityBoundsArity <> choose2 def
+R3654:3654 Coq.Init.Datatypes <> S constr
+R3656:3656 ComplexityBoundsArity <> n:33 var
+R3662:3664 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3661:3661 ComplexityBoundsArity <> n:33 var
+R3665:3671 ComplexityBoundsArity <> choose2 def
+R3673:3673 ComplexityBoundsArity <> n:33 var
+R3703:3709 ComplexityBoundsArity <> choose2 def
+R3729:3729 Coq.Init.Datatypes <> S constr
+R3732:3732 Coq.Init.Datatypes <> S constr
+R3729:3729 Coq.Init.Datatypes <> S constr
+R3732:3732 Coq.Init.Datatypes <> S constr
+R3729:3729 Coq.Init.Datatypes <> S constr
+R3732:3732 Coq.Init.Datatypes <> S constr
+R3749:3758 ComplexityBoundsArity <> choose_S_S thm
+R3749:3758 ComplexityBoundsArity <> choose_S_S thm
+R3749:3758 ComplexityBoundsArity <> choose_S_S thm
+R3771:3780 ComplexityBoundsArity <> choose_n_1 thm
+R3771:3780 ComplexityBoundsArity <> choose_n_1 thm
+R3771:3780 ComplexityBoundsArity <> choose_n_1 thm
+prf 3802:3813 <> choose3_succ
+binder 3826:3826 <> n:34
+R3842:3844 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3829:3835 ComplexityBoundsArity <> choose3 def
+R3838:3838 Coq.Init.Datatypes <> S constr
+R3840:3840 ComplexityBoundsArity <> n:34 var
+R3854:3856 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3845:3851 ComplexityBoundsArity <> choose2 def
+R3853:3853 ComplexityBoundsArity <> n:34 var
+R3857:3863 ComplexityBoundsArity <> choose3 def
+R3865:3865 ComplexityBoundsArity <> n:34 var
+R3895:3901 ComplexityBoundsArity <> choose3 def
+R3904:3910 ComplexityBoundsArity <> choose2 def
+R3930:3930 Coq.Init.Datatypes <> S constr
+R3933:3933 Coq.Init.Datatypes <> S constr
+R3936:3936 Coq.Init.Datatypes <> S constr
+R3930:3930 Coq.Init.Datatypes <> S constr
+R3933:3933 Coq.Init.Datatypes <> S constr
+R3936:3936 Coq.Init.Datatypes <> S constr
+R3930:3930 Coq.Init.Datatypes <> S constr
+R3933:3933 Coq.Init.Datatypes <> S constr
+R3936:3936 Coq.Init.Datatypes <> S constr
+R3954:3963 ComplexityBoundsArity <> choose_S_S thm
+R3954:3963 ComplexityBoundsArity <> choose_S_S thm
+R3954:3963 ComplexityBoundsArity <> choose_S_S thm
+prf 3995:4007 <> choose2_le_sq
+binder 4020:4020 <> n:35
+R4032:4035 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R4023:4029 ComplexityBoundsArity <> choose2 def
+R4031:4031 ComplexityBoundsArity <> n:35 var
+R4037:4039 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R4036:4036 ComplexityBoundsArity <> n:35 var
+R4040:4040 ComplexityBoundsArity <> n:35 var
+R4105:4116 ComplexityBoundsArity <> choose2_succ thm
+R4105:4116 ComplexityBoundsArity <> choose2_succ thm
+R4105:4116 ComplexityBoundsArity <> choose2_succ thm
+prf 4142:4156 <> choose3_le_cube
+binder 4169:4169 <> n:36
+R4181:4184 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R4172:4178 ComplexityBoundsArity <> choose3 def
+R4180:4180 ComplexityBoundsArity <> n:36 var
+R4190:4192 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R4186:4188 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R4185:4185 ComplexityBoundsArity <> n:36 var
+R4189:4189 ComplexityBoundsArity <> n:36 var
+R4193:4193 ComplexityBoundsArity <> n:36 var
+R4258:4269 ComplexityBoundsArity <> choose3_succ thm
+R4258:4269 ComplexityBoundsArity <> choose3_succ thm
+R4258:4269 ComplexityBoundsArity <> choose3_succ thm
+R4288:4300 ComplexityBoundsArity <> choose2_le_sq thm
+R4288:4300 ComplexityBoundsArity <> choose2_le_sq thm
+prf 4335:4357 <> arity_principle_summary
+R4363:4363 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4398:4404 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+binder 4371:4371 <> n:37
+R4390:4392 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4374:4387 ComplexityBoundsArity <> sum_choose_all def
+R4389:4389 ComplexityBoundsArity <> n:37 var
+R4394:4396 Coq.Arith.PeanoNat <> ::nat_scope:x_'^'_x not
+R4397:4397 ComplexityBoundsArity <> n:37 var
+R4405:4405 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4434:4441 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4474:4474 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+binder 4413:4413 <> n:38
+R4425:4428 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R4416:4422 ComplexityBoundsArity <> choose2 def
+R4424:4424 ComplexityBoundsArity <> n:38 var
+R4430:4432 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R4429:4429 ComplexityBoundsArity <> n:38 var
+R4433:4433 ComplexityBoundsArity <> n:38 var
+binder 4449:4449 <> n:39
+R4461:4464 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R4452:4458 ComplexityBoundsArity <> choose3 def
+R4460:4460 ComplexityBoundsArity <> n:39 var
+R4470:4472 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R4466:4468 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R4465:4465 ComplexityBoundsArity <> n:39 var
+R4469:4469 ComplexityBoundsArity <> n:39 var
+R4473:4473 ComplexityBoundsArity <> n:39 var
+R4510:4531 ComplexityBoundsArity <> sum_choose_all_eq_pow2 thm
+R4510:4531 ComplexityBoundsArity <> sum_choose_all_eq_pow2 thm
+R4544:4556 ComplexityBoundsArity <> choose2_le_sq thm
+R4544:4556 ComplexityBoundsArity <> choose2_le_sq thm
+R4569:4583 ComplexityBoundsArity <> choose3_le_cube thm
+R4569:4583 ComplexityBoundsArity <> choose3_le_cube thm

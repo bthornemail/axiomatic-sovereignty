@@ -1,0 +1,538 @@
+DIGEST NO
+FRationalVectorsDefineOperations
+R234:246 Coq.QArith.QArith <> <> lib
+R273:289 Coq.QArith.Qreduction <> <> lib
+R316:329 Coq.QArith.Qminmax <> <> lib
+R356:368 Coq.QArith.Qpower <> <> lib
+R395:411 Coq.Vectors.VectorDef <> <> lib
+R438:455 Coq.Vectors.VectorSpec <> <> lib
+R482:495 Coq.Setoids.Setoid <> <> lib
+R522:534 Coq.micromega.Lia <> <> lib
+R561:571 Coq.Arith.Arith <> <> lib
+R598:607 Coq.setoid_ring.ZArithRing <> <> lib
+R634:648 Coq.micromega.Psatz <> <> lib
+R658:672 Coq.Vectors.VectorDef VectorNotations <> mod
+def 687:689 <> Vec
+R696:698 Coq.Init.Datatypes <> nat ind
+binder 692:692 <> n:1
+R711:718 Coq.Vectors.Vector <> t ind
+R720:720 Coq.QArith.QArith_base <> Q rec
+R722:722 RationalVectorsDefineOperations <> n:1 var
+prf 732:738 <> Vec0_eq
+R745:747 RationalVectorsDefineOperations <> Vec def
+binder 741:741 <> v:2
+R755:757 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R754:754 RationalVectorsDefineOperations <> v:2 var
+R758:759 Coq.Vectors.VectorDef VectorNotations ::vector_scope:'['_']' not
+R779:790 Coq.Vectors.Vector <> case0 def
+binder 797:798 <> v':3
+R805:807 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R803:804 RationalVectorsDefineOperations <> v':3 var
+R808:809 Coq.Vectors.VectorDef VectorNotations ::vector_scope:'['_']' not
+R779:790 Coq.Vectors.Vector <> case0 def
+binder 797:798 <> v':4
+R805:807 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R803:804 RationalVectorsDefineOperations <> v':4 var
+R808:809 Coq.Vectors.VectorDef VectorNotations ::vector_scope:'['_']' not
+def 848:850 <> veq
+R857:859 Coq.Init.Datatypes <> nat ind
+binder 853:853 <> n:5
+R869:872 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R864:866 RationalVectorsDefineOperations <> Vec def
+R868:868 RationalVectorsDefineOperations <> n:5 var
+R878:881 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R873:875 RationalVectorsDefineOperations <> Vec def
+R877:877 RationalVectorsDefineOperations <> n:5 var
+R898:898 RationalVectorsDefineOperations <> n:5 var
+R909:909 Coq.Init.Datatypes <> O constr
+R925:928 Coq.Init.Logic <> True ind
+R934:934 Coq.Init.Datatypes <> S constr
+binder 952:952 <> v:8
+binder 954:954 <> w:9
+R993:996 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R978:981 Coq.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R967:975 Coq.Vectors.Vector <> hd def
+R977:977 RationalVectorsDefineOperations <> v:8 var
+R982:990 Coq.Vectors.Vector <> hd def
+R992:992 RationalVectorsDefineOperations <> w:9 var
+R997:999 RationalVectorsDefineOperations <> veq:6 def
+R1016:1024 Coq.Vectors.Vector <> tl def
+R1026:1026 RationalVectorsDefineOperations <> w:9 var
+R1002:1010 Coq.Vectors.Vector <> tl def
+R1012:1012 RationalVectorsDefineOperations <> v:8 var
+def 1046:1049 <> dotn
+R1056:1058 Coq.Init.Datatypes <> nat ind
+binder 1052:1052 <> n:10
+R1068:1071 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1063:1065 RationalVectorsDefineOperations <> Vec def
+R1067:1067 RationalVectorsDefineOperations <> n:10 var
+R1077:1080 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1072:1074 RationalVectorsDefineOperations <> Vec def
+R1076:1076 RationalVectorsDefineOperations <> n:10 var
+R1081:1081 Coq.QArith.QArith_base <> Q rec
+R1094:1094 RationalVectorsDefineOperations <> n:10 var
+R1105:1105 Coq.Init.Datatypes <> O constr
+R1127:1127 Coq.Init.Datatypes <> S constr
+binder 1145:1145 <> v:13
+binder 1147:1147 <> w:14
+R1160:1164 Coq.QArith.QArith_base <> Qplus def
+R1177:1181 Coq.QArith.QArith_base <> Qmult def
+R1184:1192 Coq.Vectors.Vector <> hd def
+R1194:1194 RationalVectorsDefineOperations <> v:13 var
+R1198:1206 Coq.Vectors.Vector <> hd def
+R1208:1208 RationalVectorsDefineOperations <> w:14 var
+R1223:1226 RationalVectorsDefineOperations <> dotn:11 def
+R1246:1254 Coq.Vectors.Vector <> tl def
+R1256:1256 RationalVectorsDefineOperations <> w:14 var
+R1232:1240 Coq.Vectors.Vector <> tl def
+R1242:1242 RationalVectorsDefineOperations <> v:13 var
+def 1279:1281 <> dot
+R1288:1290 Coq.Init.Datatypes <> nat ind
+binder 1284:1284 <> n:15
+R1300:1302 RationalVectorsDefineOperations <> Vec def
+R1304:1304 RationalVectorsDefineOperations <> n:15 var
+binder 1294:1294 <> v:16
+binder 1296:1296 <> w:17
+R1309:1309 Coq.QArith.QArith_base <> Q rec
+R1316:1319 RationalVectorsDefineOperations <> dotn def
+R1321:1321 RationalVectorsDefineOperations <> n:15 var
+R1323:1323 RationalVectorsDefineOperations <> v:16 var
+R1325:1325 RationalVectorsDefineOperations <> w:17 var
+def 1340:1346 <> norm_sq
+R1353:1355 Coq.Init.Datatypes <> nat ind
+binder 1349:1349 <> n:18
+R1363:1365 RationalVectorsDefineOperations <> Vec def
+R1367:1367 RationalVectorsDefineOperations <> n:18 var
+binder 1359:1359 <> v:19
+R1372:1372 Coq.QArith.QArith_base <> Q rec
+R1379:1381 RationalVectorsDefineOperations <> dot def
+R1385:1385 RationalVectorsDefineOperations <> v:19 var
+R1383:1383 RationalVectorsDefineOperations <> v:19 var
+def 1400:1403 <> vadd
+R1410:1412 Coq.Init.Datatypes <> nat ind
+binder 1406:1406 <> n:20
+R1422:1424 RationalVectorsDefineOperations <> Vec def
+R1426:1426 RationalVectorsDefineOperations <> n:20 var
+binder 1416:1416 <> v:21
+binder 1418:1418 <> w:22
+R1431:1433 RationalVectorsDefineOperations <> Vec def
+R1435:1435 RationalVectorsDefineOperations <> n:20 var
+R1442:1452 Coq.Vectors.Vector <> map2 def
+R1462:1462 RationalVectorsDefineOperations <> w:22 var
+R1460:1460 RationalVectorsDefineOperations <> v:21 var
+R1454:1458 Coq.QArith.QArith_base <> Qplus def
+def 1477:1480 <> vneg
+R1487:1489 Coq.Init.Datatypes <> nat ind
+binder 1483:1483 <> n:23
+R1497:1499 RationalVectorsDefineOperations <> Vec def
+R1501:1501 RationalVectorsDefineOperations <> n:23 var
+binder 1493:1493 <> v:24
+R1506:1508 RationalVectorsDefineOperations <> Vec def
+R1510:1510 RationalVectorsDefineOperations <> n:23 var
+R1517:1526 Coq.Vectors.Vector <> map def
+R1533:1533 RationalVectorsDefineOperations <> v:24 var
+R1528:1531 Coq.QArith.QArith_base <> Qopp def
+def 1548:1553 <> vscale
+R1560:1562 Coq.Init.Datatypes <> nat ind
+binder 1556:1556 <> n:25
+R1570:1570 Coq.QArith.QArith_base <> Q rec
+binder 1566:1566 <> c:26
+R1578:1580 RationalVectorsDefineOperations <> Vec def
+R1582:1582 RationalVectorsDefineOperations <> n:25 var
+binder 1574:1574 <> v:27
+R1587:1589 RationalVectorsDefineOperations <> Vec def
+R1591:1591 RationalVectorsDefineOperations <> n:25 var
+R1598:1607 Coq.Vectors.Vector <> map def
+R1619:1619 RationalVectorsDefineOperations <> v:27 var
+R1610:1614 Coq.QArith.QArith_base <> Qmult def
+R1616:1616 RationalVectorsDefineOperations <> c:26 var
+prf 1629:1641 <> Qnum_Qden_inj
+binder 1643:1644 <> n1:28
+binder 1646:1647 <> d1:29
+binder 1649:1650 <> n2:30
+binder 1652:1653 <> d2:31
+R1664:1667 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1659:1661 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1657:1658 RationalVectorsDefineOperations <> n1:28 var
+R1662:1663 RationalVectorsDefineOperations <> n2:30 var
+R1675:1678 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1670:1672 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1668:1669 RationalVectorsDefineOperations <> d1:29 var
+R1673:1674 RationalVectorsDefineOperations <> d2:31 var
+R1690:1692 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1679:1683 Coq.QArith.QArith_base <> Qmake constr
+R1685:1686 RationalVectorsDefineOperations <> n1:28 var
+R1688:1689 RationalVectorsDefineOperations <> d1:29 var
+R1693:1697 Coq.QArith.QArith_base <> Qmake constr
+R1699:1700 RationalVectorsDefineOperations <> n2:30 var
+R1702:1703 RationalVectorsDefineOperations <> d2:31 var
+prf 1753:1764 <> Qplus_0_l_eq
+R1779:1779 Coq.QArith.QArith_base <> Q rec
+binder 1775:1775 <> a:32
+R1791:1793 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1782:1786 Coq.QArith.QArith_base <> Qplus def
+R1790:1790 RationalVectorsDefineOperations <> a:32 var
+R1794:1794 RationalVectorsDefineOperations <> a:32 var
+R1825:1829 Coq.QArith.QArith_base <> Qplus def
+R1847:1855 Coq.ZArith.BinInt Z mul_1_r thm
+R1847:1855 Coq.ZArith.BinInt Z mul_1_r thm
+R1847:1855 Coq.ZArith.BinInt Z mul_1_r thm
+prf 1883:1894 <> Qplus_0_r_eq
+R1909:1909 Coq.QArith.QArith_base <> Q rec
+binder 1905:1905 <> a:33
+R1921:1923 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1912:1916 Coq.QArith.QArith_base <> Qplus def
+R1918:1918 RationalVectorsDefineOperations <> a:33 var
+R1924:1924 RationalVectorsDefineOperations <> a:33 var
+R1955:1959 Coq.QArith.QArith_base <> Qplus def
+R1977:1985 Coq.ZArith.BinInt Z mul_1_r thm
+R1988:1996 Coq.ZArith.BinInt Z add_0_r thm
+R1999:2009 Coq.PArith.BinPos Pos mul_1_r thm
+R1977:1985 Coq.ZArith.BinInt Z mul_1_r thm
+R1977:1985 Coq.ZArith.BinInt Z mul_1_r thm
+R1988:1996 Coq.ZArith.BinInt Z add_0_r thm
+R1988:1996 Coq.ZArith.BinInt Z add_0_r thm
+R1999:2009 Coq.PArith.BinPos Pos mul_1_r thm
+R1999:2009 Coq.PArith.BinPos Pos mul_1_r thm
+prf 2037:2050 <> Qplus_assoc_eq
+R2069:2069 Coq.QArith.QArith_base <> Q rec
+binder 2061:2061 <> a:34
+binder 2063:2063 <> b:35
+binder 2065:2065 <> c:36
+R2091:2093 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2072:2076 Coq.QArith.QArith_base <> Qplus def
+R2079:2083 Coq.QArith.QArith_base <> Qplus def
+R2085:2085 RationalVectorsDefineOperations <> a:34 var
+R2087:2087 RationalVectorsDefineOperations <> b:35 var
+R2090:2090 RationalVectorsDefineOperations <> c:36 var
+R2094:2098 Coq.QArith.QArith_base <> Qplus def
+R2100:2100 RationalVectorsDefineOperations <> a:34 var
+R2103:2107 Coq.QArith.QArith_base <> Qplus def
+R2109:2109 RationalVectorsDefineOperations <> b:35 var
+R2111:2111 RationalVectorsDefineOperations <> c:36 var
+R2182:2186 Coq.QArith.QArith_base <> Qplus def
+R2230:2242 Coq.PArith.BinPos Pos mul_assoc thm
+R2230:2242 Coq.PArith.BinPos Pos mul_assoc thm
+prf 2258:2270 <> Qplus_comm_eq
+R2287:2287 Coq.QArith.QArith_base <> Q rec
+binder 2281:2281 <> a:37
+binder 2283:2283 <> b:38
+R2299:2301 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2290:2294 Coq.QArith.QArith_base <> Qplus def
+R2296:2296 RationalVectorsDefineOperations <> a:37 var
+R2298:2298 RationalVectorsDefineOperations <> b:38 var
+R2302:2306 Coq.QArith.QArith_base <> Qplus def
+R2308:2308 RationalVectorsDefineOperations <> b:38 var
+R2310:2310 RationalVectorsDefineOperations <> a:37 var
+R2366:2370 Coq.QArith.QArith_base <> Qplus def
+R2405:2416 Coq.PArith.BinPos Pos mul_comm thm
+R2405:2416 Coq.PArith.BinPos Pos mul_comm thm
+prf 2432:2444 <> Qmult_comm_eq
+R2461:2461 Coq.QArith.QArith_base <> Q rec
+binder 2455:2455 <> a:39
+binder 2457:2457 <> b:40
+R2473:2475 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2464:2468 Coq.QArith.QArith_base <> Qmult def
+R2470:2470 RationalVectorsDefineOperations <> a:39 var
+R2472:2472 RationalVectorsDefineOperations <> b:40 var
+R2476:2480 Coq.QArith.QArith_base <> Qmult def
+R2482:2482 RationalVectorsDefineOperations <> b:40 var
+R2484:2484 RationalVectorsDefineOperations <> a:39 var
+R2540:2544 Coq.QArith.QArith_base <> Qmult def
+R2579:2590 Coq.PArith.BinPos Pos mul_comm thm
+R2579:2590 Coq.PArith.BinPos Pos mul_comm thm
+prf 2606:2617 <> Qmult_1_l_eq
+R2632:2632 Coq.QArith.QArith_base <> Q rec
+binder 2628:2628 <> a:41
+R2644:2646 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2635:2639 Coq.QArith.QArith_base <> Qmult def
+R2643:2643 RationalVectorsDefineOperations <> a:41 var
+R2647:2647 RationalVectorsDefineOperations <> a:41 var
+prf 2717:2730 <> Qsquare_nonneg
+R2745:2745 Coq.QArith.QArith_base <> Q rec
+binder 2741:2741 <> a:42
+R2749:2752 Coq.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R2754:2756 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R2753:2753 RationalVectorsDefineOperations <> a:42 var
+R2757:2757 RationalVectorsDefineOperations <> a:42 var
+R2789:2792 Coq.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R2794:2796 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R2789:2792 Coq.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R2794:2796 Coq.QArith.QArith_base <> ::Q_scope:x_'^'_x not
+R2809:2819 Coq.QArith.Qpower <> Qsqr_nonneg thm
+R2809:2819 Coq.QArith.Qpower <> Qsqr_nonneg thm
+prf 2834:2845 <> Qplus_nonneg
+R2862:2862 Coq.QArith.QArith_base <> Q rec
+binder 2856:2856 <> a:43
+binder 2858:2858 <> b:44
+R2871:2874 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2866:2869 Coq.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R2870:2870 RationalVectorsDefineOperations <> a:43 var
+R2881:2884 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2876:2879 Coq.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R2880:2880 RationalVectorsDefineOperations <> b:44 var
+R2886:2889 Coq.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R2891:2893 Coq.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R2890:2890 RationalVectorsDefineOperations <> a:43 var
+R2894:2894 RationalVectorsDefineOperations <> b:44 var
+R2939:2942 Coq.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R2935:2937 Coq.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R2944:2946 Coq.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R2939:2942 Coq.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R2935:2937 Coq.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R2944:2946 Coq.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R2959:2973 Coq.QArith.QArith_base <> Qplus_le_compat thm
+R2959:2973 Coq.QArith.QArith_base <> Qplus_le_compat thm
+prf 3002:3009 <> dot_comm
+binder 3020:3020 <> n:45
+R3029:3031 RationalVectorsDefineOperations <> Vec def
+R3033:3033 RationalVectorsDefineOperations <> n:45 var
+binder 3023:3023 <> v:46
+binder 3025:3025 <> w:47
+R3044:3046 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3037:3039 RationalVectorsDefineOperations <> dot def
+R3043:3043 RationalVectorsDefineOperations <> w:47 var
+R3041:3041 RationalVectorsDefineOperations <> v:46 var
+R3047:3049 RationalVectorsDefineOperations <> dot def
+R3053:3053 RationalVectorsDefineOperations <> v:46 var
+R3051:3051 RationalVectorsDefineOperations <> w:47 var
+R3072:3074 RationalVectorsDefineOperations <> dot def
+R3141:3153 RationalVectorsDefineOperations <> Qmult_comm_eq thm
+R3156:3164 Coq.Vectors.Vector <> hd def
+R3170:3178 Coq.Vectors.Vector <> hd def
+R3141:3153 RationalVectorsDefineOperations <> Qmult_comm_eq thm
+R3156:3164 Coq.Vectors.Vector <> hd def
+R3170:3178 Coq.Vectors.Vector <> hd def
+R3141:3153 RationalVectorsDefineOperations <> Qmult_comm_eq thm
+R3156:3164 Coq.Vectors.Vector <> hd def
+R3170:3178 Coq.Vectors.Vector <> hd def
+R3203:3211 Coq.Vectors.Vector <> tl def
+R3217:3225 Coq.Vectors.Vector <> tl def
+R3203:3211 Coq.Vectors.Vector <> tl def
+R3217:3225 Coq.Vectors.Vector <> tl def
+R3203:3211 Coq.Vectors.Vector <> tl def
+R3217:3225 Coq.Vectors.Vector <> tl def
+prf 3263:3271 <> dot_add_l
+binder 3282:3282 <> n:48
+R3293:3295 RationalVectorsDefineOperations <> Vec def
+R3297:3297 RationalVectorsDefineOperations <> n:48 var
+binder 3285:3285 <> u:49
+binder 3287:3287 <> v:50
+binder 3289:3289 <> w:51
+R3319:3322 Coq.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R3303:3305 RationalVectorsDefineOperations <> dot def
+R3318:3318 RationalVectorsDefineOperations <> w:51 var
+R3308:3311 RationalVectorsDefineOperations <> vadd def
+R3315:3315 RationalVectorsDefineOperations <> v:50 var
+R3313:3313 RationalVectorsDefineOperations <> u:49 var
+R3330:3332 Coq.QArith.QArith_base <> ::Q_scope:x_'+'_x not
+R3323:3325 RationalVectorsDefineOperations <> dot def
+R3329:3329 RationalVectorsDefineOperations <> w:51 var
+R3327:3327 RationalVectorsDefineOperations <> u:49 var
+R3333:3335 RationalVectorsDefineOperations <> dot def
+R3339:3339 RationalVectorsDefineOperations <> w:51 var
+R3337:3337 RationalVectorsDefineOperations <> v:50 var
+R3409:3411 RationalVectorsDefineOperations <> dot def
+R3414:3417 RationalVectorsDefineOperations <> vadd def
+R3457:3466 Coq.Vectors.Vector <> eta thm
+R3457:3466 Coq.Vectors.Vector <> eta thm
+R3457:3466 Coq.Vectors.Vector <> eta thm
+R3485:3494 Coq.Vectors.Vector <> eta thm
+R3485:3494 Coq.Vectors.Vector <> eta thm
+R3485:3494 Coq.Vectors.Vector <> eta thm
+R3513:3522 Coq.Vectors.Vector <> eta thm
+R3513:3522 Coq.Vectors.Vector <> eta thm
+R3513:3522 Coq.Vectors.Vector <> eta thm
+R3566:3568 RationalVectorsDefineOperations <> dot def
+prf 3595:3605 <> dot_scale_l
+binder 3616:3616 <> n:52
+R3623:3623 Coq.QArith.QArith_base <> Q rec
+binder 3619:3619 <> c:53
+R3633:3635 RationalVectorsDefineOperations <> Vec def
+R3637:3637 RationalVectorsDefineOperations <> n:52 var
+binder 3627:3627 <> v:54
+binder 3629:3629 <> w:55
+R3661:3664 Coq.QArith.QArith_base <> ::Q_scope:x_'=='_x not
+R3643:3645 RationalVectorsDefineOperations <> dot def
+R3660:3660 RationalVectorsDefineOperations <> w:55 var
+R3648:3653 RationalVectorsDefineOperations <> vscale def
+R3657:3657 RationalVectorsDefineOperations <> v:54 var
+R3655:3655 RationalVectorsDefineOperations <> c:53 var
+R3666:3668 Coq.QArith.QArith_base <> ::Q_scope:x_'*'_x not
+R3665:3665 RationalVectorsDefineOperations <> c:53 var
+R3669:3671 RationalVectorsDefineOperations <> dot def
+R3675:3675 RationalVectorsDefineOperations <> w:55 var
+R3673:3673 RationalVectorsDefineOperations <> v:54 var
+R3745:3747 RationalVectorsDefineOperations <> dot def
+R3778:3783 RationalVectorsDefineOperations <> vscale def
+R3799:3808 Coq.Vectors.Vector <> eta thm
+R3799:3808 Coq.Vectors.Vector <> eta thm
+R3799:3808 Coq.Vectors.Vector <> eta thm
+R3827:3836 Coq.Vectors.Vector <> eta thm
+R3827:3836 Coq.Vectors.Vector <> eta thm
+R3827:3836 Coq.Vectors.Vector <> eta thm
+R3863:3868 RationalVectorsDefineOperations <> vscale def
+R3873:3881 Coq.Vectors.Vector <> tl def
+R3863:3868 RationalVectorsDefineOperations <> vscale def
+R3873:3881 Coq.Vectors.Vector <> tl def
+R3915:3917 RationalVectorsDefineOperations <> dot def
+prf 3944:3957 <> norm_sq_nonneg
+binder 3968:3968 <> n:56
+R3975:3977 RationalVectorsDefineOperations <> Vec def
+R3979:3979 RationalVectorsDefineOperations <> n:56 var
+binder 3971:3971 <> v:57
+R3986:3989 Coq.QArith.QArith_base <> ::Q_scope:x_'<='_x not
+R3990:3996 RationalVectorsDefineOperations <> norm_sq def
+R3998:3998 RationalVectorsDefineOperations <> v:57 var
+R4064:4070 RationalVectorsDefineOperations <> norm_sq def
+R4073:4075 RationalVectorsDefineOperations <> dot def
+R4095:4102 Coq.QArith.QArith_base <> Qle_refl thm
+R4095:4102 Coq.QArith.QArith_base <> Qle_refl thm
+R4115:4126 RationalVectorsDefineOperations <> Qplus_nonneg thm
+R4115:4126 RationalVectorsDefineOperations <> Qplus_nonneg thm
+R4141:4154 RationalVectorsDefineOperations <> Qsquare_nonneg thm
+R4141:4154 RationalVectorsDefineOperations <> Qsquare_nonneg thm
+prf 4187:4195 <> vadd_comm
+binder 4206:4206 <> n:58
+R4215:4217 RationalVectorsDefineOperations <> Vec def
+R4219:4219 RationalVectorsDefineOperations <> n:58 var
+binder 4209:4209 <> v:59
+binder 4211:4211 <> w:60
+R4231:4233 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4223:4226 RationalVectorsDefineOperations <> vadd def
+R4230:4230 RationalVectorsDefineOperations <> w:60 var
+R4228:4228 RationalVectorsDefineOperations <> v:59 var
+R4234:4237 RationalVectorsDefineOperations <> vadd def
+R4241:4241 RationalVectorsDefineOperations <> v:59 var
+R4239:4239 RationalVectorsDefineOperations <> w:60 var
+R4309:4312 RationalVectorsDefineOperations <> vadd def
+R4335:4341 RationalVectorsDefineOperations <> Vec0_eq thm
+R4348:4354 RationalVectorsDefineOperations <> Vec0_eq thm
+R4335:4341 RationalVectorsDefineOperations <> Vec0_eq thm
+R4335:4341 RationalVectorsDefineOperations <> Vec0_eq thm
+R4348:4354 RationalVectorsDefineOperations <> Vec0_eq thm
+R4348:4354 RationalVectorsDefineOperations <> Vec0_eq thm
+R4390:4399 Coq.Vectors.Vector <> eta thm
+R4390:4399 Coq.Vectors.Vector <> eta thm
+R4390:4399 Coq.Vectors.Vector <> eta thm
+R4418:4427 Coq.Vectors.Vector <> eta thm
+R4418:4427 Coq.Vectors.Vector <> eta thm
+R4418:4427 Coq.Vectors.Vector <> eta thm
+R4483:4495 RationalVectorsDefineOperations <> Qplus_comm_eq thm
+R4483:4495 RationalVectorsDefineOperations <> Qplus_comm_eq thm
+prf 4512:4521 <> vadd_assoc
+binder 4532:4532 <> n:61
+R4543:4545 RationalVectorsDefineOperations <> Vec def
+R4547:4547 RationalVectorsDefineOperations <> n:61 var
+binder 4535:4535 <> u:62
+binder 4537:4537 <> v:63
+binder 4539:4539 <> w:64
+R4570:4572 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4553:4556 RationalVectorsDefineOperations <> vadd def
+R4569:4569 RationalVectorsDefineOperations <> w:64 var
+R4559:4562 RationalVectorsDefineOperations <> vadd def
+R4566:4566 RationalVectorsDefineOperations <> v:63 var
+R4564:4564 RationalVectorsDefineOperations <> u:62 var
+R4573:4576 RationalVectorsDefineOperations <> vadd def
+R4581:4584 RationalVectorsDefineOperations <> vadd def
+R4588:4588 RationalVectorsDefineOperations <> w:64 var
+R4586:4586 RationalVectorsDefineOperations <> v:63 var
+R4578:4578 RationalVectorsDefineOperations <> u:62 var
+R4659:4662 RationalVectorsDefineOperations <> vadd def
+R4685:4691 RationalVectorsDefineOperations <> Vec0_eq thm
+R4698:4704 RationalVectorsDefineOperations <> Vec0_eq thm
+R4711:4717 RationalVectorsDefineOperations <> Vec0_eq thm
+R4685:4691 RationalVectorsDefineOperations <> Vec0_eq thm
+R4685:4691 RationalVectorsDefineOperations <> Vec0_eq thm
+R4698:4704 RationalVectorsDefineOperations <> Vec0_eq thm
+R4698:4704 RationalVectorsDefineOperations <> Vec0_eq thm
+R4711:4717 RationalVectorsDefineOperations <> Vec0_eq thm
+R4711:4717 RationalVectorsDefineOperations <> Vec0_eq thm
+R4753:4762 Coq.Vectors.Vector <> eta thm
+R4753:4762 Coq.Vectors.Vector <> eta thm
+R4753:4762 Coq.Vectors.Vector <> eta thm
+R4781:4790 Coq.Vectors.Vector <> eta thm
+R4781:4790 Coq.Vectors.Vector <> eta thm
+R4781:4790 Coq.Vectors.Vector <> eta thm
+R4809:4818 Coq.Vectors.Vector <> eta thm
+R4809:4818 Coq.Vectors.Vector <> eta thm
+R4809:4818 Coq.Vectors.Vector <> eta thm
+R4874:4887 RationalVectorsDefineOperations <> Qplus_assoc_eq thm
+R4874:4887 RationalVectorsDefineOperations <> Qplus_assoc_eq thm
+prf 4904:4913 <> vadd_neg_r
+binder 4924:4924 <> n:65
+R4931:4933 RationalVectorsDefineOperations <> Vec def
+R4935:4935 RationalVectorsDefineOperations <> n:65 var
+binder 4927:4927 <> v:66
+R4939:4941 RationalVectorsDefineOperations <> veq def
+R4962:4973 Coq.Vectors.Vector <> const def
+R4977:4977 RationalVectorsDefineOperations <> n:65 var
+R4944:4947 RationalVectorsDefineOperations <> vadd def
+R4952:4955 RationalVectorsDefineOperations <> vneg def
+R4957:4957 RationalVectorsDefineOperations <> v:66 var
+R4949:4949 RationalVectorsDefineOperations <> v:66 var
+R5054:5054 Coq.Init.Logic <> I constr
+R5054:5054 Coq.Init.Logic <> I constr
+R5068:5071 RationalVectorsDefineOperations <> vadd def
+R5074:5077 RationalVectorsDefineOperations <> vneg def
+R5093:5102 Coq.Vectors.Vector <> eta thm
+R5093:5102 Coq.Vectors.Vector <> eta thm
+R5093:5102 Coq.Vectors.Vector <> eta thm
+R5142:5152 Coq.QArith.QArith_base <> Qplus_opp_r thm
+R5142:5152 Coq.QArith.QArith_base <> Qplus_opp_r thm
+R5167:5170 RationalVectorsDefineOperations <> vneg def
+R5173:5181 Coq.Vectors.Vector <> tl def
+R5167:5170 RationalVectorsDefineOperations <> vneg def
+R5173:5181 Coq.Vectors.Vector <> tl def
+R5200:5203 RationalVectorsDefineOperations <> vadd def
+R5220:5223 RationalVectorsDefineOperations <> vneg def
+R5226:5234 Coq.Vectors.Vector <> tl def
+R5206:5214 Coq.Vectors.Vector <> tl def
+R5200:5203 RationalVectorsDefineOperations <> vadd def
+R5220:5223 RationalVectorsDefineOperations <> vneg def
+R5226:5234 Coq.Vectors.Vector <> tl def
+R5206:5214 Coq.Vectors.Vector <> tl def
+prf 5272:5282 <> vscale_zero
+binder 5293:5293 <> n:67
+R5300:5302 RationalVectorsDefineOperations <> Vec def
+R5304:5304 RationalVectorsDefineOperations <> n:67 var
+binder 5296:5296 <> v:68
+R5308:5310 RationalVectorsDefineOperations <> veq def
+R5326:5337 Coq.Vectors.Vector <> const def
+R5341:5341 RationalVectorsDefineOperations <> n:67 var
+R5313:5318 RationalVectorsDefineOperations <> vscale def
+R5322:5322 RationalVectorsDefineOperations <> v:68 var
+R5418:5418 Coq.Init.Logic <> I constr
+R5418:5418 Coq.Init.Logic <> I constr
+R5432:5437 RationalVectorsDefineOperations <> vscale def
+R5453:5462 Coq.Vectors.Vector <> eta thm
+R5453:5462 Coq.Vectors.Vector <> eta thm
+R5453:5462 Coq.Vectors.Vector <> eta thm
+R5502:5510 Coq.QArith.QArith_base <> Qmult_0_l thm
+R5502:5510 Coq.QArith.QArith_base <> Qmult_0_l thm
+R5525:5530 RationalVectorsDefineOperations <> vscale def
+R5535:5543 Coq.Vectors.Vector <> tl def
+R5525:5530 RationalVectorsDefineOperations <> vscale def
+R5535:5543 Coq.Vectors.Vector <> tl def
+prf 5580:5589 <> vscale_one
+binder 5600:5600 <> n:69
+R5607:5609 RationalVectorsDefineOperations <> Vec def
+R5611:5611 RationalVectorsDefineOperations <> n:69 var
+binder 5603:5603 <> v:70
+R5625:5627 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5615:5620 RationalVectorsDefineOperations <> vscale def
+R5624:5624 RationalVectorsDefineOperations <> v:70 var
+R5628:5628 RationalVectorsDefineOperations <> v:70 var
+R5694:5699 RationalVectorsDefineOperations <> vscale def
+R5722:5728 RationalVectorsDefineOperations <> Vec0_eq thm
+R5722:5728 RationalVectorsDefineOperations <> Vec0_eq thm
+R5722:5728 RationalVectorsDefineOperations <> Vec0_eq thm
+R5764:5773 Coq.Vectors.Vector <> eta thm
+R5764:5773 Coq.Vectors.Vector <> eta thm
+R5764:5773 Coq.Vectors.Vector <> eta thm
+R5800:5805 RationalVectorsDefineOperations <> vscale def
+R5810:5818 Coq.Vectors.Vector <> tl def
+R5800:5805 RationalVectorsDefineOperations <> vscale def
+R5810:5818 Coq.Vectors.Vector <> tl def
+R5864:5875 RationalVectorsDefineOperations <> Qmult_1_l_eq thm
+R5864:5875 RationalVectorsDefineOperations <> Qmult_1_l_eq thm

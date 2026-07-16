@@ -1,0 +1,123 @@
+DIGEST NO
+FProofStatusOrdersClaims
+R507:520 Coq.Strings.String <> <> lib
+ind 534:544 <> ProofStatus
+constr 558:559 <> P0
+constr 577:578 <> P1
+constr 596:597 <> P2
+constr 615:616 <> P3
+constr 634:635 <> P4
+R563:573 ProofStatusOrdersClaims <> ProofStatus:1 ind
+R582:592 ProofStatusOrdersClaims <> ProofStatus:1 ind
+R601:611 ProofStatusOrdersClaims <> ProofStatus:1 ind
+R620:630 ProofStatusOrdersClaims <> ProofStatus:1 ind
+R639:649 ProofStatusOrdersClaims <> ProofStatus:1 ind
+scheme 534:544 <> ProofStatus_rect
+scheme 534:544 <> ProofStatus_ind
+scheme 534:544 <> ProofStatus_rec
+scheme 534:544 <> ProofStatus_sind
+def 664:672 <> status_le
+R681:691 ProofStatusOrdersClaims <> ProofStatus ind
+binder 675:675 <> a:3
+binder 677:677 <> b:4
+R715:715 ProofStatusOrdersClaims <> b:4 var
+R712:712 ProofStatusOrdersClaims <> a:3 var
+R726:727 ProofStatusOrdersClaims <> P0 constr
+R735:738 Coq.Init.Logic <> True ind
+R744:745 ProofStatusOrdersClaims <> P1 constr
+R748:749 ProofStatusOrdersClaims <> P0 constr
+R754:758 Coq.Init.Logic <> False ind
+R762:763 ProofStatusOrdersClaims <> P1 constr
+R771:774 Coq.Init.Logic <> True ind
+R780:781 ProofStatusOrdersClaims <> P2 constr
+R784:785 ProofStatusOrdersClaims <> P2 constr
+R790:793 Coq.Init.Logic <> True ind
+R797:798 ProofStatusOrdersClaims <> P2 constr
+R801:802 ProofStatusOrdersClaims <> P3 constr
+R807:810 Coq.Init.Logic <> True ind
+R814:815 ProofStatusOrdersClaims <> P2 constr
+R818:819 ProofStatusOrdersClaims <> P4 constr
+R824:827 Coq.Init.Logic <> True ind
+R831:832 ProofStatusOrdersClaims <> P2 constr
+R840:844 Coq.Init.Logic <> False ind
+R850:851 ProofStatusOrdersClaims <> P3 constr
+R854:855 ProofStatusOrdersClaims <> P3 constr
+R860:863 Coq.Init.Logic <> True ind
+R867:868 ProofStatusOrdersClaims <> P3 constr
+R871:872 ProofStatusOrdersClaims <> P4 constr
+R877:880 Coq.Init.Logic <> True ind
+R884:885 ProofStatusOrdersClaims <> P3 constr
+R893:897 Coq.Init.Logic <> False ind
+R903:904 ProofStatusOrdersClaims <> P4 constr
+R907:908 ProofStatusOrdersClaims <> P4 constr
+R913:916 Coq.Init.Logic <> True ind
+R920:921 ProofStatusOrdersClaims <> P4 constr
+R929:933 Coq.Init.Logic <> False ind
+prf 951:964 <> status_le_refl
+binder 975:975 <> s:7
+R978:986 ProofStatusOrdersClaims <> status_le def
+R988:988 ProofStatusOrdersClaims <> s:7 var
+R990:990 ProofStatusOrdersClaims <> s:7 var
+R1028:1036 ProofStatusOrdersClaims <> status_le def
+prf 1059:1073 <> status_le_trans
+binder 1084:1084 <> a:8
+binder 1086:1086 <> b:9
+binder 1088:1088 <> c:10
+R1106:1109 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1093:1101 ProofStatusOrdersClaims <> status_le def
+R1103:1103 ProofStatusOrdersClaims <> a:8 var
+R1105:1105 ProofStatusOrdersClaims <> b:9 var
+R1123:1126 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1110:1118 ProofStatusOrdersClaims <> status_le def
+R1120:1120 ProofStatusOrdersClaims <> b:9 var
+R1122:1122 ProofStatusOrdersClaims <> c:10 var
+R1127:1135 ProofStatusOrdersClaims <> status_le def
+R1137:1137 ProofStatusOrdersClaims <> a:8 var
+R1139:1139 ProofStatusOrdersClaims <> c:10 var
+R1218:1226 ProofStatusOrdersClaims <> status_le def
+rec 1253:1259 <> ClaimID
+proj 1285:1292 <> claim_id
+proj 1308:1317 <> claim_name
+proj 1331:1339 <> claim_src
+proj 1354:1365 <> claim_status
+R1298:1303 Coq.Strings.String <> string ind
+R1321:1326 Coq.Strings.String <> string ind
+R1344:1349 Coq.Strings.String <> string ind
+R1369:1379 ProofStatusOrdersClaims <> ProofStatus ind
+rec 1392:1396 <> Claim
+proj 1420:1435 <> claim_identifier
+proj 1450:1461 <> claim_formal
+proj 1474:1486 <> claim_allowed
+proj 1500:1514 <> claim_forbidden
+proj 1528:1538 <> claim_notes
+R1439:1445 ProofStatusOrdersClaims <> ClaimID rec
+R1490:1495 Coq.Strings.String <> string ind
+R1518:1523 Coq.Strings.String <> string ind
+R1544:1549 Coq.Strings.String <> string ind
+def 1566:1579 <> register_claim
+R1587:1593 ProofStatusOrdersClaims <> ClaimID rec
+binder 1582:1583 <> id:22
+binder 1597:1602 <> formal:23
+R1641:1646 Coq.Strings.String <> string ind
+binder 1615:1621 <> allowed:24
+binder 1623:1631 <> forbidden:25
+binder 1633:1637 <> notes:26
+R1651:1655 ProofStatusOrdersClaims <> Claim rec
+R1662:1668 ProofStatusOrdersClaims <> mkClaim constr
+R1670:1671 ProofStatusOrdersClaims <> id:22 var
+R1673:1678 ProofStatusOrdersClaims <> formal:23 var
+R1680:1686 ProofStatusOrdersClaims <> allowed:24 var
+R1688:1696 ProofStatusOrdersClaims <> forbidden:25 var
+R1698:1702 ProofStatusOrdersClaims <> notes:26 var
+prf 1714:1728 <> P0_is_strongest
+binder 1739:1739 <> s:27
+R1742:1750 ProofStatusOrdersClaims <> status_le def
+R1752:1753 ProofStatusOrdersClaims <> P0 constr
+R1755:1755 ProofStatusOrdersClaims <> s:27 var
+R1793:1801 ProofStatusOrdersClaims <> status_le def
+prf 1824:1836 <> P4_is_weakest
+binder 1847:1847 <> s:28
+R1850:1858 ProofStatusOrdersClaims <> status_le def
+R1860:1860 ProofStatusOrdersClaims <> s:28 var
+R1862:1863 ProofStatusOrdersClaims <> P4 constr
+R1901:1909 ProofStatusOrdersClaims <> status_le def

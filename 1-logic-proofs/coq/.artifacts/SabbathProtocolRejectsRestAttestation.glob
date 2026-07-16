@@ -1,0 +1,987 @@
+DIGEST NO
+FSabbathProtocolRejectsRestAttestation
+R1359:1372 Coq.Lists.List <> <> lib
+R1390:1404 Coq.Arith.Arith <> <> lib
+R1422:1434 Coq.Bool.Bool <> <> lib
+R1452:1475 Coq.Logic.Classical_Prop <> <> lib
+R1493:1509 Coq.micromega.Lia <> <> lib
+R1519:1531 Coq.Lists.List ListNotations <> mod
+mod 1859:1873 <> SabbathProtocol
+ind 1967:1971 SabbathProtocol Event
+constr 1987:1995 SabbathProtocol Utterance
+constr 2015:2025 SabbathProtocol Attestation
+constr 2043:2057 SabbathProtocol AttestSuspended
+constr 2071:2083 SabbathProtocol AttestResumed
+constr 2099:2106 SabbathProtocol Ceremony
+R2005:2009 SabbathProtocolRejectsRestAttestation <> Event:1 ind
+R2033:2037 SabbathProtocolRejectsRestAttestation <> Event:1 ind
+R2061:2065 SabbathProtocolRejectsRestAttestation <> Event:1 ind
+R2089:2093 SabbathProtocolRejectsRestAttestation <> Event:1 ind
+R2117:2121 SabbathProtocolRejectsRestAttestation <> Event:1 ind
+scheme 1967:1971 SabbathProtocol Event_rect
+scheme 1967:1971 SabbathProtocol Event_ind
+scheme 1967:1971 SabbathProtocol Event_rec
+scheme 1967:1971 SabbathProtocol Event_sind
+def 2170:2181 SabbathProtocol event_eq_dec
+R2201:2205 SabbathProtocolRejectsRestAttestation SabbathProtocol Event ind
+binder 2193:2194 <> e1:3
+binder 2196:2197 <> e2:4
+R2209:2209 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2217:2221 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2230:2230 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2212:2214 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2210:2211 SabbathProtocolRejectsRestAttestation <> e1:3 var
+R2215:2216 SabbathProtocolRejectsRestAttestation <> e2:4 var
+R2224:2227 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R2222:2223 SabbathProtocolRejectsRestAttestation <> e1:3 var
+R2228:2229 SabbathProtocolRejectsRestAttestation <> e2:4 var
+def 2278:2286 SabbathProtocol event_eqb
+R2297:2301 SabbathProtocolRejectsRestAttestation SabbathProtocol Event ind
+binder 2289:2290 <> e1:5
+binder 2292:2293 <> e2:6
+R2306:2309 Coq.Init.Datatypes <> bool ind
+R2319:2330 SabbathProtocolRejectsRestAttestation SabbathProtocol event_eq_dec def
+R2332:2333 SabbathProtocolRejectsRestAttestation <> e1:5 var
+R2335:2336 SabbathProtocolRejectsRestAttestation <> e2:6 var
+R2353:2357 Coq.Init.Datatypes <> false constr
+R2343:2346 Coq.Init.Datatypes <> true constr
+prf 2367:2379 SabbathProtocol event_eqb_iff
+binder 2390:2391 <> e1:7
+binder 2393:2394 <> e2:8
+R2419:2423 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2412:2414 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2397:2405 SabbathProtocolRejectsRestAttestation SabbathProtocol event_eqb def
+R2407:2408 SabbathProtocolRejectsRestAttestation <> e1:7 var
+R2410:2411 SabbathProtocolRejectsRestAttestation <> e2:8 var
+R2415:2418 Coq.Init.Datatypes <> true constr
+R2426:2428 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2424:2425 SabbathProtocolRejectsRestAttestation <> e1:7 var
+R2429:2430 SabbathProtocolRejectsRestAttestation <> e2:8 var
+R2463:2471 SabbathProtocolRejectsRestAttestation SabbathProtocol event_eqb def
+R2486:2497 SabbathProtocolRejectsRestAttestation SabbathProtocol event_eq_dec def
+R2486:2497 SabbathProtocolRejectsRestAttestation SabbathProtocol event_eq_dec def
+ind 2630:2633 SabbathProtocol Mode
+constr 2649:2654 SabbathProtocol Normal
+constr 2672:2682 SabbathProtocol SabbathMode
+R2663:2666 SabbathProtocolRejectsRestAttestation <> Mode:9 ind
+R2686:2689 SabbathProtocolRejectsRestAttestation <> Mode:9 ind
+scheme 2630:2633 SabbathProtocol Mode_rect
+scheme 2630:2633 SabbathProtocol Mode_ind
+scheme 2630:2633 SabbathProtocol Mode_rec
+scheme 2630:2633 SabbathProtocol Mode_sind
+def 2704:2714 SabbathProtocol mode_eq_dec
+R2734:2737 SabbathProtocolRejectsRestAttestation SabbathProtocol Mode ind
+binder 2726:2727 <> m1:11
+binder 2729:2730 <> m2:12
+R2741:2741 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2749:2753 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2762:2762 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2744:2746 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2742:2743 SabbathProtocolRejectsRestAttestation <> m1:11 var
+R2747:2748 SabbathProtocolRejectsRestAttestation <> m2:12 var
+R2756:2759 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R2754:2755 SabbathProtocolRejectsRestAttestation <> m1:11 var
+R2760:2761 SabbathProtocolRejectsRestAttestation <> m2:12 var
+def 2891:2895 SabbathProtocol Trace
+R2900:2903 Coq.Init.Datatypes <> list ind
+R2905:2909 SabbathProtocolRejectsRestAttestation SabbathProtocol Event ind
+def 3080:3083 SabbathProtocol step
+R3093:3096 SabbathProtocolRejectsRestAttestation SabbathProtocol Mode ind
+binder 3086:3089 <> mode:13
+R3104:3108 SabbathProtocolRejectsRestAttestation SabbathProtocol Event ind
+binder 3100:3100 <> e:14
+R3113:3118 Coq.Init.Datatypes <> option ind
+R3120:3123 SabbathProtocolRejectsRestAttestation SabbathProtocol Mode ind
+R3142:3142 SabbathProtocolRejectsRestAttestation <> e:14 var
+R3136:3139 SabbathProtocolRejectsRestAttestation <> mode:13 var
+R3153:3158 SabbathProtocolRejectsRestAttestation SabbathProtocol Normal constr
+R3166:3180 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestSuspended constr
+R3185:3188 Coq.Init.Datatypes <> Some constr
+R3190:3200 SabbathProtocolRejectsRestAttestation SabbathProtocol SabbathMode constr
+R3206:3216 SabbathProtocolRejectsRestAttestation SabbathProtocol SabbathMode constr
+R3219:3231 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestResumed constr
+R3238:3241 Coq.Init.Datatypes <> Some constr
+R3243:3248 SabbathProtocolRejectsRestAttestation SabbathProtocol Normal constr
+R3254:3264 SabbathProtocolRejectsRestAttestation SabbathProtocol SabbathMode constr
+R3267:3277 SabbathProtocolRejectsRestAttestation SabbathProtocol Attestation constr
+R3286:3289 Coq.Init.Datatypes <> None constr
+R3350:3353 Coq.Init.Datatypes <> Some constr
+R3355:3358 SabbathProtocolRejectsRestAttestation <> mode:13 var
+def 3455:3462 SabbathProtocol validate
+R3472:3475 SabbathProtocolRejectsRestAttestation SabbathProtocol Mode ind
+binder 3465:3468 <> mode:17
+R3487:3491 SabbathProtocolRejectsRestAttestation SabbathProtocol Trace def
+binder 3479:3483 <> trace:18
+R3496:3499 Coq.Init.Datatypes <> bool ind
+R3512:3516 SabbathProtocolRejectsRestAttestation <> trace:18 var
+R3527:3528 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R3540:3543 Coq.Init.Datatypes <> true constr
+R3550:3553 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3572:3575 SabbathProtocolRejectsRestAttestation SabbathProtocol step def
+R3577:3580 SabbathProtocolRejectsRestAttestation <> mode:17 var
+R3595:3598 Coq.Init.Datatypes <> Some constr
+R3606:3613 SabbathProtocolRejectsRestAttestation <> validate:19 def
+R3629:3632 Coq.Init.Datatypes <> None constr
+R3640:3644 Coq.Init.Datatypes <> false constr
+def 3673:3683 SabbathProtocol valid_trace
+R3694:3698 SabbathProtocolRejectsRestAttestation SabbathProtocol Trace def
+binder 3686:3690 <> trace:21
+R3703:3706 Coq.Init.Datatypes <> bool ind
+R3713:3720 SabbathProtocolRejectsRestAttestation SabbathProtocol validate def
+R3722:3727 SabbathProtocolRejectsRestAttestation SabbathProtocol Normal constr
+R3729:3733 SabbathProtocolRejectsRestAttestation <> trace:21 var
+prf 4098:4115 SabbathProtocol step_deterministic
+R4133:4136 SabbathProtocolRejectsRestAttestation SabbathProtocol Mode ind
+binder 4129:4129 <> m:22
+R4144:4148 SabbathProtocolRejectsRestAttestation SabbathProtocol Event ind
+binder 4140:4140 <> e:23
+R4160:4163 SabbathProtocolRejectsRestAttestation SabbathProtocol Mode ind
+binder 4152:4153 <> m1:24
+binder 4155:4156 <> m2:25
+R4189:4192 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4179:4181 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4171:4174 SabbathProtocolRejectsRestAttestation SabbathProtocol step def
+R4176:4176 SabbathProtocolRejectsRestAttestation <> m:22 var
+R4178:4178 SabbathProtocolRejectsRestAttestation <> e:23 var
+R4182:4185 Coq.Init.Datatypes <> Some constr
+R4187:4188 SabbathProtocolRejectsRestAttestation <> m1:24 var
+R4211:4214 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4201:4203 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4193:4196 SabbathProtocolRejectsRestAttestation SabbathProtocol step def
+R4198:4198 SabbathProtocolRejectsRestAttestation <> m:22 var
+R4200:4200 SabbathProtocolRejectsRestAttestation <> e:23 var
+R4204:4207 Coq.Init.Datatypes <> Some constr
+R4209:4210 SabbathProtocolRejectsRestAttestation <> m2:25 var
+R4217:4219 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4215:4216 SabbathProtocolRejectsRestAttestation <> m1:24 var
+R4220:4221 SabbathProtocolRejectsRestAttestation <> m2:25 var
+prf 4379:4393 SabbathProtocol validate_prefix
+R4423:4427 SabbathProtocolRejectsRestAttestation SabbathProtocol Trace def
+binder 4407:4412 <> prefix:26
+binder 4414:4419 <> suffix:27
+R4435:4438 SabbathProtocolRejectsRestAttestation SabbathProtocol Mode ind
+binder 4431:4431 <> m:28
+R4482:4489 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4475:4477 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4446:4453 SabbathProtocolRejectsRestAttestation SabbathProtocol validate def
+R4455:4455 SabbathProtocolRejectsRestAttestation <> m:28 var
+R4464:4467 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R4458:4463 SabbathProtocolRejectsRestAttestation <> prefix:26 var
+R4468:4473 SabbathProtocolRejectsRestAttestation <> suffix:27 var
+R4478:4481 Coq.Init.Datatypes <> true constr
+R4507:4509 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4490:4497 SabbathProtocolRejectsRestAttestation SabbathProtocol validate def
+R4499:4499 SabbathProtocolRejectsRestAttestation <> m:28 var
+R4501:4506 SabbathProtocolRejectsRestAttestation <> prefix:26 var
+R4510:4513 Coq.Init.Datatypes <> true constr
+R4622:4625 SabbathProtocolRejectsRestAttestation SabbathProtocol step def
+R4622:4625 SabbathProtocolRejectsRestAttestation SabbathProtocol step def
+def 4790:4799 SabbathProtocol final_mode
+R4806:4809 SabbathProtocolRejectsRestAttestation SabbathProtocol Mode ind
+binder 4802:4802 <> m:29
+R4821:4825 SabbathProtocolRejectsRestAttestation SabbathProtocol Trace def
+binder 4813:4817 <> trace:30
+R4830:4835 Coq.Init.Datatypes <> option ind
+R4837:4840 SabbathProtocolRejectsRestAttestation SabbathProtocol Mode ind
+R4853:4857 SabbathProtocolRejectsRestAttestation <> trace:30 var
+R4868:4869 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R4881:4884 Coq.Init.Datatypes <> Some constr
+R4886:4886 SabbathProtocolRejectsRestAttestation <> m:29 var
+R4893:4896 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4915:4918 SabbathProtocolRejectsRestAttestation SabbathProtocol step def
+R4920:4920 SabbathProtocolRejectsRestAttestation <> m:29 var
+R4935:4938 Coq.Init.Datatypes <> Some constr
+R4946:4955 SabbathProtocolRejectsRestAttestation <> final_mode:31 def
+R4971:4974 Coq.Init.Datatypes <> None constr
+R4982:4985 Coq.Init.Datatypes <> None constr
+prf 5066:5088 SabbathProtocol validate_iff_final_mode
+R5110:5114 SabbathProtocolRejectsRestAttestation SabbathProtocol Trace def
+binder 5102:5106 <> trace:33
+R5122:5125 SabbathProtocolRejectsRestAttestation SabbathProtocol Mode ind
+binder 5118:5118 <> m:34
+R5156:5160 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R5149:5151 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5133:5140 SabbathProtocolRejectsRestAttestation SabbathProtocol validate def
+R5142:5142 SabbathProtocolRejectsRestAttestation <> m:34 var
+R5144:5148 SabbathProtocolRejectsRestAttestation <> trace:33 var
+R5152:5155 Coq.Init.Datatypes <> true constr
+R5179:5182 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5161:5170 SabbathProtocolRejectsRestAttestation SabbathProtocol final_mode def
+R5172:5172 SabbathProtocolRejectsRestAttestation <> m:34 var
+R5174:5178 SabbathProtocolRejectsRestAttestation <> trace:33 var
+R5183:5186 Coq.Init.Datatypes <> None constr
+R5320:5323 SabbathProtocolRejectsRestAttestation SabbathProtocol step def
+R5320:5323 SabbathProtocolRejectsRestAttestation SabbathProtocol step def
+prf 5547:5571 SabbathProtocol validate_suffix_from_mode
+R5593:5597 SabbathProtocolRejectsRestAttestation SabbathProtocol Trace def
+binder 5585:5586 <> t1:35
+binder 5588:5589 <> t2:36
+R5605:5608 SabbathProtocolRejectsRestAttestation SabbathProtocol Mode ind
+binder 5601:5601 <> m:37
+R5644:5651 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5637:5639 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5616:5623 SabbathProtocolRejectsRestAttestation SabbathProtocol validate def
+R5625:5625 SabbathProtocolRejectsRestAttestation <> m:37 var
+R5630:5633 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R5628:5629 SabbathProtocolRejectsRestAttestation <> t1:35 var
+R5634:5635 SabbathProtocolRejectsRestAttestation <> t2:36 var
+R5640:5643 Coq.Init.Datatypes <> true constr
+R5652:5658 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5661:5662 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 5659:5660 <> m':38
+R5688:5691 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5678:5680 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5663:5672 SabbathProtocolRejectsRestAttestation SabbathProtocol final_mode def
+R5674:5674 SabbathProtocolRejectsRestAttestation <> m:37 var
+R5676:5677 SabbathProtocolRejectsRestAttestation <> t1:35 var
+R5681:5684 Coq.Init.Datatypes <> Some constr
+R5686:5687 SabbathProtocolRejectsRestAttestation <> m':38 var
+R5706:5708 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5692:5699 SabbathProtocolRejectsRestAttestation SabbathProtocol validate def
+R5701:5702 SabbathProtocolRejectsRestAttestation <> m':38 var
+R5704:5705 SabbathProtocolRejectsRestAttestation <> t2:36 var
+R5709:5712 Coq.Init.Datatypes <> true constr
+R5842:5845 SabbathProtocolRejectsRestAttestation SabbathProtocol step def
+R5842:5845 SabbathProtocolRejectsRestAttestation SabbathProtocol step def
+prf 6316:6342 SabbathProtocol step_suspend_enters_sabbath
+binder 6355:6355 <> m:39
+R6380:6382 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6358:6361 SabbathProtocolRejectsRestAttestation SabbathProtocol step def
+R6363:6363 SabbathProtocolRejectsRestAttestation <> m:39 var
+R6365:6379 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestSuspended constr
+R6383:6386 Coq.Init.Datatypes <> Some constr
+R6388:6398 SabbathProtocolRejectsRestAttestation SabbathProtocol SabbathMode constr
+prf 6457:6493 SabbathProtocol step_sabbath_attestation_is_violation
+R6527:6529 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6499:6502 SabbathProtocolRejectsRestAttestation SabbathProtocol step def
+R6504:6514 SabbathProtocolRejectsRestAttestation SabbathProtocol SabbathMode constr
+R6516:6526 SabbathProtocolRejectsRestAttestation SabbathProtocol Attestation constr
+R6530:6533 Coq.Init.Datatypes <> None constr
+prf 6568:6599 SabbathProtocol sabbath_mode_rejects_attestation
+binder 6612:6615 <> rest:40
+R6660:6662 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6618:6625 SabbathProtocolRejectsRestAttestation SabbathProtocol validate def
+R6627:6637 SabbathProtocolRejectsRestAttestation SabbathProtocol SabbathMode constr
+R6651:6654 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6640:6650 SabbathProtocolRejectsRestAttestation SabbathProtocol Attestation constr
+R6655:6658 SabbathProtocolRejectsRestAttestation <> rest:40 var
+R6663:6667 Coq.Init.Datatypes <> false constr
+prf 6858:6893 SabbathProtocol suspend_transitions_to_sabbath_valid
+R6916:6920 SabbathProtocolRejectsRestAttestation SabbathProtocol Trace def
+binder 6907:6912 <> before:41
+R6928:6931 SabbathProtocolRejectsRestAttestation SabbathProtocol Mode ind
+binder 6924:6924 <> m:42
+R6986:6993 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6979:6981 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6939:6946 SabbathProtocolRejectsRestAttestation SabbathProtocol validate def
+R6948:6948 SabbathProtocolRejectsRestAttestation <> m:42 var
+R6957:6960 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R6951:6956 SabbathProtocolRejectsRestAttestation <> before:41 var
+R6961:6961 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R6977:6977 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R6962:6976 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestSuspended constr
+R6982:6985 Coq.Init.Datatypes <> true constr
+R7036:7038 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6994:7003 SabbathProtocolRejectsRestAttestation SabbathProtocol final_mode def
+R7005:7005 SabbathProtocolRejectsRestAttestation <> m:42 var
+R7014:7017 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R7008:7013 SabbathProtocolRejectsRestAttestation <> before:41 var
+R7018:7018 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R7034:7034 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R7019:7033 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestSuspended constr
+R7039:7042 Coq.Init.Datatypes <> Some constr
+R7044:7054 SabbathProtocolRejectsRestAttestation SabbathProtocol SabbathMode constr
+R7251:7254 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7259:7262 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R7263:7263 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R7279:7279 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R7264:7278 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestSuspended constr
+R7288:7288 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R7298:7302 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R7290:7293 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7303:7303 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R7319:7319 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R7304:7318 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestSuspended constr
+R7251:7254 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7259:7262 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R7263:7263 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R7279:7279 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R7264:7278 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestSuspended constr
+R7358:7361 SabbathProtocolRejectsRestAttestation SabbathProtocol step def
+R7358:7361 SabbathProtocolRejectsRestAttestation SabbathProtocol step def
+prf 7611:7640 SabbathProtocol no_attestation_in_sabbath_mode
+R7666:7670 SabbathProtocolRejectsRestAttestation SabbathProtocol Trace def
+binder 7654:7656 <> gap:43
+binder 7658:7662 <> after:44
+R7720:7727 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7713:7715 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7678:7685 SabbathProtocolRejectsRestAttestation SabbathProtocol validate def
+R7687:7697 SabbathProtocolRejectsRestAttestation SabbathProtocol SabbathMode constr
+R7703:7706 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R7700:7702 SabbathProtocolRejectsRestAttestation <> gap:43 var
+R7707:7711 SabbathProtocolRejectsRestAttestation <> after:44 var
+R7716:7719 Coq.Init.Datatypes <> true constr
+R7750:7757 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7728:7729 Coq.Init.Logic <> ::type_scope:'~'_x not
+R7730:7731 Coq.Lists.List <> In def
+R7747:7749 SabbathProtocolRejectsRestAttestation <> gap:43 var
+R7733:7745 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestResumed constr
+R7758:7759 Coq.Init.Logic <> ::type_scope:'~'_x not
+R7760:7761 Coq.Lists.List <> In def
+R7775:7777 SabbathProtocolRejectsRestAttestation <> gap:43 var
+R7763:7773 SabbathProtocolRejectsRestAttestation SabbathProtocol Attestation constr
+prf 8410:8441 SabbathProtocol no_attestation_in_sabbath_window
+R8474:8478 SabbathProtocolRejectsRestAttestation SabbathProtocol Trace def
+binder 8455:8460 <> before:45
+binder 8462:8464 <> gap:46
+binder 8466:8470 <> after:47
+R8486:8489 SabbathProtocolRejectsRestAttestation SabbathProtocol Mode ind
+binder 8482:8482 <> m:48
+R8560:8567 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8553:8555 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8497:8504 SabbathProtocolRejectsRestAttestation SabbathProtocol validate def
+R8506:8506 SabbathProtocolRejectsRestAttestation <> m:48 var
+R8515:8518 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8509:8514 SabbathProtocolRejectsRestAttestation <> before:45 var
+R8536:8539 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8519:8519 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R8535:8535 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R8520:8534 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestSuspended constr
+R8543:8546 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8540:8542 SabbathProtocolRejectsRestAttestation <> gap:46 var
+R8547:8551 SabbathProtocolRejectsRestAttestation <> after:47 var
+R8556:8559 Coq.Init.Datatypes <> true constr
+R8590:8597 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8568:8569 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8570:8571 Coq.Lists.List <> In def
+R8587:8589 SabbathProtocolRejectsRestAttestation <> gap:46 var
+R8573:8585 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestResumed constr
+R8598:8599 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8600:8601 Coq.Lists.List <> In def
+R8615:8617 SabbathProtocolRejectsRestAttestation <> gap:46 var
+R8603:8613 SabbathProtocolRejectsRestAttestation SabbathProtocol Attestation constr
+R8740:8746 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8703:8706 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8724:8727 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8707:8707 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R8723:8723 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R8708:8722 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestSuspended constr
+R8731:8734 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8747:8747 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8775:8780 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8793:8793 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8754:8757 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8758:8758 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R8774:8774 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R8759:8773 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestSuspended constr
+R8784:8787 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8740:8746 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8703:8706 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8724:8727 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8707:8707 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R8723:8723 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R8708:8722 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestSuspended constr
+R8731:8734 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8747:8747 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8775:8780 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8793:8793 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8754:8757 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8758:8758 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R8774:8774 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R8759:8773 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestSuspended constr
+R8784:8787 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8812:8820 Coq.Lists.List <> app_assoc thm
+R8812:8820 Coq.Lists.List <> app_assoc thm
+R8812:8820 Coq.Lists.List <> app_assoc thm
+R8874:8898 SabbathProtocolRejectsRestAttestation SabbathProtocol validate_suffix_from_mode thm
+R8874:8898 SabbathProtocolRejectsRestAttestation SabbathProtocol validate_suffix_from_mode thm
+R9012:9014 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8972:8979 SabbathProtocolRejectsRestAttestation SabbathProtocol validate def
+R8990:8993 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8994:8994 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R9010:9010 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R8995:9009 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestSuspended constr
+R9015:9018 Coq.Init.Datatypes <> true constr
+R9012:9014 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8972:8979 SabbathProtocolRejectsRestAttestation SabbathProtocol validate def
+R8990:8993 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8994:8994 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R9010:9010 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R8995:9009 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestSuspended constr
+R9015:9018 Coq.Init.Datatypes <> true constr
+R9034:9056 SabbathProtocolRejectsRestAttestation SabbathProtocol validate_iff_final_mode thm
+R9034:9056 SabbathProtocolRejectsRestAttestation SabbathProtocol validate_iff_final_mode thm
+R9034:9056 SabbathProtocolRejectsRestAttestation SabbathProtocol validate_iff_final_mode thm
+R9147:9149 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9105:9114 SabbathProtocolRejectsRestAttestation SabbathProtocol final_mode def
+R9125:9128 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R9129:9129 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R9145:9145 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R9130:9144 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestSuspended constr
+R9150:9153 Coq.Init.Datatypes <> Some constr
+R9155:9165 SabbathProtocolRejectsRestAttestation SabbathProtocol SabbathMode constr
+R9147:9149 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9105:9114 SabbathProtocolRejectsRestAttestation SabbathProtocol final_mode def
+R9125:9128 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R9129:9129 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R9145:9145 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R9130:9144 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestSuspended constr
+R9150:9153 Coq.Init.Datatypes <> Some constr
+R9155:9165 SabbathProtocolRejectsRestAttestation SabbathProtocol SabbathMode constr
+R9179:9214 SabbathProtocolRejectsRestAttestation SabbathProtocol suspend_transitions_to_sabbath_valid thm
+R9179:9214 SabbathProtocolRejectsRestAttestation SabbathProtocol suspend_transitions_to_sabbath_valid thm
+R9291:9320 SabbathProtocolRejectsRestAttestation SabbathProtocol no_attestation_in_sabbath_mode thm
+R9291:9320 SabbathProtocolRejectsRestAttestation SabbathProtocol no_attestation_in_sabbath_mode thm
+rec 9841:9852 SabbathProtocol SabbathCycle
+proj 9876:9883 SabbathProtocol interior
+proj 9901:9910 SabbathProtocol no_suspend
+proj 9950:9958 SabbathProtocol no_resume
+R9891:9895 SabbathProtocolRejectsRestAttestation SabbathProtocol Trace def
+R9916:9917 Coq.Init.Logic <> ::type_scope:'~'_x not
+R9918:9919 Coq.Lists.List <> In def
+R9937:9944 SabbathProtocolRejectsRestAttestation <> interior:50 meth
+R9921:9935 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestSuspended constr
+R9965:9966 Coq.Init.Logic <> ::type_scope:'~'_x not
+R9967:9968 Coq.Lists.List <> In def
+R9986:9993 SabbathProtocolRejectsRestAttestation <> interior:50 meth
+R9970:9982 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestResumed constr
+def 10012:10022 SabbathProtocol cycle_trace
+R10029:10040 SabbathProtocolRejectsRestAttestation SabbathProtocol SabbathCycle rec
+binder 10025:10025 <> c:53
+R10045:10049 SabbathProtocolRejectsRestAttestation SabbathProtocol Trace def
+R10073:10076 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R10056:10056 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R10072:10072 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R10057:10071 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestSuspended constr
+R10087:10090 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R10077:10084 SabbathProtocolRejectsRestAttestation SabbathProtocol interior proj
+R10086:10086 SabbathProtocolRejectsRestAttestation <> c:53 var
+R10091:10091 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R10105:10105 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R10092:10104 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestResumed constr
+prf 10185:10211 SabbathProtocol cycle_validates_from_normal
+R10229:10240 SabbathProtocolRejectsRestAttestation SabbathProtocol SabbathCycle rec
+binder 10225:10225 <> c:54
+R10277:10284 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10248:10249 Coq.Init.Logic <> ::type_scope:'~'_x not
+R10250:10251 Coq.Lists.List <> In def
+R10266:10273 SabbathProtocolRejectsRestAttestation SabbathProtocol interior proj
+R10275:10275 SabbathProtocolRejectsRestAttestation <> c:54 var
+R10253:10263 SabbathProtocolRejectsRestAttestation SabbathProtocol Attestation constr
+R10316:10318 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10285:10292 SabbathProtocolRejectsRestAttestation SabbathProtocol validate def
+R10294:10299 SabbathProtocolRejectsRestAttestation SabbathProtocol Normal constr
+R10302:10312 SabbathProtocolRejectsRestAttestation SabbathProtocol cycle_trace def
+R10314:10314 SabbathProtocolRejectsRestAttestation <> c:54 var
+R10319:10322 Coq.Init.Datatypes <> true constr
+R10360:10370 SabbathProtocolRejectsRestAttestation SabbathProtocol cycle_trace def
+R10533:10535 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10481:10488 SabbathProtocolRejectsRestAttestation SabbathProtocol validate def
+R10490:10500 SabbathProtocolRejectsRestAttestation SabbathProtocol SabbathMode constr
+R10513:10516 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R10503:10510 SabbathProtocolRejectsRestAttestation SabbathProtocol interior proj
+R10517:10517 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R10531:10531 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R10518:10530 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestResumed constr
+R10536:10539 Coq.Init.Datatypes <> true constr
+R10533:10535 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10481:10488 SabbathProtocolRejectsRestAttestation SabbathProtocol validate def
+R10490:10500 SabbathProtocolRejectsRestAttestation SabbathProtocol SabbathMode constr
+R10513:10516 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R10503:10510 SabbathProtocolRejectsRestAttestation SabbathProtocol interior proj
+R10517:10517 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R10531:10531 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R10518:10530 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestResumed constr
+R10536:10539 Coq.Init.Datatypes <> true constr
+R10573:10574 Coq.Init.Logic <> ::type_scope:'~'_x not
+R10575:10576 Coq.Lists.List <> In def
+R10595:10602 SabbathProtocolRejectsRestAttestation SabbathProtocol interior proj
+R10578:10588 SabbathProtocolRejectsRestAttestation SabbathProtocol Attestation constr
+R10573:10574 Coq.Init.Logic <> ::type_scope:'~'_x not
+R10575:10576 Coq.Lists.List <> In def
+R10595:10602 SabbathProtocolRejectsRestAttestation SabbathProtocol interior proj
+R10578:10588 SabbathProtocolRejectsRestAttestation SabbathProtocol Attestation constr
+R10651:10652 Coq.Init.Logic <> ::type_scope:'~'_x not
+R10653:10654 Coq.Lists.List <> In def
+R10673:10680 SabbathProtocolRejectsRestAttestation SabbathProtocol interior proj
+R10656:10670 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestSuspended constr
+R10696:10705 SabbathProtocolRejectsRestAttestation SabbathProtocol no_suspend proj
+R10651:10652 Coq.Init.Logic <> ::type_scope:'~'_x not
+R10653:10654 Coq.Lists.List <> In def
+R10673:10680 SabbathProtocolRejectsRestAttestation SabbathProtocol interior proj
+R10656:10670 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestSuspended constr
+R10696:10705 SabbathProtocolRejectsRestAttestation SabbathProtocol no_suspend proj
+R10737:10738 Coq.Init.Logic <> ::type_scope:'~'_x not
+R10739:10740 Coq.Lists.List <> In def
+R10759:10766 SabbathProtocolRejectsRestAttestation SabbathProtocol interior proj
+R10742:10754 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestResumed constr
+R10782:10790 SabbathProtocolRejectsRestAttestation SabbathProtocol no_resume proj
+R10737:10738 Coq.Init.Logic <> ::type_scope:'~'_x not
+R10739:10740 Coq.Lists.List <> In def
+R10759:10766 SabbathProtocolRejectsRestAttestation SabbathProtocol interior proj
+R10742:10754 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestResumed constr
+R10782:10790 SabbathProtocolRejectsRestAttestation SabbathProtocol no_resume proj
+R10812:10819 SabbathProtocolRejectsRestAttestation SabbathProtocol interior proj
+R10812:10819 SabbathProtocolRejectsRestAttestation SabbathProtocol interior proj
+def 12278:12288 SabbathProtocol step_strict
+R12298:12301 SabbathProtocolRejectsRestAttestation SabbathProtocol Mode ind
+binder 12291:12294 <> mode:55
+R12309:12313 SabbathProtocolRejectsRestAttestation SabbathProtocol Event ind
+binder 12305:12305 <> e:56
+R12318:12323 Coq.Init.Datatypes <> option ind
+R12325:12328 SabbathProtocolRejectsRestAttestation SabbathProtocol Mode ind
+R12347:12347 SabbathProtocolRejectsRestAttestation <> e:56 var
+R12341:12344 SabbathProtocolRejectsRestAttestation <> mode:55 var
+R12358:12363 SabbathProtocolRejectsRestAttestation SabbathProtocol Normal constr
+R12371:12385 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestSuspended constr
+R12390:12393 Coq.Init.Datatypes <> Some constr
+R12395:12405 SabbathProtocolRejectsRestAttestation SabbathProtocol SabbathMode constr
+R12411:12421 SabbathProtocolRejectsRestAttestation SabbathProtocol SabbathMode constr
+R12424:12436 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestResumed constr
+R12443:12446 Coq.Init.Datatypes <> Some constr
+R12448:12453 SabbathProtocolRejectsRestAttestation SabbathProtocol Normal constr
+R12459:12469 SabbathProtocolRejectsRestAttestation SabbathProtocol SabbathMode constr
+R12472:12482 SabbathProtocolRejectsRestAttestation SabbathProtocol Attestation constr
+R12491:12494 Coq.Init.Datatypes <> None constr
+R12500:12505 SabbathProtocolRejectsRestAttestation SabbathProtocol Normal constr
+R12513:12525 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestResumed constr
+R12532:12535 Coq.Init.Datatypes <> None constr
+R12610:12613 Coq.Init.Datatypes <> Some constr
+R12615:12618 SabbathProtocolRejectsRestAttestation <> mode:55 var
+def 12637:12651 SabbathProtocol validate_strict
+R12661:12664 SabbathProtocolRejectsRestAttestation SabbathProtocol Mode ind
+binder 12654:12657 <> mode:59
+R12676:12680 SabbathProtocolRejectsRestAttestation SabbathProtocol Trace def
+binder 12668:12672 <> trace:60
+R12685:12688 Coq.Init.Datatypes <> bool ind
+R12701:12705 SabbathProtocolRejectsRestAttestation <> trace:60 var
+R12716:12717 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R12729:12732 Coq.Init.Datatypes <> true constr
+R12739:12742 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12761:12771 SabbathProtocolRejectsRestAttestation SabbathProtocol step_strict def
+R12773:12776 SabbathProtocolRejectsRestAttestation <> mode:59 var
+R12791:12794 Coq.Init.Datatypes <> Some constr
+R12802:12816 SabbathProtocolRejectsRestAttestation <> validate_strict:61 def
+R12832:12835 Coq.Init.Datatypes <> None constr
+R12843:12847 Coq.Init.Datatypes <> false constr
+def 12876:12893 SabbathProtocol valid_trace_strict
+R12904:12908 SabbathProtocolRejectsRestAttestation SabbathProtocol Trace def
+binder 12896:12900 <> trace:63
+R12913:12916 Coq.Init.Datatypes <> bool ind
+R12923:12937 SabbathProtocolRejectsRestAttestation SabbathProtocol validate_strict def
+R12939:12944 SabbathProtocolRejectsRestAttestation SabbathProtocol Normal constr
+R12946:12950 SabbathProtocolRejectsRestAttestation <> trace:63 var
+prf 13161:13194 SabbathProtocol normal_to_sabbath_requires_suspend
+binder 13207:13207 <> e:64
+R13249:13252 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13230:13232 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13210:13220 SabbathProtocolRejectsRestAttestation SabbathProtocol step_strict def
+R13222:13227 SabbathProtocolRejectsRestAttestation SabbathProtocol Normal constr
+R13229:13229 SabbathProtocolRejectsRestAttestation <> e:64 var
+R13233:13236 Coq.Init.Datatypes <> Some constr
+R13238:13248 SabbathProtocolRejectsRestAttestation SabbathProtocol SabbathMode constr
+R13254:13256 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13253:13253 SabbathProtocolRejectsRestAttestation <> e:64 var
+R13257:13271 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestSuspended constr
+prf 13364:13382 SabbathProtocol stop_prior_to_start
+R13404:13408 SabbathProtocolRejectsRestAttestation SabbathProtocol Trace def
+binder 13396:13400 <> trace:65
+R13447:13454 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13440:13442 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13416:13433 SabbathProtocolRejectsRestAttestation SabbathProtocol valid_trace_strict def
+R13435:13439 SabbathProtocolRejectsRestAttestation <> trace:65 var
+R13443:13446 Coq.Init.Datatypes <> true constr
+R13477:13484 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13455:13456 Coq.Lists.List <> In def
+R13472:13476 SabbathProtocolRejectsRestAttestation <> trace:65 var
+R13458:13470 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestResumed constr
+R13485:13486 Coq.Lists.List <> In def
+R13504:13508 SabbathProtocolRejectsRestAttestation <> trace:65 var
+R13488:13502 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestSuspended constr
+binder 13735:13735 <> t:66
+binder 13737:13737 <> m:67
+R13770:13777 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13763:13765 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13744:13758 SabbathProtocolRejectsRestAttestation SabbathProtocol validate_strict def
+R13760:13760 SabbathProtocolRejectsRestAttestation <> m:67 var
+R13762:13762 SabbathProtocolRejectsRestAttestation <> t:66 var
+R13766:13769 Coq.Init.Datatypes <> true constr
+R13796:13928 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13778:13779 Coq.Lists.List <> In def
+R13795:13795 SabbathProtocolRejectsRestAttestation <> t:66 var
+R13781:13793 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestResumed constr
+R13944:13947 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R13930:13932 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13929:13929 SabbathProtocolRejectsRestAttestation <> m:67 var
+R13933:13943 SabbathProtocolRejectsRestAttestation SabbathProtocol SabbathMode constr
+R13948:13949 Coq.Lists.List <> In def
+R13967:13967 SabbathProtocolRejectsRestAttestation <> t:66 var
+R13951:13965 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestSuspended constr
+binder 13735:13735 <> t:68
+binder 13737:13737 <> m:69
+R13770:13777 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13763:13765 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13744:13758 SabbathProtocolRejectsRestAttestation SabbathProtocol validate_strict def
+R13760:13760 SabbathProtocolRejectsRestAttestation <> m:69 var
+R13762:13762 SabbathProtocolRejectsRestAttestation <> t:68 var
+R13766:13769 Coq.Init.Datatypes <> true constr
+R13796:13928 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13778:13779 Coq.Lists.List <> In def
+R13795:13795 SabbathProtocolRejectsRestAttestation <> t:68 var
+R13781:13793 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestResumed constr
+R13944:13947 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R13930:13932 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13929:13929 SabbathProtocolRejectsRestAttestation <> m:69 var
+R13933:13943 SabbathProtocolRejectsRestAttestation SabbathProtocol SabbathMode constr
+R13948:13949 Coq.Lists.List <> In def
+R13967:13967 SabbathProtocolRejectsRestAttestation <> t:68 var
+R13951:13965 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestSuspended constr
+R14232:14242 SabbathProtocolRejectsRestAttestation SabbathProtocol step_strict def
+R14232:14242 SabbathProtocolRejectsRestAttestation SabbathProtocol step_strict def
+R14536:14569 SabbathProtocolRejectsRestAttestation SabbathProtocol normal_to_sabbath_requires_suspend thm
+R14536:14569 SabbathProtocolRejectsRestAttestation SabbathProtocol normal_to_sabbath_requires_suspend thm
+R14918:14923 SabbathProtocolRejectsRestAttestation SabbathProtocol Normal constr
+R14918:14923 SabbathProtocolRejectsRestAttestation SabbathProtocol Normal constr
+def 15390:15406 SabbathProtocol sabbath_positions
+R15417:15421 SabbathProtocolRejectsRestAttestation SabbathProtocol Trace def
+binder 15409:15413 <> trace:70
+R15431:15433 Coq.Init.Datatypes <> nat ind
+binder 15425:15427 <> idx:71
+R15438:15441 Coq.Init.Datatypes <> list ind
+R15443:15445 Coq.Init.Datatypes <> nat ind
+R15458:15462 SabbathProtocolRejectsRestAttestation <> trace:70 var
+R15473:15474 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R15500:15501 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R15522:15525 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R15507:15521 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestSuspended constr
+R15537:15540 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R15534:15536 SabbathProtocolRejectsRestAttestation <> idx:71 var
+R15541:15557 SabbathProtocolRejectsRestAttestation <> sabbath_positions:72 def
+R15565:15565 Coq.Init.Datatypes <> S constr
+R15567:15569 SabbathProtocolRejectsRestAttestation <> idx:71 var
+R15577:15580 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R15603:15619 SabbathProtocolRejectsRestAttestation <> sabbath_positions:72 def
+R15627:15627 Coq.Init.Datatypes <> S constr
+R15629:15631 SabbathProtocolRejectsRestAttestation <> idx:71 var
+def 15653:15669 SabbathProtocol suspend_positions
+R15680:15684 SabbathProtocolRejectsRestAttestation SabbathProtocol Trace def
+binder 15672:15676 <> trace:74
+R15689:15692 Coq.Init.Datatypes <> list ind
+R15694:15696 Coq.Init.Datatypes <> nat ind
+R15703:15719 SabbathProtocolRejectsRestAttestation SabbathProtocol sabbath_positions def
+R15721:15725 SabbathProtocolRejectsRestAttestation <> trace:74 var
+prf 15820:15842 SabbathProtocol sabbath_positions_sound
+R15864:15868 SabbathProtocolRejectsRestAttestation SabbathProtocol Trace def
+binder 15856:15860 <> trace:75
+R15883:15885 Coq.Init.Datatypes <> nat ind
+binder 15872:15877 <> offset:76
+binder 15879:15879 <> k:77
+R15930:15937 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15893:15894 Coq.Lists.List <> In def
+R15899:15915 SabbathProtocolRejectsRestAttestation SabbathProtocol sabbath_positions def
+R15917:15921 SabbathProtocolRejectsRestAttestation <> trace:75 var
+R15923:15928 SabbathProtocolRejectsRestAttestation <> offset:76 var
+R15896:15896 SabbathProtocolRejectsRestAttestation <> k:77 var
+R15938:15944 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R15946:15947 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 15945:15945 <> j:78
+R15962:15965 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R15949:15951 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15948:15948 SabbathProtocolRejectsRestAttestation <> k:77 var
+R15958:15960 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R15952:15957 SabbathProtocolRejectsRestAttestation <> offset:76 var
+R15961:15961 SabbathProtocolRejectsRestAttestation <> j:78 var
+R15983:15985 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15966:15974 Coq.Lists.List <> nth_error def
+R15982:15982 SabbathProtocolRejectsRestAttestation <> j:78 var
+R15976:15980 SabbathProtocolRejectsRestAttestation <> trace:75 var
+R15986:15989 Coq.Init.Datatypes <> Some constr
+R15991:16005 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestSuspended constr
+R16255:16255 Coq.Init.Datatypes <> S constr
+R16255:16255 Coq.Init.Datatypes <> S constr
+R16255:16255 Coq.Init.Datatypes <> S constr
+R16255:16255 Coq.Init.Datatypes <> S constr
+R16255:16255 Coq.Init.Datatypes <> S constr
+R16485:16485 Coq.Init.Datatypes <> S constr
+R16485:16485 Coq.Init.Datatypes <> S constr
+def 16602:16609 SabbathProtocol periodic
+R16623:16625 Coq.Init.Datatypes <> nat ind
+binder 16612:16619 <> interval:79
+R16639:16642 Coq.Init.Datatypes <> list ind
+R16644:16646 Coq.Init.Datatypes <> nat ind
+binder 16629:16635 <> indices:80
+R16673:16678 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R16669:16671 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R16661:16668 SabbathProtocolRejectsRestAttestation <> interval:79 var
+binder 16686:16686 <> i:81
+binder 16688:16688 <> j:82
+R16707:16710 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16695:16696 Coq.Lists.List <> In def
+R16700:16706 SabbathProtocolRejectsRestAttestation <> indices:80 var
+R16698:16698 SabbathProtocolRejectsRestAttestation <> i:81 var
+R16723:16726 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16711:16712 Coq.Lists.List <> In def
+R16716:16722 SabbathProtocolRejectsRestAttestation <> indices:80 var
+R16714:16714 SabbathProtocolRejectsRestAttestation <> j:82 var
+R16733:16740 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16728:16731 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R16727:16727 SabbathProtocolRejectsRestAttestation <> i:81 var
+R16732:16732 SabbathProtocolRejectsRestAttestation <> j:82 var
+R16761:16763 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16741:16741 Coq.Arith.PeanoNat <> ::nat_scope:x_'mod'_x not
+R16747:16752 Coq.Arith.PeanoNat <> ::nat_scope:x_'mod'_x not
+R16743:16745 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R16742:16742 SabbathProtocolRejectsRestAttestation <> j:82 var
+R16746:16746 SabbathProtocolRejectsRestAttestation <> i:81 var
+R16753:16760 SabbathProtocolRejectsRestAttestation <> interval:79 var
+def 17250:17255 SabbathProtocol Chain0
+R17260:17263 Coq.Init.Datatypes <> list ind
+R17265:17267 Coq.Init.Datatypes <> nat ind
+def 17281:17286 SabbathProtocol Chain1
+R17291:17294 Coq.Init.Datatypes <> list ind
+R17300:17302 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R17297:17299 Coq.Init.Datatypes <> nat ind
+R17303:17305 Coq.Init.Datatypes <> nat ind
+def 17377:17385 SabbathProtocol boundary1
+R17392:17397 SabbathProtocolRejectsRestAttestation SabbathProtocol Chain1 def
+binder 17388:17388 <> c:83
+R17402:17407 SabbathProtocolRejectsRestAttestation SabbathProtocol Chain0 def
+R17414:17421 Coq.Lists.List <> flat_map def
+R17449:17449 SabbathProtocolRejectsRestAttestation <> c:83 var
+binder 17428:17428 <> p:84
+R17433:17433 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R17439:17440 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R17446:17446 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R17434:17436 Coq.Init.Datatypes <> fst def
+R17438:17438 SabbathProtocolRejectsRestAttestation <> p:84 var
+R17441:17443 Coq.Init.Datatypes <> snd def
+R17445:17445 SabbathProtocolRejectsRestAttestation <> p:84 var
+prf 17459:17472 SabbathProtocol boundary1_cons
+binder 17485:17485 <> a:85
+binder 17487:17487 <> b:86
+binder 17489:17492 <> rest:87
+R17525:17527 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17499:17507 SabbathProtocolRejectsRestAttestation SabbathProtocol boundary1 def
+R17516:17519 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R17510:17510 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17512:17513 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17515:17515 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17511:17511 SabbathProtocolRejectsRestAttestation <> a:85 var
+R17514:17514 SabbathProtocolRejectsRestAttestation <> b:86 var
+R17520:17523 SabbathProtocolRejectsRestAttestation <> rest:87 var
+R17534:17537 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R17528:17528 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R17530:17531 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R17533:17533 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R17529:17529 SabbathProtocolRejectsRestAttestation <> a:85 var
+R17532:17532 SabbathProtocolRejectsRestAttestation <> b:86 var
+R17538:17546 SabbathProtocolRejectsRestAttestation SabbathProtocol boundary1 def
+R17548:17551 SabbathProtocolRejectsRestAttestation <> rest:87 var
+def 17738:17748 SabbathProtocol event_class
+R17755:17759 SabbathProtocolRejectsRestAttestation SabbathProtocol Event ind
+binder 17751:17751 <> e:88
+R17764:17766 Coq.Init.Datatypes <> nat ind
+R17779:17779 SabbathProtocolRejectsRestAttestation <> e:88 var
+R17790:17804 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestSuspended constr
+R17843:17855 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestResumed constr
+R17887:17895 SabbathProtocolRejectsRestAttestation SabbathProtocol Utterance constr
+R17912:17922 SabbathProtocolRejectsRestAttestation SabbathProtocol Attestation constr
+R17937:17944 SabbathProtocolRejectsRestAttestation SabbathProtocol Ceremony constr
+prf 17974:17998 SabbathProtocol suspend_resume_same_class
+R18031:18033 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18004:18014 SabbathProtocolRejectsRestAttestation SabbathProtocol event_class def
+R18016:18030 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestSuspended constr
+R18034:18044 SabbathProtocolRejectsRestAttestation SabbathProtocol event_class def
+R18046:18058 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestResumed constr
+prf 18237:18265 SabbathProtocol sabbath_edge_is_reduced_cycle
+R18297:18299 Coq.Init.Datatypes <> nat ind
+binder 18279:18285 <> sus_idx:90
+binder 18287:18293 <> res_idx:91
+R18362:18369 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18334:18336 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18307:18317 SabbathProtocolRejectsRestAttestation SabbathProtocol event_class def
+R18319:18333 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestSuspended constr
+R18337:18347 SabbathProtocolRejectsRestAttestation SabbathProtocol event_class def
+R18349:18361 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestResumed constr
+R18370:18373 Coq.Init.Logic <> True ind
+def 20118:20128 SabbathProtocol empty_valid
+R20146:20148 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20132:20142 SabbathProtocolRejectsRestAttestation SabbathProtocol valid_trace def
+R20144:20145 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R20149:20152 Coq.Init.Datatypes <> true constr
+def 20189:20209 SabbathProtocol minimal_sabbath_valid
+R20270:20272 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20215:20225 SabbathProtocolRejectsRestAttestation SabbathProtocol valid_trace def
+R20227:20227 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R20243:20244 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R20254:20255 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R20269:20269 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R20228:20242 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestSuspended constr
+R20245:20253 SabbathProtocolRejectsRestAttestation SabbathProtocol Utterance constr
+R20256:20268 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestResumed constr
+R20273:20276 Coq.Init.Datatypes <> true constr
+def 20313:20342 SabbathProtocol attestation_violation_rejected
+R20390:20392 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20348:20358 SabbathProtocolRejectsRestAttestation SabbathProtocol valid_trace def
+R20360:20360 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R20376:20377 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R20389:20389 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R20361:20375 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestSuspended constr
+R20378:20388 SabbathProtocolRejectsRestAttestation SabbathProtocol Attestation constr
+R20393:20397 Coq.Init.Datatypes <> false constr
+def 20434:20460 SabbathProtocol attestation_in_gap_rejected
+R20534:20536 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20466:20476 SabbathProtocolRejectsRestAttestation SabbathProtocol valid_trace def
+R20478:20478 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R20494:20495 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R20505:20506 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R20518:20519 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R20533:20533 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R20479:20493 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestSuspended constr
+R20496:20504 SabbathProtocolRejectsRestAttestation SabbathProtocol Utterance constr
+R20507:20517 SabbathProtocolRejectsRestAttestation SabbathProtocol Attestation constr
+R20520:20532 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestResumed constr
+R20537:20541 Coq.Init.Datatypes <> false constr
+def 20578:20597 SabbathProtocol double_sabbath_valid
+R20769:20771 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20603:20613 SabbathProtocolRejectsRestAttestation SabbathProtocol valid_trace def
+R20619:20620 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R20630:20636 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R20652:20658 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R20668:20674 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R20688:20694 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R20706:20712 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R20728:20734 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R20743:20749 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R20763:20768 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R20621:20629 SabbathProtocolRejectsRestAttestation SabbathProtocol Utterance constr
+R20637:20651 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestSuspended constr
+R20659:20667 SabbathProtocolRejectsRestAttestation SabbathProtocol Utterance constr
+R20675:20687 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestResumed constr
+R20695:20705 SabbathProtocolRejectsRestAttestation SabbathProtocol Attestation constr
+R20713:20727 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestSuspended constr
+R20735:20742 SabbathProtocolRejectsRestAttestation SabbathProtocol Ceremony constr
+R20750:20762 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestResumed constr
+R20772:20775 Coq.Init.Datatypes <> true constr
+def 20812:20844 SabbathProtocol attestation_outside_sabbath_valid
+R20931:20933 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20850:20860 SabbathProtocolRejectsRestAttestation SabbathProtocol valid_trace def
+R20862:20862 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R20874:20875 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R20891:20892 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R20902:20903 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R20917:20918 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R20930:20930 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R20863:20873 SabbathProtocolRejectsRestAttestation SabbathProtocol Attestation constr
+R20876:20890 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestSuspended constr
+R20893:20901 SabbathProtocolRejectsRestAttestation SabbathProtocol Utterance constr
+R20904:20916 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestResumed constr
+R20919:20929 SabbathProtocolRejectsRestAttestation SabbathProtocol Attestation constr
+R20934:20937 Coq.Init.Datatypes <> true constr
+def 21005:21041 SabbathProtocol strict_rejects_resume_without_suspend
+R21081:21083 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21047:21064 SabbathProtocolRejectsRestAttestation SabbathProtocol valid_trace_strict def
+R21066:21066 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R21080:21080 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R21067:21079 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestResumed constr
+R21084:21088 Coq.Init.Datatypes <> false constr
+def 21125:21153 SabbathProtocol strict_accepts_balanced_cycle
+R21220:21222 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21159:21176 SabbathProtocolRejectsRestAttestation SabbathProtocol valid_trace_strict def
+R21178:21178 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R21194:21195 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R21204:21205 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R21219:21219 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R21179:21193 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestSuspended constr
+R21196:21203 SabbathProtocolRejectsRestAttestation SabbathProtocol Ceremony constr
+R21206:21218 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestResumed constr
+R21223:21226 Coq.Init.Datatypes <> true constr
+ind 21804:21806 SabbathProtocol Day
+constr 21822:21828 SabbathProtocol DayRest
+constr 21875:21883 SabbathProtocol DayActive
+R21834:21836 SabbathProtocolRejectsRestAttestation <> Day:92 ind
+R21890:21893 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21887:21889 SabbathProtocolRejectsRestAttestation <> Day:92 ind
+R21897:21900 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21894:21896 SabbathProtocolRejectsRestAttestation <> Day:92 ind
+R21901:21903 SabbathProtocolRejectsRestAttestation <> Day:92 ind
+prf 21997:22017 SabbathProtocol day_is_active_or_rest
+R22035:22037 SabbathProtocolRejectsRestAttestation SabbathProtocol Day coind
+binder 22031:22031 <> d:94
+R22045:22045 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R22079:22083 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R22046:22052 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R22058:22059 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 22053:22054 <> d1:95
+binder 22056:22057 <> d2:96
+R22061:22063 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22060:22060 SabbathProtocolRejectsRestAttestation <> d:94 var
+R22064:22072 SabbathProtocolRejectsRestAttestation SabbathProtocol DayActive constr
+R22074:22075 SabbathProtocolRejectsRestAttestation <> d1:95 var
+R22077:22078 SabbathProtocolRejectsRestAttestation <> d2:96 var
+R22085:22087 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22084:22084 SabbathProtocolRejectsRestAttestation <> d:94 var
+R22088:22094 SabbathProtocolRejectsRestAttestation SabbathProtocol DayRest constr
+prf 22601:22628 SabbathProtocol attestation_at_head_rejected
+R22649:22653 SabbathProtocolRejectsRestAttestation SabbathProtocol Trace def
+binder 22642:22645 <> rest:97
+R22703:22705 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22661:22668 SabbathProtocolRejectsRestAttestation SabbathProtocol validate def
+R22670:22680 SabbathProtocolRejectsRestAttestation SabbathProtocol SabbathMode constr
+R22694:22697 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R22683:22693 SabbathProtocolRejectsRestAttestation SabbathProtocol Attestation constr
+R22698:22701 SabbathProtocolRejectsRestAttestation <> rest:97 var
+R22706:22710 Coq.Init.Datatypes <> false constr
+prf 22851:22882 SabbathProtocol validator_sound_for_clean_window
+R22908:22912 SabbathProtocolRejectsRestAttestation SabbathProtocol Trace def
+binder 22896:22898 <> gap:98
+binder 22900:22904 <> after:99
+R22942:22949 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22920:22921 Coq.Init.Logic <> ::type_scope:'~'_x not
+R22922:22923 Coq.Lists.List <> In def
+R22939:22941 SabbathProtocolRejectsRestAttestation <> gap:98 var
+R22925:22937 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestResumed constr
+R22968:22975 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22950:22951 Coq.Lists.List <> In def
+R22965:22967 SabbathProtocolRejectsRestAttestation <> gap:98 var
+R22953:22963 SabbathProtocolRejectsRestAttestation SabbathProtocol Attestation constr
+R23011:23013 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22976:22983 SabbathProtocolRejectsRestAttestation SabbathProtocol validate def
+R22985:22995 SabbathProtocolRejectsRestAttestation SabbathProtocol SabbathMode constr
+R23001:23004 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R22998:23000 SabbathProtocolRejectsRestAttestation <> gap:98 var
+R23005:23009 SabbathProtocolRejectsRestAttestation <> after:99 var
+R23014:23018 Coq.Init.Datatypes <> false constr
+prf 23623:23640 SabbathProtocol validator_is_sound
+R23673:23677 SabbathProtocolRejectsRestAttestation SabbathProtocol Trace def
+binder 23654:23659 <> before:100
+binder 23661:23663 <> gap:101
+binder 23665:23669 <> after:102
+R23707:23714 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23685:23686 Coq.Init.Logic <> ::type_scope:'~'_x not
+R23687:23688 Coq.Lists.List <> In def
+R23704:23706 SabbathProtocolRejectsRestAttestation <> gap:101 var
+R23690:23702 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestResumed constr
+R23733:23740 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23715:23716 Coq.Lists.List <> In def
+R23730:23732 SabbathProtocolRejectsRestAttestation <> gap:101 var
+R23718:23728 SabbathProtocolRejectsRestAttestation SabbathProtocol Attestation constr
+R23798:23800 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23741:23751 SabbathProtocolRejectsRestAttestation SabbathProtocol valid_trace def
+R23760:23763 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R23754:23759 SabbathProtocolRejectsRestAttestation <> before:100 var
+R23781:23784 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R23764:23764 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R23780:23780 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R23765:23779 SabbathProtocolRejectsRestAttestation SabbathProtocol AttestSuspended constr
+R23788:23791 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R23785:23787 SabbathProtocolRejectsRestAttestation <> gap:101 var
+R23792:23796 SabbathProtocolRejectsRestAttestation <> after:102 var
+R23801:23805 Coq.Init.Datatypes <> false constr
+R23861:23878 Coq.Bool.Bool <> not_true_iff_false thm
+R23861:23878 Coq.Bool.Bool <> not_true_iff_false thm
+R23904:23935 SabbathProtocolRejectsRestAttestation SabbathProtocol no_attestation_in_sabbath_window thm
+R23954:23959 SabbathProtocolRejectsRestAttestation SabbathProtocol Normal constr
+R23904:23935 SabbathProtocolRejectsRestAttestation SabbathProtocol no_attestation_in_sabbath_window thm
+R23954:23959 SabbathProtocolRejectsRestAttestation SabbathProtocol Normal constr
+R26379:26393 SabbathProtocolRejectsRestAttestation SabbathProtocol <> mod

@@ -1,0 +1,157 @@
+DIGEST NO
+FOmiPiBridgeConnectsKernel
+R390:399 Coq.Lists.List <> <> lib
+R426:438 Coq.NArith.NArith <> <> lib
+R465:475 Coq.Reals.Reals <> <> lib
+R485:497 Coq.Lists.List ListNotations <> mod
+R509:533 AtomicKernelDefinesReplay <> <> lib
+R544:562 DiagonalGaugeCloses <> <> lib
+R573:602 PiProjectionPreservesWitnesses <> <> lib
+rec 634:647 <> KernelPiSample
+proj 680:691 <> sample_width
+proj 700:710 <> sample_seed
+proj 719:730 <> sample_index
+proj 741:752 <> sample_state
+proj 761:772 <> sample_phase
+proj 811:821 <> sample_term
+R695:695 Coq.Numbers.BinNums <> N ind
+R714:714 Coq.Numbers.BinNums <> N ind
+R734:736 Coq.Init.Datatypes <> nat ind
+R756:756 Coq.Numbers.BinNums <> N ind
+R776:806 DiagonalGaugeCloses <> ChiralPhase ind
+R825:825 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+def 842:856 <> replay_state_at
+R876:876 Coq.Numbers.BinNums <> N ind
+binder 863:867 <> width:8
+binder 869:872 <> seed:9
+R888:890 Coq.Init.Datatypes <> nat ind
+binder 880:884 <> index:10
+R899:899 Coq.Numbers.BinNums <> N ind
+R906:908 Coq.Lists.List <> nth def
+R981:1010 AtomicKernelDefinesReplay <> mask def
+R1012:1016 OmiPiBridgeConnectsKernel <> width:8 var
+R1018:1021 OmiPiBridgeConnectsKernel <> seed:9 var
+R921:952 AtomicKernelDefinesReplay <> replay def
+R954:958 OmiPiBridgeConnectsKernel <> width:8 var
+R960:963 OmiPiBridgeConnectsKernel <> seed:9 var
+R966:966 Coq.Init.Datatypes <> S constr
+R968:972 OmiPiBridgeConnectsKernel <> index:10 var
+R910:914 OmiPiBridgeConnectsKernel <> index:10 var
+def 1037:1052 <> kernel_pi_sample
+R1072:1072 Coq.Numbers.BinNums <> N ind
+binder 1059:1063 <> width:11
+binder 1065:1068 <> seed:12
+R1084:1086 Coq.Init.Datatypes <> nat ind
+binder 1076:1080 <> index:13
+R1095:1108 OmiPiBridgeConnectsKernel <> KernelPiSample rec
+R1115:1130 OmiPiBridgeConnectsKernel <> mkKernelPiSample constr
+R1136:1140 OmiPiBridgeConnectsKernel <> width:11 var
+R1146:1149 OmiPiBridgeConnectsKernel <> seed:12 var
+R1155:1159 OmiPiBridgeConnectsKernel <> index:13 var
+R1166:1180 OmiPiBridgeConnectsKernel <> replay_state_at def
+R1182:1186 OmiPiBridgeConnectsKernel <> width:11 var
+R1188:1191 OmiPiBridgeConnectsKernel <> seed:12 var
+R1193:1197 OmiPiBridgeConnectsKernel <> index:13 var
+R1205:1250 DiagonalGaugeCloses <> diagonal_accumulator_phase def
+R1252:1256 OmiPiBridgeConnectsKernel <> index:13 var
+R1264:1331 PiProjectionPreservesWitnesses <> omi_pi_term_from_diagonal_accumulator def
+R1333:1337 OmiPiBridgeConnectsKernel <> index:13 var
+prf 1350:1386 <> kernel_pi_sample_phase_is_accumulator
+binder 1399:1403 <> width:14
+binder 1405:1408 <> seed:15
+binder 1410:1414 <> index:16
+R1469:1475 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1421:1432 OmiPiBridgeConnectsKernel <> sample_phase proj
+R1435:1450 OmiPiBridgeConnectsKernel <> kernel_pi_sample def
+R1452:1456 OmiPiBridgeConnectsKernel <> width:14 var
+R1458:1461 OmiPiBridgeConnectsKernel <> seed:15 var
+R1463:1467 OmiPiBridgeConnectsKernel <> index:16 var
+R1476:1521 DiagonalGaugeCloses <> diagonal_accumulator_phase def
+R1523:1527 OmiPiBridgeConnectsKernel <> index:16 var
+prf 1564:1602 <> kernel_pi_sample_term_matches_incidence
+binder 1615:1619 <> width:17
+binder 1621:1624 <> seed:18
+binder 1626:1630 <> index:19
+R1684:1690 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1637:1647 OmiPiBridgeConnectsKernel <> sample_term proj
+R1650:1665 OmiPiBridgeConnectsKernel <> kernel_pi_sample def
+R1667:1671 OmiPiBridgeConnectsKernel <> width:17 var
+R1673:1676 OmiPiBridgeConnectsKernel <> seed:18 var
+R1678:1682 OmiPiBridgeConnectsKernel <> index:19 var
+R1691:1747 PiProjectionPreservesWitnesses <> omi_pi_term_from_incidence def
+R1749:1753 OmiPiBridgeConnectsKernel <> index:19 var
+R1799:1814 OmiPiBridgeConnectsKernel <> kernel_pi_sample def
+R1836:1916 PiProjectionPreservesWitnesses <> omi_pi_term_from_diagonal_accumulator_matches_race thm
+R1836:1916 PiProjectionPreservesWitnesses <> omi_pi_term_from_diagonal_accumulator_matches_race thm
+R1836:1916 PiProjectionPreservesWitnesses <> omi_pi_term_from_diagonal_accumulator_matches_race thm
+R1929:2006 PiProjectionPreservesWitnesses <> omi_pi_term_from_diagonal_race_matches_polybius thm
+R1929:2006 PiProjectionPreservesWitnesses <> omi_pi_term_from_diagonal_race_matches_polybius thm
+R1929:2006 PiProjectionPreservesWitnesses <> omi_pi_term_from_diagonal_race_matches_polybius thm
+R2017:2090 PiProjectionPreservesWitnesses <> omi_pi_term_from_polybius_matches_incidence thm
+R2017:2090 PiProjectionPreservesWitnesses <> omi_pi_term_from_polybius_matches_incidence thm
+prf 2107:2143 <> kernel_pi_projection_series_converges
+binder 2156:2160 <> width:20
+binder 2162:2165 <> seed:21
+R2172:2176 Coq.Reals.Rseries <> Un_cv def
+R2348:2350 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R2311:2347 PiProjectionPreservesWitnesses <> OMI_PI def
+R2193:2195 Coq.Init.Datatypes <> nat ind
+binder 2189:2189 <> n:22
+R2209:2216 Coq.Reals.Rfunctions <> sum_f_R0 def
+R2238:2240 Coq.Init.Datatypes <> nat ind
+binder 2234:2234 <> k:23
+R2245:2255 OmiPiBridgeConnectsKernel <> sample_term proj
+R2258:2273 OmiPiBridgeConnectsKernel <> kernel_pi_sample def
+R2275:2279 OmiPiBridgeConnectsKernel <> width:20 var
+R2281:2284 OmiPiBridgeConnectsKernel <> seed:21 var
+R2286:2286 OmiPiBridgeConnectsKernel <> k:23 var
+R2301:2301 OmiPiBridgeConnectsKernel <> n:22 var
+R2426:2428 Coq.Init.Datatypes <> nat ind
+binder 2422:2422 <> n:24
+R2440:2447 Coq.Reals.Rfunctions <> sum_f_R0 def
+R2449:2505 PiProjectionPreservesWitnesses <> omi_pi_term_from_incidence def
+R2507:2507 OmiPiBridgeConnectsKernel <> n:24 var
+R2392:2400 Coq.Reals.Ratan <> Un_cv_ext thm
+R2426:2428 Coq.Init.Datatypes <> nat ind
+binder 2422:2422 <> n:25
+R2440:2447 Coq.Reals.Rfunctions <> sum_f_R0 def
+R2449:2505 PiProjectionPreservesWitnesses <> omi_pi_term_from_incidence def
+R2507:2507 OmiPiBridgeConnectsKernel <> n:25 var
+R2392:2400 Coq.Reals.Ratan <> Un_cv_ext thm
+R2534:2539 Coq.Reals.PartSum <> sum_eq thm
+R2534:2539 Coq.Reals.PartSum <> sum_eq thm
+R2582:2620 OmiPiBridgeConnectsKernel <> kernel_pi_sample_term_matches_incidence thm
+R2582:2620 OmiPiBridgeConnectsKernel <> kernel_pi_sample_term_matches_incidence thm
+R2633:2707 PiProjectionPreservesWitnesses <> omi_pi_incidence_projection_series_converges thm
+R2633:2707 PiProjectionPreservesWitnesses <> omi_pi_incidence_projection_series_converges thm
+prf 2724:2758 <> kernel_pi_projection_equals_real_pi
+binder 2771:2775 <> width:26
+binder 2777:2780 <> seed:27
+R3160:3166 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2788:2796 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R2797:2805 Coq.Init.Specif <> proj1_sig def
+R2816:2820 Coq.Init.Specif <> exist constr
+R3110:3146 OmiPiBridgeConnectsKernel <> kernel_pi_projection_series_converges thm
+R3148:3152 OmiPiBridgeConnectsKernel <> width:26 var
+R3154:3157 OmiPiBridgeConnectsKernel <> seed:27 var
+R3093:3095 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R3056:3092 PiProjectionPreservesWitnesses <> OMI_PI def
+R2841:2841 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2837:2837 <> l:28
+R2859:2863 Coq.Reals.Rseries <> Un_cv def
+R3042:3042 OmiPiBridgeConnectsKernel <> l:28 var
+R2889:2891 Coq.Init.Datatypes <> nat ind
+binder 2885:2885 <> n:29
+R2914:2921 Coq.Reals.Rfunctions <> sum_f_R0 def
+R2952:2954 Coq.Init.Datatypes <> nat ind
+binder 2948:2948 <> k:30
+R2959:2969 OmiPiBridgeConnectsKernel <> sample_term proj
+R2972:2987 OmiPiBridgeConnectsKernel <> kernel_pi_sample def
+R2989:2993 OmiPiBridgeConnectsKernel <> width:26 var
+R2995:2998 OmiPiBridgeConnectsKernel <> seed:27 var
+R3000:3000 OmiPiBridgeConnectsKernel <> k:30 var
+R3024:3024 OmiPiBridgeConnectsKernel <> n:29 var
+R3167:3168 Coq.Reals.Rtrigo1 <> PI def
+R3221:3272 PiProjectionPreservesWitnesses <> OMI_PI_Equals_Real_PI thm
+R3221:3272 PiProjectionPreservesWitnesses <> OMI_PI_Equals_Real_PI thm
+R3221:3272 PiProjectionPreservesWitnesses <> OMI_PI_Equals_Real_PI thm

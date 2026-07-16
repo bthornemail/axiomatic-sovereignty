@@ -41,11 +41,11 @@ The goal is not to force one implementation. The goal is to make the foundation 
 The five folders remain the usable base:
 
 ```text
-1-logic-proofs/         formal invariants and proofs
-2-structural-types/     pure data shapes and encodings
-3-procedural-manifests/ deterministic transformations
-4-canonical-axioms/     attested sovereign bounds
-5-social-contracts/     real agreements people choose to uphold
+LOGIC_PROOFS/         formal invariants and proofs
+STRUCTURAL_TYPES/     pure data shapes and encodings
+PROCEDURAL_MANIFEST/ deterministic transformations
+CANONICAL_AXIOMS/     attested sovereign bounds
+SOCIAL_CONTRACTS/     real agreements people choose to uphold
 ```
 
 Each layer should contain working material, not empty symbolism.

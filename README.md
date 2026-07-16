@@ -18,11 +18,11 @@ Repo management files such as `README.md`, `.gitignore`, and other metadata file
 ## Pentagonal Base
 
 ```text
-1-logic-proofs/         what is true
-2-structural-types/     what is shaped
-3-procedural-manifests/ how it moves
-4-canonical-axioms/     what protects the sovereign entity
-5-social-contracts/     what a community voluntarily agrees to
+LOGIC_PROOFS/         what is true
+STRUCTURAL_TYPES/     what is shaped
+PROCEDURAL_MANIFEST/ how it moves
+CANONICAL_AXIOMS/     what protects the sovereign entity
+SOCIAL_CONTRACTS/     what a community voluntarily agrees to
 ```
 
 Each layer should remain understandable on its own. Lower layers describe what must be true or well-formed. Higher layers describe how people and communities voluntarily coordinate around those truths.

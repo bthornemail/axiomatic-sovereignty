@@ -5,11 +5,11 @@ system_identity:
   foundation_posture: "runtime-agnostic-zero-dependency-foundation"
   identity_requirement: "optional"
 component_factors:
-  proof_layer: "1-logic-proofs"
-  type_layer: "2-structural-types"
-  procedure_layer: "3-procedural-manifests"
-  axiom_layer: "4-canonical-axioms"
-  contract_layer: "5-social-contracts"
+  proof_layer: "LOGIC_PROOFS"
+  type_layer: "STRUCTURAL_TYPES"
+  procedure_layer: "PROCEDURAL_MANIFEST"
+  axiom_layer: "CANONICAL_AXIOMS"
+  contract_layer: "SOCIAL_CONTRACTS"
 ---
 
 # The Optional Identity Statement

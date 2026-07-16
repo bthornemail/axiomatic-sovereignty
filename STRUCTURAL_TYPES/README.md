@@ -27,7 +27,7 @@ The types in this layer define:
 
 | Directory | System | Status |
 |-----------|--------|--------|
-| `haskell/` | Haskell | Active — 5 modules ported from omi-canvas |
+| `haskell/` | Haskell | Active inventory of pure shapes, structural operations, adapters, and archived working material |
 | `rust/` | Rust | Space for translations |
 | `c/` | C structs | Space for translations |
 | `bytecode/` | WebAssembly | Space for schemas |
@@ -76,3 +76,5 @@ These types are adapted from:
 - OMI Canvas scope encoding
 
 The source types are used in the Haskell OMI Canvas type engine. The types in this layer are faithful adaptations for the axiomatic-sovereignty constitution.
+
+See `haskell/README.md` for the local inventory rules that separate pure shapes, structural operations, adapters, and archived working material.

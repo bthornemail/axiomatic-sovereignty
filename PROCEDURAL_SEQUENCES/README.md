@@ -1,4 +1,4 @@
-# Layer 3: Procedural Manifests
+# Layer 3: Procedural Sequences
 
 **Purpose:** Deterministic state transition rules - how the system moves from one state to another.
 
@@ -8,7 +8,7 @@
 
 ## What This Layer Defines
 
-Procedural Manifests specify deterministic algorithms and protocols that the common foundation uses. They define:
+The Procedural Sequences layer specifies deterministic algorithms and protocols as composable sets that the common foundation uses. It defines:
 
 - **What must happen** (the state transition)
 - **What must be true before** (the precondition)
@@ -17,23 +17,23 @@ Procedural Manifests specify deterministic algorithms and protocols that the com
 - **What inputs are accepted** (the deterministic surface)
 - **What output must be produced** (the reproducible result)
 
-## Manifests
+## Sequence Sets
 
 | Directory | Purpose | Status |
 |-----------|---------|--------|
 | `Initialize_Agent/` | How an agent joins the common foundation | Planned roadmap |
 | `Reconcile_State/` | How state conflicts are resolved | Planned roadmap |
 
-## Manifest Structure
+## Sequence Structure
 
-Each manifest contains:
+Each sequence contains:
 
 - **`tlaplus/`** — TLA+ action specification (formal)
 - **`haskell/`** — Pure function specification (executable)
 - **`plaintext/`** — Plain English with formal pre/post conditions (readable)
-- **`README.md`** — What this manifest does and why
+- **`README.md`** — What this sequence does and why
 
-## The Manifest Invariant
+## The Sequence Invariant
 
 ```text
 every transition has a precondition

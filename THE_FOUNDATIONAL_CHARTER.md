@@ -36,16 +36,18 @@ That means:
 
 The goal is not to force one implementation. The goal is to make the foundation clear enough that different implementations can be compared, translated, and corrected.
 
+Many languages can read the same structural truth, but no language owns it. A proof assistant, type system, markup format, runtime, or fork may reveal part of the foundation without becoming the foundation itself.
+
 ## 4. The Pentagonal Base
 
 The five folders remain the usable base:
 
 ```text
-LOGIC_PROOFS/         formal invariants and proofs
-STRUCTURAL_TYPES/     pure data shapes and encodings
-PROCEDURAL_MANIFEST/ deterministic transformations
-CANONICAL_AXIOMS/     attested sovereign bounds
-SOCIAL_CONTRACTS/     real agreements people choose to uphold
+LOGIC_PROOFS/          formal invariants and proofs
+STRUCTURAL_TYPES/      pure data shapes and encodings
+PROCEDURAL_SEQUENCES/  deterministic transformations
+CANONICAL_AXIOMS/      attested sovereign bounds
+SOCIAL_CONTRACTS/      real agreements people choose to uphold
 ```
 
 Each layer should contain working material, not empty symbolism.
@@ -76,7 +78,7 @@ Use relative paths. Do not reference local machine paths.
 **Layer References:**
 - Logic Proofs: [relative paths]
 - Structural Types: [relative paths]
-- Procedural Manifests: [relative paths]
+- Procedural Sequences: [relative paths]
 - Canonical Axioms: [relative paths]
 - Social Contracts: [relative paths]
 
@@ -127,6 +129,8 @@ empty placeholders do not belong in the artifact path
 pure functions make behavior inspectable
 pure types make data shape inspectable
 deterministic procedures make decisions reproducible
+many languages can read the same structural truth
+no language owns the structural truth it reads
 forks may modify assemblies
 modified assemblies create responsibility for their deltas
 ```

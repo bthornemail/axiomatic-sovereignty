@@ -31,7 +31,9 @@ If your idea contradicts itself, it cannot be implemented. Check your logic befo
 
 If your idea is malformed — if it has the wrong shape, the wrong structure, the wrong dependencies — it will not integrate. Check your types before you submit.
 
-### Layer 3: Procedural Manifests
+Many languages can read the same structural truth, but no language owns it. The contributor's task is to preserve the shape clearly enough that another person can translate it without surrendering the meaning to one syntax.
+
+### Layer 3: Procedural Sequences
 
 "Can my idea be implemented?"
 
@@ -86,6 +88,8 @@ every narrative has a structure
 every structure is verifiable
 every verification is public
 authorship does not create ownership over the foundation
+many languages can read the same structural truth
+no language owns the truth it helps express
 ```
 
 ## 6. The Personal Fold Operation

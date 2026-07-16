@@ -7,10 +7,10 @@ These files are not the public entry path. They are provenance for people who wa
 ## Files
 
 - `chat_histoy.md` - full conversation history where the idea was derived and refined.
-- `chatgpt_history.md` - follow-on conversation refining the common-foundation posture, propagation/backpropagation, reciprocity, and the avoidance of collective-body or legal-authority framing.
+- `chatgpt_history.md` - follow-on conversation refining the common-foundation posture, propagation/backpropagation, reciprocity, and the avoidance of older framing that could imply submission to an external body.
 - `Common Foundation for Computational Sovereignty.md` - extracted source note for the common-foundation framing.
 - `Propagation, Backpropagation, and Non-Interference.md` - extracted provenance note on propagation, backpropagation, and non-interference.
-- `Axiomatic Sovereignty - a runtime-agnostic, zero-dependency blueprint for the collective commons.md` - working blueprint notes and generated drafts.
+- Legacy runtime-agnostic blueprint note - working blueprint notes and generated drafts. The original filename is preserved in this folder as provenance.
 - `Architectural Design Document - Axiomatic Sovereignty.md` - condensed architectural design document.
 
 ## Use
@@ -24,7 +24,15 @@ Do not treat `_dev-docs/` as the canonical public specification. The root docume
 The current public structure uses five subfolders as the pentagonal base and six root narrative documents as the hexagonal frame:
 
 ```text
-Who    -> THE_OPTIONAL_IDENTITY_STATEMENT.md
+LOGIC_PROOFS/
+STRUCTURAL_TYPES/
+PROCEDURAL_SEQUENCES/
+CANONICAL_AXIOMS/
+SOCIAL_CONTRACTS/
+```
+
+```text
+Who    -> THE_CANONICAL_PERSPECTIVE_STATEMENT.md
 What   -> THE_CONSTITUTIONAL_MANIFESTO.md
 When   -> THE_OPERATIONAL_NARRATIVE.md
 Where  -> THE_FOUNDATIONAL_CHARTER.md

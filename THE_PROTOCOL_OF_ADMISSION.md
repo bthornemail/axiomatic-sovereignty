@@ -97,11 +97,14 @@ The validation pipeline is:
 
 While the constitution is language-agnostic, implementations must be expressible in specific languages. The encoding protocol requires:
 
+- **Shared Structural Truth:** Many languages can read the same structural truth, but no language owns it.
 - **Source Encoding:** Text-based format
 - **Version Pinning:** Exact language and dependency versions
 - **Reproducibility:** Identical inputs produce identical outputs
 - **Auditability:** Inspectable by non-experts
 - **Deterministic Surface:** Clear inputs, outputs, and transition boundaries
+
+The admission protocol therefore checks whether a translation preserves the claim, shape, and consequence it carries. It does not treat the source language, target language, parser, runtime, or documentation format as the owner of the claim.
 
 ## 6. The Admission Invariant
 
@@ -114,6 +117,8 @@ the criteria are always public
 accepted contributions do not create ownership over the foundation
 usable artifacts are preferred over placeholders
 pure functions and types are the default expression of deterministic claims
+translations preserve structural truth without owning it
+no language, runtime, or format is final over the foundation
 ```
 
 ---

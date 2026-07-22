@@ -1,0 +1,13 @@
+## closures.imo — User-Remote Definitions
+## Tier: -3 (CLOSE) | Graph | Triangle | Tetrahedron
+## Authority: Locks final structural closure witnesses across the global lattice
+
+tier: -3
+form: graph
+planar: triangle
+spatial: tetrahedron
+
+boundary:
+  type: tetrahedron
+  description: "Locks final structural closure witnesses across the global lattice"
+  remote_lock: "closures.imo outputs remote termination tokens"

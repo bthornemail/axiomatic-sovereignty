@@ -1,0 +1,18 @@
+## combinators.o — Local-Binary Executable Register Substrate
+## Tier: -4 (COMBINE) | Incidence | Square | Cube
+## Authority: Axis clock drives — incidence barrel rotation
+
+tier: -4
+vertex: 3
+role: "torque shifts"
+
+substrate:
+  base_4320: "combinators.imo % 4320"
+  surface_4320_2: "(combinators.imo % 4320) * 4320"
+  horizon_4320_4: "(combinators.imo % 4320) * 4320 * 4320 * 4320"
+
+register:
+  left_torque: "ROL64(input, 1)"
+  right_torque: "ROR64(axis, 2)"
+  blend: "left_torque ^ right_torque"
+  output: "blend ^ 0x1D1D1D1D1D1D1D1DULL"

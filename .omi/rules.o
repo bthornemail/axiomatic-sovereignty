@@ -1,0 +1,18 @@
+## rules.o — Local-Binary Executable Register Substrate
+## Tier: -1 (MUST) | Node | Hypotenuse | 0-Sphere
+## Authority: Invariant law — node/point register substrate
+
+tier: -1
+vertex: 0
+role: "invariant law"
+
+substrate:
+  base_4320: "rules.imo % 4320"
+  surface_4320_2: "(rules.imo % 4320) * 4320"
+  horizon_4320_4: "(rules.imo % 4320) * 4320 * 4320 * 4320"
+
+register:
+  left_torque: "ROL64(input, 1)"
+  right_torque: "ROR64(axis, 2)"
+  blend: "left_torque ^ right_torque"
+  output: "blend ^ 0x1D1D1D1D1D1D1D1DULL"

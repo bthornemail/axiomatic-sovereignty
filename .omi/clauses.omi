@@ -1,0 +1,52 @@
+## clauses.omi — User-Local Declarations (Hamming [7,4,3])
+## Tier: -7 | Fano Plane | [7,4,3] SEC | Meta-Cons
+## Authority: Maps the 4 message data positions (FS, GS, RS, US)
+
+tier: -7
+form: fano-plane
+code: "[7,4,3] SEC"
+role: "User-Local System-Land via Emergent Axial Lisp"
+
+message_positions:
+  D1:
+    bit: 2
+    name: FS
+    scope: "File Scope"
+    owner: FACTS
+    file: facts.omi
+  D2:
+    bit: 4
+    name: GS
+    scope: "Group Scope"
+    owner: RULES
+    file: rules.omi
+  D3:
+    bit: 5
+    name: RS
+    scope: "Record Scope"
+    owner: COMBINATORS
+    file: combinators.omi
+  D4:
+    bit: 6
+    name: US
+    scope: "Unit Scope"
+    owner: CLOSURES
+    file: closures.omi
+
+parity_checks:
+  P1:
+    bit: 0
+    name: LOGOS
+    equation: "LOGOS = FS ^ GS ^ US"
+  P2:
+    bit: 1
+    name: NOMOS
+    equation: "NOMOS = FS ^ RS ^ US"
+  P4:
+    bit: 3
+    name: PATHOS
+    equation: "PATHOS = GS ^ RS ^ US"
+
+epistemic_cons:
+  car: "FS, GS, RS, US"
+  cdr: "LOGOS, NOMOS, PATHOS"

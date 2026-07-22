@@ -1,0 +1,30 @@
+## closures.omi — User-Local Declarations
+## Tier: -3 (CLOSE) | Graph | Triangle | Tetrahedron
+## Authority: Establishes complete graph boundaries
+
+keyword: CLOSE
+tier: -3
+form: graph
+planar: triangle
+spatial: tetrahedron
+
+inherits:
+  - LOGOS
+  - NOMOS
+  - PATHOS
+
+scope:
+  bit: 6
+  hamming: US
+  data_position: D4
+  epistemic_car: CLOSURES
+
+invariants:
+  tetragrammatron: "0x1E diagonal closure"
+  governor: "Tetragrammatron Relation Governor"
+  closure_form: "finite block termination witnesses"
+
+incidence:
+  base: 4320
+  surface: "4320^2"
+  horizon: "4320^4"

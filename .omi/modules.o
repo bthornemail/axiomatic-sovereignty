@@ -1,0 +1,35 @@
+## modules.o — Local-Binary Executable Register Substrate (Hamming [8,4,4])
+## Tier: -8 | Octagon | Octonion | COBS-CONS
+## Authority: Compiled byte-stable static target arrays — User-Private Kernel via Binaries
+
+tier: -8
+form: octagon
+code: "[8,4,4] COBS-CONS"
+role: "User-Private Kernel Register Substrate"
+
+streaming_cell:
+  bit_0: "LOGOS  — parity check P1"
+  bit_1: "NOMOS  — parity check P2"
+  bit_2: "FS     — data D1 (FACTS)"
+  bit_3: "PATHOS — parity check P4"
+  bit_4: "GS     — data D2 (RULES)"
+  bit_5: "RS     — data D3 (COMBINATORS)"
+  bit_6: "US     — data D4 (CLOSURES)"
+  bit_7: "OMINO  — overall parity hinge (CONS)"
+
+overall_mismatch: "LOGOS ^ NOMOS ^ FS ^ PATHOS ^ GS ^ RS ^ US ^ OMINO"
+
+secdec_outcomes:
+  "00": "no detected error"
+  "01": "interior single error corrected"
+  "10": "OMINO single error corrected"
+  "11": "double error detected"
+
+e8_roots:
+  total: 240
+  type_1: 112
+  type_2: 128
+
+blackboard:
+  size: "0xFFFFFFFF 0xFFFFFFFF"
+  role: "II_25_1 Lorentzian null-horizon boundary"

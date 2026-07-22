@@ -8,6 +8,7 @@ node_modules/
 dist/
 build/
 *.o
+!.omi/*.o
 *.hi
 *.a
 *.so

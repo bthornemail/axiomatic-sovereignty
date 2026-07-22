@@ -8,37 +8,317 @@ It is not a platform, product, institution, governing body, or ownership claim. 
 
 ## Repository Geometry
 
-The repository has two public shapes:
+The repository has two coordinated public structures:
 
-- **Pentagonal base:** five subfolders that hold the reusable foundation.
-- **Hexagonal narrative frame:** six root documents that orient people through who, what, when, where, why, and how.
+### Six-Part Relational Authority
 
-Repo management files such as `README.md`, `.gitignore`, and other metadata files are not counted as hexagonal faces.
+The six-part authority describes how reusable knowledge grows from one declared relation into a complete configuration space.
 
-## Pentagonal Base
+| Relational form | Authority file   | Planar geometry |
+| --------------- | ---------------- | --------------- |
+| Node            | `rules`          | Hypotenuse      |
+| Edge            | `facts`          | Circle          |
+| Graph           | `closures`       | Triangle        |
+| Incidence       | `combinators`    | Square          |
+| Multigraph      | `constructs`     | Pentagon        |
+| Hypergraph      | `configurations` | Hexagon         |
 
-```text
-LOGIC_PROOFS/          what is true
-STRUCTURAL_TYPES/      what is shaped
-PROCEDURAL_SEQUENCES/  how it moves
-CANONICAL_AXIOMS/      what protects the sovereign entity
-SOCIAL_CONTRACTS/      what a community voluntarily agrees to
-```
-
-Each layer should remain understandable on its own. Lower layers describe what must be true or well-formed. Higher layers describe how people and communities voluntarily coordinate around those truths.
-
-## Hexagonal Narrative Frame
+Canonical sequence:
 
 ```text
-Who    -> THE_CANONICAL_PERSPECTIVE_STATEMENT.md
-What   -> THE_CONSTITUTIONAL_MANIFESTO.md
-When   -> THE_OPERATIONAL_NARRATIVE.md
-Where  -> THE_FOUNDATIONAL_CHARTER.md
-Why    -> THE_COMPUTATIONAL_SINGULARITY.md
-How    -> THE_PROTOCOL_OF_ADMISSION.md
+node
+→ edge
+→ graph
+→ incidence
+→ multigraph
+→ hypergraph
 ```
 
-The six root documents are written in natural language first. StrictYAML front matter is used only where explicit machine-readable anchors are needed.
+Authority sequence:
+
+```text
+rules
+→ facts
+→ closures
+→ combinators
+→ constructs
+→ configurations
+```
+
+Geometric sequence:
+
+```text
+hypotenuse
+→ circle
+→ triangle
+→ square
+→ pentagon
+→ hexagon
+```
+
+The six forms are not merely navigation documents.
+
+They define the public relational authority of the repository:
+
+```text
+rules
+  declare the lawful nodes from which construction may begin
+
+facts
+  establish the edges connecting declared nodes
+
+closures
+  establish complete graph boundaries
+
+combinators
+  establish incidences among closed graph forms
+
+constructs
+  preserve multiple lawful graph relations concurrently
+
+configurations
+  assemble complete hypergraph environments
+```
+
+### Five-Part Reusable Foundation
+
+The reusable foundation is the five-stage geometric substrate carried by the first five relational authorities.
+
+| Relational form | Foundation file | Spatial geometry      |
+| --------------- | --------------- | --------------------- |
+| Node            | `rules`         | 0-sphere              |
+| Edge            | `facts`         | Sphere                |
+| Graph           | `closures`      | Tetrahedron           |
+| Incidence       | `combinators`   | Cube                  |
+| Multigraph      | `constructs`    | Tesseract / hypercube |
+
+Canonical sequence:
+
+```text
+node
+→ edge
+→ graph
+→ incidence
+→ multigraph
+```
+
+Foundation sequence:
+
+```text
+rules
+→ facts
+→ closures
+→ combinators
+→ constructs
+```
+
+Spatial sequence:
+
+```text
+0-sphere
+→ sphere
+→ tetrahedron
+→ cube
+→ tesseract
+```
+
+The five reusable files form the persistent foundation:
+
+```text
+rules
+  node authority
+  invariant and obligation surface
+  0-sphere origin
+
+facts
+  edge authority
+  observable relation surface
+  spherical extension
+
+closures
+  graph authority
+  bounded completion surface
+  tetrahedral closure
+
+combinators
+  incidence authority
+  lawful composition surface
+  cubic coordination
+
+constructs
+  multigraph authority
+  simultaneous relational memory
+  tesseract or hypercube coordination
+```
+
+### Relationship Between the Six and the Five
+
+The six-part structure is not a second unrelated frame.
+
+It extends the five-part reusable foundation by adding:
+
+```text
+configurations
+  hypergraph authority
+  hexagonal public environment
+```
+
+Therefore:
+
+```text
+FIVE-PART FOUNDATION
+  rules
+  facts
+  closures
+  combinators
+  constructs
+
+SIX-PART RELATIONAL AUTHORITY
+  rules
+  facts
+  closures
+  combinators
+  constructs
+  configurations
+```
+
+The fifth layer completes the reusable multigraph substrate.
+
+The sixth layer composes those reusable substrates into a public hypergraph configuration.
+
+### Canonical Authority Map
+
+```text
+RULES
+  node
+  hypotenuse
+  0-sphere
+
+FACTS
+  edge
+  circle
+  sphere
+
+CLOSURES
+  graph
+  triangle
+  tetrahedron
+
+COMBINATORS
+  incidence
+  square
+  cube
+
+CONSTRUCTS
+  multigraph
+  pentagon
+  tesseract / hypercube
+
+CONFIGURATIONS
+  hypergraph
+  hexagon
+  composed public topology
+```
+
+### Repository Meaning
+
+The repository is therefore organized by relational construction, not by rhetorical navigation.
+
+It no longer treats the root as:
+
+```text
+five reusable folders
+plus
+six who/what/when/where/why/how documents
+```
+
+It treats the repository as:
+
+```text
+five reusable geometric foundation authorities
+extended by
+one public configuration authority
+```
+
+The governing progression is:
+
+```text
+rule establishes node
+fact establishes edge
+closure establishes graph
+combinator establishes incidence
+construct establishes multigraph
+configuration establishes hypergraph
+```
+
+### Machine-Readable Substrate
+
+All machine-readable files (`.omi`, `.imo`, `.o`) reside inside the hidden `.omi/` directory at the repository root. The visible workspace is reserved for human-readable Markdown.
+
+```text
+.omi/
+  rules.omi, rules.imo, rules.o
+  facts.omi, facts.imo, facts.o
+  closures.omi, closures.imo, closures.o
+  combinators.omi, combinators.imo, combinators.o
+  constructs.omi, constructs.imo, constructs.o
+  configurations.omi, configurations.imo, configurations.o
+  clauses.omi, clauses.imo
+  modules.o
+```
+
+### Axiomatic Sovereignty Boundary
+
+These authority files define public, reusable structure.
+
+They do not create possession over the knowledge they contain.
+
+```text
+rules do not own nodes
+
+facts do not own observations
+
+closures do not prevent forks
+
+combinators do not control participation
+
+constructs does not absorb independent graphs
+
+configurations does not centralize the hypergraph
+```
+
+Authorship and provenance remain visible.
+
+Forks may reorganize, translate, or extend the geometry.
+
+A configuration may compose the foundation, but it does not acquire ownership over its contributors, users, proofs, or derived knowledge.
+
+### Canonical Lock
+
+```text
+The five-part reusable foundation is:
+
+  node        : rules          : 0-sphere
+  edge        : facts          : sphere
+  graph       : closures       : tetrahedron
+  incidence   : combinators    : cube
+  multigraph  : constructs     : tesseract
+
+The six-part relational authority is:
+
+  node        : rules          : hypotenuse
+  edge        : facts          : circle
+  graph       : closures       : triangle
+  incidence   : combinators    : square
+  multigraph  : constructs     : pentagon
+  hypergraph  : configurations : hexagon
+
+Configurations extends the five-part foundation.
+It does not replace it.
+
+The repository is organized by relational and geometric authority,
+not by who/what/when/where/why/how narrative categories.
+```
 
 ## What This Is
 
@@ -58,8 +338,8 @@ The six root documents are written in natural language first. StrictYAML front m
 
 ## How To Use This Repository
 
-1. Read the hexagonal narrative frame to understand the intent.
-2. Inspect the pentagonal base to find usable artifacts.
+1. Read the six-part relational authority to understand the geometric structure.
+2. Inspect the five-part reusable foundation to find usable artifacts.
 3. Clone, fork, translate, or adapt the pieces you need.
 4. Preserve provenance when you carry knowledge forward.
 5. Mark meaningful deltas when you change the foundation.

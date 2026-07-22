@@ -1,0 +1,18 @@
+## constructs.o — Local-Binary Executable Register Substrate
+## Tier: -5 (CONS) | Multigraph | Pentagon | Tesseract
+## Authority: Unified word axes — multigraph pair reduction
+
+tier: -5
+vertex: 4
+role: "pair surface"
+
+substrate:
+  base_4320: "constructs.imo % 4320"
+  surface_4320_2: "(constructs.imo % 4320) * 4320"
+  horizon_4320_4: "(constructs.imo % 4320) * 4320 * 4320 * 4320"
+
+register:
+  left_torque: "ROL64(input, 1)"
+  right_torque: "ROR64(axis, 2)"
+  blend: "left_torque ^ right_torque"
+  output: "blend ^ 0x1D1D1D1D1D1D1D1DULL"

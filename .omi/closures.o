@@ -1,0 +1,18 @@
+## closures.o — Local-Binary Executable Register Substrate
+## Tier: -3 (CLOSE) | Graph | Triangle | Tetrahedron
+## Authority: Finite termination lanes — graph/plane closure witnesses
+
+tier: -3
+vertex: 2
+role: "closure witness"
+
+substrate:
+  base_4320: "closures.imo % 4320"
+  surface_4320_2: "(closures.imo % 4320) * 4320"
+  horizon_4320_4: "(closures.imo % 4320) * 4320 * 4320 * 4320"
+
+register:
+  left_torque: "ROL64(input, 1)"
+  right_torque: "ROR64(axis, 2)"
+  blend: "left_torque ^ right_torque"
+  output: "blend ^ 0x1D1D1D1D1D1D1D1DULL"

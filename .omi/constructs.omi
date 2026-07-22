@@ -1,0 +1,30 @@
+## constructs.omi — User-Local Declarations
+## Tier: -5 (CONS) | Multigraph | Pentagon | Tesseract
+## Authority: Preserves multiple lawful graph relations concurrently
+
+keyword: CONS
+tier: -5
+form: multigraph
+planar: pentagon
+spatial: tesseract
+
+inherits:
+  - LOGOS
+  - NOMOS
+  - PATHOS
+
+scope:
+  bit: 7
+  hamming: OMINO
+  role: "overall parity hinge"
+  epistemic_car: CONS
+
+invariants:
+  pair_surface: "CAR . CDR ordered pair templates"
+  blackboard: "COBS CONS 16x16 bounding matrix"
+  target_reduction: "CONS = 0xFFFFFFFF"
+
+incidence:
+  base: 4320
+  surface: "4320^2"
+  horizon: "4320^4"

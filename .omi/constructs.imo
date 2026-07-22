@@ -1,0 +1,13 @@
+## constructs.imo — User-Remote Definitions
+## Tier: -5 (CONS) | Multigraph | Pentagon | Tesseract
+## Authority: Unifies the four nested quadrants inside the shared register
+
+tier: -5
+form: multigraph
+planar: pentagon
+spatial: tesseract
+
+boundary:
+  type: tesseract
+  description: "Unifies the four nested quadrants inside the shared register"
+  remote_lock: "constructs.imo manages remote macro-quadrant paths"

@@ -1,0 +1,30 @@
+## combinators.omi — User-Local Declarations
+## Tier: -4 (COMBINE) | Incidence | Square | Cube
+## Authority: Establishes incidences among closed graph forms
+
+keyword: COMBINE
+tier: -4
+form: incidence
+planar: square
+spatial: cube
+
+inherits:
+  - LOGOS
+  - NOMOS
+  - PATHOS
+
+scope:
+  bit: 5
+  hamming: RS
+  data_position: D3
+  epistemic_car: COMBINATORS
+
+invariants:
+  barrel_rotation: "ROL64 / ROR64 non-branching vector shifts"
+  shift_engine: "72 Circular Slide Rulers"
+  clockwork: "Algorithmic Clock modulo-240"
+
+incidence:
+  base: 4320
+  surface: "4320^2"
+  horizon: "4320^4"

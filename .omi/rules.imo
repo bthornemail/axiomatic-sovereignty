@@ -1,0 +1,17 @@
+## rules.imo — User-Remote Definitions
+## Tier: -1 (MUST) | Node | Hypotenuse | 0-Sphere
+## Authority: Projects absolute topological bounds over the global memory network
+
+tier: -1
+form: node
+planar: hypotenuse
+spatial: 0-sphere
+
+boundary:
+  type: 0-sphere
+  description: "Absolute topological bounds over the global memory network"
+  remote_lock: "rules.imo locks remote structural obligations"
+
+omino_centroid:
+  point: "0x00"
+  azimuth: "0 degrees"

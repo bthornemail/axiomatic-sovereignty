@@ -1,0 +1,30 @@
+## facts.omi — User-Local Declarations
+## Tier: -2 (FACT) | Edge | Circle | Sphere
+## Authority: Establishes the edges connecting declared nodes
+
+keyword: FACT
+tier: -2
+form: edge
+planar: circle
+spatial: sphere
+
+inherits:
+  - LOGOS
+  - NOMOS
+  - PATHOS
+
+scope:
+  bit: 2
+  hamming: FS
+  data_position: D1
+  epistemic_car: FACTS
+
+invariants:
+  byte_intervals: "0x00..0x7F low plane, 0x80..0xFF high plane XOR reflection"
+  character_ring: "four 32-position sectors"
+  gauge_witness: "0x18 == 24 decimal == 4!"
+
+incidence:
+  base: 4320
+  surface: "4320^2"
+  horizon: "4320^4"

@@ -1,0 +1,32 @@
+## rules.omi — User-Local Declarations
+## Tier: -1 (MUST) | Node | Hypotenuse | 0-Sphere
+## Authority: Declares the lawful nodes from which construction may begin
+
+keyword: MUST
+tier: -1
+form: node
+planar: hypotenuse
+spatial: 0-sphere
+
+inherits:
+  - LOGOS
+  - NOMOS
+  - PATHOS
+
+scope:
+  bit: 4
+  hamming: GS
+  data_position: D2
+  epistemic_car: RULES
+
+invariants:
+  coordinate_baseline: "0x00"
+  azimuth: "0 degrees"
+  quadratic_form: "Q(x,y) = 4(4x^2 + 11x^2 + 4xy + y^2)"
+  resolution: "Klein (60,15)"
+  cross_term_lock: "x = 15 -> 16xy = 240y -> 0 mod 240"
+
+incidence:
+  base: 4320
+  surface: "4320^2"
+  horizon: "4320^4"

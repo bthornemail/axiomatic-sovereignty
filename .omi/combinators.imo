@@ -1,0 +1,13 @@
+## combinators.imo — User-Remote Definitions
+## Tier: -4 (COMBINE) | Incidence | Square | Cube
+## Authority: Drives the trajectory of the Algorithmic Clock over 24 vectors
+
+tier: -4
+form: incidence
+planar: square
+spatial: cube
+
+boundary:
+  type: cube
+  description: "Drives the trajectory of the Algorithmic Clock over 24 vectors"
+  remote_lock: "combinators.imo controls remote torque settings"

@@ -1,0 +1,18 @@
+## configurations.o — Local-Binary Executable Register Substrate
+## Tier: -6 (CONFIG) | Hypergraph | Hexagon | Hyper-Volume
+## Authority: Topology incidence matrix binary
+
+tier: -6
+vertex: 5
+role: "hypergraph configuration"
+
+substrate:
+  base_4320: "configurations.imo % 4320"
+  surface_4320_2: "(configurations.imo % 4320) * 4320"
+  horizon_4320_4: "(configurations.imo % 4320) * 4320 * 4320 * 4320"
+
+register:
+  left_torque: "ROL64(input, 1)"
+  right_torque: "ROR64(axis, 2)"
+  blend: "left_torque ^ right_torque"
+  output: "blend ^ 0x1D1D1D1D1D1D1D1DULL"

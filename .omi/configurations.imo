@@ -1,0 +1,13 @@
+## configurations.imo — User-Remote Definitions
+## Tier: -6 (CONFIG) | Hypergraph | Hexagon | Hyper-Volume
+## Authority: Coordinates uniform point-line incidence profiles globally
+
+tier: -6
+form: hypergraph
+planar: hexagon
+spatial: hyper-volume
+
+boundary:
+  type: hyper-volume
+  description: "Coordinates uniform point-line incidence profiles globally"
+  remote_lock: "configurations.imo binds remote environmental setups"

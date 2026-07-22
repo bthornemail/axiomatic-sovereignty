@@ -1,0 +1,18 @@
+## facts.imo — User-Remote Definitions
+## Tier: -2 (FACT) | Edge | Circle | Sphere
+## Authority: Anchors external data streams to the local240 E8 roots
+
+tier: -2
+form: edge
+planar: circle
+spatial: sphere
+
+boundary:
+  type: sphere
+  description: "Anchors external data streams to the local240 E8 roots"
+  remote_lock: "facts.imo houses remote instance inputs"
+
+e8_roots:
+  count: 240
+  type_1: 112
+  type_2: 128

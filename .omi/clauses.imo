@@ -1,0 +1,17 @@
+## clauses.imo — User-Remote Definitions (Hamming [7,4,3])
+## Tier: -7 | Fano Plane | [7,4,3] SEC | Meta-Cons
+## Authority: Links the 3 parity checks (LOGOS, NOMOS, PATHOS)
+
+tier: -7
+form: fano-plane
+code: "[7,4,3] SEC"
+role: "User-Remote Meta-Cons Surface"
+
+stream_cons:
+  car: "active run"
+  cdr: "next run"
+
+omino_derived:
+  equation: "OMINO = LOGOS ^ NOMOS ^ FS ^ PATHOS ^ GS ^ RS ^ US"
+  bit: 7
+  role: "overall parity hinge"

@@ -1,0 +1,24 @@
+## configurations.omi — User-Local Declarations
+## Tier: -6 (CONFIG) | Hypergraph | Hexagon | Hyper-Volume
+## Authority: Assembles complete hypergraph environments
+
+keyword: CONFIG
+tier: -6
+form: hypergraph
+planar: hexagon
+spatial: hyper-volume
+
+inherits:
+  - LOGOS
+  - NOMOS
+  - PATHOS
+
+invariants:
+  projective: "uniform point-line incidence profile"
+  environment: "finite projective configuration space"
+  extension: "Foundation_5 union {configurations} = Authority_6"
+
+incidence:
+  base: 4320
+  surface: "4320^2"
+  horizon: "4320^4"

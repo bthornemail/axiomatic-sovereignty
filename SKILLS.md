@@ -20,6 +20,41 @@ Read each skill block as an immutable recipe over fixed-width coordinates. Do
 not turn these blocks into an object model, evaluator, AST pipeline, delayed CPU
 state, name binder, policy layer, or sequential worker grid.
 
+## [SKILL_01: RUN_LOCAL_VERIFY_HARNESS]
+
+```text
+OBJECTIVE:
+  Execute type-custody checks, local session law verifications, and C99
+  bare-metal syntax bounds via the local Makefile.
+
+INVARIANTS:
+  Verification Target == make verify
+  Substrate Core Count == Exactly 23 flat files under ./.omi/
+  Authority Spectrum  == 6 active truth gates from rules through configurations
+
+FORBIDDEN:
+  queue expansions as core authority
+  pipeline looping inside arithmetic kernels
+  dynamic heap allocations
+  unverified Layer 5 drift
+
+MANDATORY:
+  keep ./.omi/ flat with exactly 23 files
+  keep ./docs/ flat with exactly 3 local session docs
+  preserve the six root relation folders as visible human-readable surfaces
+
+COMPUTE:
+  base_4320      = active_field_axis % 4320
+  surface_4320_2 = (active_field_axis % 4320) * 4320
+  horizon_4320_4 = (active_field_axis % 4320) * 4320 * 4320 * 4320
+
+  left_torque  = ROL64(active_field_axis, 1)
+  right_torque = ROR64(active_field_axis, 2)
+  blended      = left_torque ^ right_torque ^ horizon_4320_4
+
+  OUTPUT_VERIFY_WITNESS = blended ^ 0x1D1D1D1D1D1D1D1DULL
+```
+
 ---
 
 ## SKILL_01: ENFORCE_SIX_PART_RELATIONAL_AUTHORITY

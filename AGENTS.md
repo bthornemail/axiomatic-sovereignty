@@ -10,6 +10,27 @@ Every agent working here has one primary responsibility:
 
 The goal is not to preserve an archive as permanently inactive material. The goal is to move every repairable proof into active Coq authority while preserving its provenance and exact claim boundary.
 
+## Layer 5 Standalone Session Harness
+
+The local Layer 5 verification target is `make verify`. It checks the flat
+hidden `.omi/` substrate, the Haskell session authority model, the C99
+header-only adapter, exact file-count bounds, and the three visible docs
+anchors.
+
+The hidden registry directory `./.omi/` must remain completely flat with exactly
+23 asset files and no internal subfolders. The visible root, six relation
+folders, and `./docs/` are human-readable surfaces. Do not expand downstream
+presentation tooling or user-facing observer spaces from this repository.
+
+The active standalone session checks must preserve:
+
+```text
+six active truth gates: rules, facts, closures, combinators, constructs, configurations
+gate dimensions: 0 through 5
+deterministic session transform
+current word context masked to 0xFFFF
+```
+
 Passing a proof means making the strongest statement currently supported by explicit definitions and closed proof terms. It never means hiding an unresolved obligation, weakening a theorem without documenting the change, or inflating a trivial proposition into a broad mathematical claim.
 
 ---
